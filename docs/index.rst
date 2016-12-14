@@ -6,7 +6,7 @@ Test pages list
 .. toctree::
    :maxdepth: 1
 
-.. automodule:: presscenter.models
+.. automodule:: document.models
    :members:
 
    content/config.rst

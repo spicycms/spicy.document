@@ -1,0 +1,56 @@
+{% extends current_base %}{% load sk thumbnails %}
+
+{% comment %}
+
+TODO bootstrap theme !!!!!
+
+{% endcomment %}
+
+{% block content %}
+
+<h1>{{ doc.title }}</h1>
+
+{% if doc.authors %}
+<div class="doc-author-bar-short">
+  <span class="title">Авторы:</span>
+  {% for author in doc.authors %}<a rel="author" href="{{ author.get_absolute_url }}"><i class="b-icon i-diver"></i>{{ author.screenname }}</a> &nbsp;{% endfor %}
+</div>
+{% endif %}
+
+  {# place for player #}
+  
+<div class="doc-articles-nav">
+  {% if doc.next %}<a href="{{ doc.next.get_absolute_url }}">{% trans "Next article" %}<i class="n-icon i-next"></i></a>{% endif %}
+  {% if doc.prev %}<a href="{{ doc.prev.get_absolute_url }}"><i class="n-icon i-prev"></i>{% trans "Previous article" %}</a>{% endif %}
+</div>
+
+
+{% if request.user.is_staff or request.user == doc.owner %}
+<div class="infopanel">		    
+	<p>{% trans "You're site author or a member of editorial staff. You're seeing this article in preview mode" %}{% if not doc.is_public %}{% trans ", it's <b>not published</b>. To publish the article, go to" %} <a href="{% if request.user == doc.owner %}{% url document:public:edit doc.pk %}{% else %}/help/create/{% endif %}">{% trans "editing mode" %}</a> {% trans 'and enable the "Publish" checkbox' %}{% endif %}.</p>
+</div>     
+{% endif %}
+
+
+<div class="article">    
+
+  {{ doc.render_body|removetags:"div span a img"|safe|truncatewords:120 }} <a rel="nofollow" href="{% url profile:public:signup %}?{{ REDIRECT_FIELD_NAME }}={% if next_url %}{{ next_url }}{% else %}{{ current_path }}{% endif %}">Показать полную версию статьи!</a>
+
+  {% if doc.has_photos %}
+  <div class="photo_gallery">
+    <div  id="photo_gallery"> 
+      {% for photo in doc.gallery %}
+      <a href="{{ photo.get_absolute_url }}" class="fgal" title="{{ photo.get_desc|default:doc.title }}" rel="gallery"><img src="{% thumb photo.media 170 110 "gallery" %}" width="170" height="110" alt="{{ photo.get_desc|default:doc.title }}"/></a>
+      {% endfor %}     
+    </div>
+    <div class="clr"></div>	
+  </div>
+  {% endif %}    
+
+  {#{ doc.render_body|safe|urlizetrunc:15 }#}
+
+  
+</div>
+
+
+{% endblock %}

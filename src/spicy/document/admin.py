@@ -22,22 +22,22 @@ DocumentModel = get_custom_model_class(defaults.CUSTOM_DOCUMENT_MODEL)
 
 
 class AdminApp(conf.AdminAppBase):
-    name = 'presscenter'
-    label = _('Presscenter')
+    name = 'document'
+    label = _('Document')
     order_number = 0
 
     menu_items = (
         conf.AdminLink(
-            'presscenter:admin:create', _('Create article'),
+            'document:admin:create', _('Create article'),
             icon_class='icon-plus-sign-alt',
             perms=add_perm(defaults.CUSTOM_DOCUMENT_MODEL)),
         conf.AdminLink(
-            'presscenter:admin:index', _('All documents'),
+            'document:admin:index', _('All documents'),
             icon_class='icon-list-alt',
             perms=change_perm(defaults.CUSTOM_DOCUMENT_MODEL)),
     )
 
-    create = conf.AdminLink('presscenter:admin:create', _('Create article'),)
+    create = conf.AdminLink('document:admin:create', _('Create article'),)
 
     @render_to('menu.html', use_admin=True)
     def menu(self, request, *args, **kwargs):
@@ -49,13 +49,13 @@ class AdminApp(conf.AdminAppBase):
 
     dashboard_links = [
         conf.AdminLink(
-            'presscenter:admin:create', _('Create article'),
+            'document:admin:create', _('Create article'),
             DocumentModel.on_site.count(),
             perms=add_perm(defaults.CUSTOM_DOCUMENT_MODEL)
         )]
     dashboard_lists = [
         conf.DashboardList(
-            _('Recent articles'), 'presscenter:admin:edit',
+            _('Recent articles'), 'document:admin:edit',
             DocumentModel.on_site.order_by('-id'), 'pub_date',
             perms=change_perm(defaults.CUSTOM_DOCUMENT_MODEL)
         )]
@@ -74,7 +74,7 @@ def create(request):
             doc = form.save()
             doc.site.add(Site.objects.get_current())
             return http.HttpResponseRedirect(
-                reverse('presscenter:admin:edit', args=[doc.pk]))
+                reverse('document:admin:edit', args=[doc.pk]))
         else:
             message = u'Form validation Error: {}'.format(
                 form.errors.as_text())
@@ -172,7 +172,7 @@ def _get_common_doc_list(request, nav):
 def document_list(request, list_type=None, site_domain=None):
     message = request.GET.get('message', '')
 
-    base_url_namespace = 'presscenter:admin:index'
+    base_url_namespace = 'document:admin:index'
 
     #filter_form = forms.MagazineDocumentListFilterForm(request.GET)
     accepting_filters = [
@@ -223,7 +223,7 @@ def delete(request, doc_id):
         if 'confirm' in request.POST:
             doc.delete()
             return http.HttpResponseRedirect(
-                reverse('presscenter:admin:index') +
+                reverse('document:admin:index') +
                 u'?message=%s' % _(
                     'All objects have been deleted successfully'))
     return dict(instance=doc)

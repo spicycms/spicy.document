@@ -1,0 +1,5 @@
+{% load url from future %}
+<ul class="nav nav-tabs nav-tabs-right">
+  <li{% if tab == 'doc' %} class="active"{% endif%}><a href="{% url 'document:admin:edit' instance.pk %}"><i class="icon-file-alt"></i> <span>{% trans "Edit" %}</span></a></li>
+</ul>
+	  		  

@@ -19,7 +19,7 @@ def doc_list_rss(request):
     return dict()
 
 
-@render_to('spicy.presscenter/document.html', use_siteskin=True)
+@render_to('spicy.document/document.html', use_siteskin=True)
 def document(request, doc_id):
     doc = None
 

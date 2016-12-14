@@ -15,7 +15,7 @@ from spicy.core.profile.defaults import CUSTOM_USER_MODEL
 from spicy.core.service import api, models as service_models
 from spicy.core.trash.models import TrashModel, NonTrashManager
 from spicy.utils import strip_invalid_chars, cached_property, make_slug
-from spicy.redactor.utils import render_plugins
+#from spicy.redactor.utils import render_plugins
 from urllib2 import urlparse
 from . import defaults, parsers
 
@@ -108,8 +108,8 @@ class AbstractDocument(
         return api.register['media'][self].get_instances(
             self, view_type='include')
 
-    def render_body(self):
-        return render_plugins(self, 'body')
+#    def render_body(self):
+#        return render_plugins(self, 'body')
 
     def strip_tags_body(self):
         body = strip_tags(self.body)

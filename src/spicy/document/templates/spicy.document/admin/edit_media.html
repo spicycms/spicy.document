@@ -1,0 +1,31 @@
+{% extends current_admin_base %}{% load spicy_admin sk %}{% load url from future %}
+
+{% block title %}{{ form.instance.title }}{% endblock %}
+{% block status_title %}<i class="icon-file-alt"></i> {{ form.instance.title }}{% endblock status_title %}
+{% block status_subtitle %}{{ form.instance.sub_title }}{% endblock status_subtitle %}
+
+{% block status_stats %}
+<a class="pull-right" href="{{ form.instance.get_absolute_url }}" target="_blank"><i class="icon-eye-open icon-2x"></i></a>
+{% endblock status_stats %}
+
+{% block content %}
+
+<div class="container-fluid hpadded">
+  <div class="row-fluid">
+    <div class="span12">
+      <div class="box">
+        <div class="box-header">
+	  {% include "spicy.presscenter/admin/parts/edit_document_tabs.html" %}
+        </div>
+
+        <div class="box-content">
+          {% url "service:admin:media-edit" form.instance.ctype form.instance.pk as edit_url %}{% generic_ssi edit_url %}
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
+
+{% block extra_js %}{% endblock %}
