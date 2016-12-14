@@ -1,5 +1,6 @@
 # *-* coding: utf-8 *-*
 import os
+import re
 from . import defaults, parsers, utils
 from datetime import datetime
 from django.conf import settings
