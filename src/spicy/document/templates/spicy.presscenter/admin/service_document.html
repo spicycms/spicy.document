@@ -1,0 +1,100 @@
+{% load spicy_admin %}{% load url from future %}
+
+{{ content_form.id }}
+
+
+<div class="row-fluid">
+  <div class="span6">
+    <ul class="padded separate-sections">
+      {% formfield "" content_form "title" "li-text" %}
+      {% formfield "" content_form "url" "li-text" %}
+    </ul>
+  </div>
+
+  <div class="span6">
+    <ul class="padded separate-sections">
+      {% formfield "" content_form "template" "li-select2" %}
+      {% formfield "" content_form "block_html_class" "li-select" %}
+    </ul>
+  </div>
+</div>
+
+{{ docs_fset.management_form }}
+
+<div class="row-fluid">
+<table class="table table-normal" style="border-top: 1px solid #CDCDCD;">
+  <thead>
+    <tr role="row">
+      <td class="icon"><a href="" title="">{% trans "#" %}</a></td>
+      <td><a href="" title="">{% trans "Document" %}</a></td>
+      <td><a href="" title="">{% trans "Title/Url" %}</a></td>
+      <td><a href="" title="">{% trans "Announce" %}</a></td>
+      <td class="icon"><a href="" title="">{% trans "Is public" %}</a></td>
+      <td class="icon"><a href="" title="">{% trans "Delete" %}</a></td>
+    </tr>
+  </thead>
+  <tbody>
+
+    {% for rdform in docs_fset.forms %}
+    <tr{% if not rdform.instance.doc %} class="alert-success"{% else %} class="{% cycle 'odd' 'even' %}"{% endif %}>
+      <td class="icon">
+	{{ rdform.id }}
+	<ul class="padded separate-sections">
+	  {% formfield "" rdform "order_lv" "li-text" %}
+	</ul>
+      </td>
+      <td>
+
+        {% if rdform.doc.errors %}
+	<div class="alert alert-error">
+	  <button type="button" class="close" data-dismiss="alert">×</button>
+	  {{ rdform.doc.errors.as_text }}
+	</div>
+	{% endif %}
+
+	{% if rdform.instance.doc %}
+	<div class="pull-right" >
+          {% if rdform.instance.doc.get_absolute_url %}<a href="{{ rdform.instance.doc.get_absolute_url }}" target="_blank" title="{% trans "preview" %}"> <i class="icon-eye-open"></i></a>
+          {% else %}<a href="{% url 'presscenter:admin:edit' rdform.instance.doc.id  %}" target="blank" title="{% trans "Has no public url" %}"><i class="icon-ban-circle"></i></a>{% endif %}
+	  {% if not rdform.instance.doc.is_public %}<i class="icon-minus-sign"></i> {% trans "Is not public" %}{% else %}<i class="icon-ok-sign"></i> {% trans "Is public" %}{% endif %}
+	</div>
+	{% endif %}
+
+	<ul class="padded separate-sections">
+	  <li><label>ID</label> <input type="text" size="2" value="{{ rdform.instance.doc.id }}" name="{{ rdform.doc.html_name }}" id="{{ rdform.doc.html_intial_id }}"/></li>
+	  {# TODO autocomplete combobox plugin with JSON request #}
+	  {#% formfield "" rdform "doc" "li-select" %#}
+	</ul>
+
+      </td>
+      <td>
+	<ul class="padded separate-sections">
+	  {% formfield "" rdform "title" "li-text" %}
+	  {% formfield "" rdform "url" "li-text" %}
+	  {% formfield "" rdform "arrow_up" "li-checkbox" %}
+	  {% formfield "" rdform "number" "li-text" %}	  
+	</ul>
+      </td>
+      <td>
+	<ul class="padded separate-sections">
+	  {#% formfield "" rdform "announce" "li-chat-editor" %#}
+	</ul>
+      </td>
+      <td>
+	<ul class="padded separate-sections">
+	  {% formfield "" rdform "is_public" "li-checkbox" %}
+	</ul>
+      </td>
+      <td>
+	{% if rdform.instance.doc %}
+	<ul class="padded separate-sections">
+	  {% formfield "" rdform "DELETE" "li-checkbox" %}
+	</ul>
+	{% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+</div>

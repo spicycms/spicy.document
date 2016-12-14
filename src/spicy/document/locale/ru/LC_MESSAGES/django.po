@@ -1,0 +1,6896 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-29 12:45+0400\n"
+"PO-Revision-Date: 2011-04-19 22:28+0400\n"
+"Last-Translator: Stas Shtin<antisvin@gmail.com>\n"
+"Language-Team: Russian <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Source-Language: C\n"
+
+#: abs.py:32
+msgid "Owner"
+msgstr "Владелец"
+
+#: abs.py:36 templates/spicy.presscenter/admin/list.html:42
+msgid "Publication date"
+msgstr "Дата публикации"
+
+#: abs.py:37 abs.py:275 templates/spicy.presscenter/admin/list.html:47
+#: templates/spicy.presscenter/admin/service_document.html:32
+#: templates/spicy.presscenter/admin/service_document.html:59
+msgid "Is public"
+msgstr "Публичный"
+
+#: abs.py:39 abs.py:269 forms.py:29 models.py:16
+#: templates/spicy.presscenter/admin/list.html:41
+msgid "Title"
+msgstr "Заголовок"
+
+#: abs.py:40
+msgid "Slug"
+msgstr "Текст ссылки"
+
+#: abs.py:41
+msgid "Draft & sources"
+msgstr "Черновики и исходники"
+
+#: abs.py:42
+msgid "Document body"
+msgstr "Тело документа"
+
+#: abs.py:44
+msgid "Rendered document body (Publication text)"
+msgstr "Финальное тело документа (Текст публикации)"
+
+#: abs.py:53
+msgid "Photos have been attached"
+msgstr "Фотографии были присоеденены"
+
+#: abs.py:55
+msgid "Videos have been attached"
+msgstr "Видео были присоединены"
+
+#: abs.py:57
+msgid "Audios have been attached"
+msgstr "Аудио были присоединены"
+
+#: abs.py:61
+msgid "Views counter"
+msgstr "Количество просмотров"
+
+#: abs.py:63
+msgid "Comments counter"
+msgstr "Количество комментариев"
+
+#: abs.py:240
+msgid "Document with the same slug, publication date and issue already exists."
+msgstr ""
+"Документ с тем же текстом ссылки, датой публикации и выпуском уже существует."
+
+#: abs.py:263
+msgid "document"
+msgstr "документ"
+
+#: abs.py:270 models.py:17
+msgid "Url"
+msgstr "Url"
+
+#: abs.py:271
+msgid "Order level"
+msgstr "№"
+
+#: admin.py:27
+msgid "Presscenter"
+msgstr "Пресса"
+
+#: admin.py:31 admin.py:35
+msgid "Create article"
+msgstr "Создать статью"
+
+#: admin.py:32 templates/spicy.presscenter/admin/list.html:3
+#: templates/spicy.presscenter/admin/list.html:4
+msgid "All documents"
+msgstr "Все документы"
+
+#: admin.py:338
+msgid "All objects have been deleted successfully"
+msgstr "Все обекты успешно удаленны"
+
+#: defaults.py:28
+msgid "Index page title"
+msgstr "Заголовок главной страницы"
+
+#: defaults.py:29
+msgid "Rss feed"
+msgstr "RSS лента"
+
+#: defaults.py:30
+msgid "Yandex newsline"
+msgstr "Yandex новости"
+
+#: defaults.py:35
+msgid "Generic doc/article/magazine/article"
+msgstr "Обычный документ, статья, журнальная статья"
+
+#: defaults.py:36
+msgid "Gallery template"
+msgstr "Документ с фотогалереей"
+
+#: defaults.py:37
+msgid "Online interview"
+msgstr "Онлайн интервью"
+
+#: defaults.py:38
+msgid "Telecast template"
+msgstr "Документ с видео сюжетами"
+
+#: defaults.py:39
+msgid "Leasing template"
+msgstr "Шаблон лизинга"
+
+#: defaults.py:40
+msgid "Poll template"
+msgstr "Шаблон опроса"
+
+#: defaults.py:214
+#, python-format
+msgid "Public article: %s"
+msgstr "Публичная статья: %s"
+
+#: defaults.py:217 templates/spicy.presscenter/admin/service_document.html:57
+msgid "preview"
+msgstr "Превью"
+
+#: defaults.py:218
+msgid "photos"
+msgstr "фото"
+
+#: defaults.py:219
+msgid "videos"
+msgstr "видео"
+
+#: defaults.py:220
+msgid "audios"
+msgstr "аудио"
+
+#: models.py:19
+msgid "HTML class"
+msgstr "HTML класс"
+
+#: models.py:35
+msgid "Arrow up"
+msgstr "Стрелка вверх"
+
+#: models.py:36
+msgid "Number"
+msgstr "Номер"
+
+#: services.py:46
+#, python-format
+msgid "Form validation error, while saving document %s"
+msgstr "Ошибка в форме при сохранении документа: %s"
+
+#: services.py:147
+msgid "Documents block"
+msgstr "Блок документов"
+
+#: templates/spicy.presscenter/document.html:23
+msgid "Next article"
+msgstr "Следующая статья"
+
+#: templates/spicy.presscenter/document.html:24
+msgid "Previous article"
+msgstr "Предыдущая статья"
+
+#: templates/spicy.presscenter/document.html:30
+msgid ""
+"You're site author or a member of editorial staff. You're seeing this "
+"article in preview mode"
+msgstr ""
+"Вы автор сайта или член редакции. Вы видите эту статью в режиме предпросмотра"
+
+#: templates/spicy.presscenter/document.html:30
+msgid ", it's <b>not published</b>. To publish the article, go to"
+msgstr ", она <b>не опубликована</b>. Чтобы опубликовать статью, перейдите в"
+
+#: templates/spicy.presscenter/document.html:30
+msgid "editing mode"
+msgstr "режим редактирования"
+
+#: templates/spicy.presscenter/document.html:30
+msgid "and enable the \"Publish\" checkbox"
+msgstr "и включите флаг \"Публиковать\""
+
+#: templates/spicy.presscenter/admin/create.html:3
+#: templates/spicy.presscenter/admin/create.html:4
+#: templates/spicy.presscenter/admin/create.html:56
+msgid "Create document"
+msgstr "Создать документ"
+
+#: templates/spicy.presscenter/admin/create.html:5
+msgid "Hint: You can use draft  for text memories and source URLs."
+msgstr ""
+"Намек: Черновик можно использовать для набросков текста и источников URL."
+
+#: templates/spicy.presscenter/admin/create.html:70
+msgid "Create"
+msgstr "Создать"
+
+#: templates/spicy.presscenter/admin/dashboard.html:5
+#: templates/spicy.presscenter/admin/dashboard.html:7
+msgid "Users"
+msgstr "Пользователи"
+
+#: templates/spicy.presscenter/admin/edit.html:40
+msgid "Insert media files"
+msgstr "Вставить медиа файлы"
+
+#: templates/spicy.presscenter/admin/edit.html:81
+#: templates/spicy.presscenter/admin/service_document.html:33
+msgid "Delete"
+msgstr "Удалить"
+
+#: templates/spicy.presscenter/admin/edit.html:84
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: templates/spicy.presscenter/admin/edit_media.html:20
+#: templates/spicy.presscenter/admin/parts/edit_document_tabs.html:3
+msgid "Edit document"
+msgstr "документ"
+
+#: templates/spicy.presscenter/admin/edit_media.html:21
+#: templates/spicy.presscenter/admin/parts/edit_document_tabs.html:4
+msgid "Media files"
+msgstr "Медиа файлы"
+
+#: templates/spicy.presscenter/admin/list.html:40
+msgid "ID"
+msgstr "ID"
+
+#: templates/spicy.presscenter/admin/list.html:43
+msgid "Comments count"
+msgstr "Количество комментариев"
+
+#: templates/spicy.presscenter/admin/list.html:44
+msgid "Has video"
+msgstr "Имеет видео"
+
+#: templates/spicy.presscenter/admin/list.html:45
+msgid "Has photos"
+msgstr "Имеет фото"
+
+#: templates/spicy.presscenter/admin/list.html:46
+msgid "Is proofread"
+msgstr "Проверен корректором"
+
+#: templates/spicy.presscenter/admin/list.html:60
+msgid "view"
+msgstr "Предосмотр"
+
+#: templates/spicy.presscenter/admin/service_create.html:1
+msgid "Create document service"
+msgstr "Сервис создания документа"
+
+#: templates/spicy.presscenter/admin/service_doc_list.html:10
+msgid "Group type"
+msgstr "Тип группы"
+
+#: templates/spicy.presscenter/admin/service_doc_list.html:13
+msgid "Tags"
+msgstr "Теги"
+
+#: templates/spicy.presscenter/admin/service_doc_list.html:16
+msgid "Hyperlink pub. point"
+msgstr "Точка публикации гиперссылки"
+
+#: templates/spicy.presscenter/admin/service_doc_list.html:19
+msgid "List length limit for additional docs list"
+msgstr "Ограничение длины для списка дополнительных документов"
+
+#: templates/spicy.presscenter/admin/service_doc_list.html:22
+msgid "List length limit"
+msgstr "Макс. длины списка"
+
+#: templates/spicy.presscenter/admin/service_doc_list.html:25
+msgid "Intersection"
+msgstr "Пересечение"
+
+#: templates/spicy.presscenter/admin/service_doc_list.html:28
+msgid "Preview"
+msgstr "Превью"
+
+#: templates/spicy.presscenter/admin/service_doc_list.html:44
+msgid "Excluded tags"
+msgstr "Исключенные теги"
+
+#: templates/spicy.presscenter/admin/service_doc_list.html:44
+msgid "Included tags"
+msgstr "Включенные теги"
+
+#: templates/spicy.presscenter/admin/service_document.html:28
+msgid "#"
+msgstr "№"
+
+#: templates/spicy.presscenter/admin/service_document.html:29
+msgid "Document"
+msgstr "Документ"
+
+#: templates/spicy.presscenter/admin/service_document.html:30
+msgid "Title/Url"
+msgstr "Заголовок/URL"
+
+#: templates/spicy.presscenter/admin/service_document.html:31
+msgid "Announce"
+msgstr "Анонс"
+
+#: templates/spicy.presscenter/admin/service_document.html:58
+msgid "Has no public url"
+msgstr "Нет URL"
+
+#: templates/spicy.presscenter/admin/service_document.html:59
+msgid "Is not public"
+msgstr "Не публичный"
+
+#: templatetags/docs.py:64
+msgid "{day_from} - {date_to}"
+msgstr "{day_from} - {date_to}"
+
+#~ msgid "Month last login"
+#~ msgstr "Логины за последний месяц"
+
+#~ msgid "Month last documents"
+#~ msgstr "Документы за последний месяц"
+
+#~ msgid "Save ordering"
+#~ msgstr "Сохранить порядок"
+
+#~ msgid "Ordering"
+#~ msgstr "Упорядочивание"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Post ID"
+#~ msgstr "ID поста"
+
+#~ msgid "Error exporting document"
+#~ msgstr "Ошибка при экспорте документа"
+
+#~ msgid "No document selected"
+#~ msgstr "Документ не выбран"
+
+#~ msgid "No document found"
+#~ msgstr "Документ не найден"
+
+#~ msgid "Document exported"
+#~ msgstr "Документ экспортирован"
+
+#~ msgid "Error re-exporting documents"
+#~ msgstr "Ошибка при повторном экспорте документов"
+
+#~ msgid "All post re-exported"
+#~ msgstr "Все посты повторно экспортированы"
+
+#~ msgid "All"
+#~ msgstr "Все"
+
+#~ msgid "Anonymous only"
+#~ msgstr "Только анонимные"
+
+#~ msgid "Non-Friends"
+#~ msgstr "Кроме друзей"
+
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgid "Username"
+#~ msgstr "Логин"
+
+#~ msgid "Screen posts"
+#~ msgstr "Скринить посты"
+
+#~ msgid "Access level"
+#~ msgstr "Уровень доступа"
+
+#~ msgid "Enable comments"
+#~ msgstr "Разрешить комментарии"
+
+#~ msgid "Email"
+#~ msgstr "Адрес электронной почты"
+
+#~ msgid "Blog ID"
+#~ msgstr "ID Блога"
+
+#~ msgid "Specify blog ID if you own more than one blog"
+#~ msgstr "Укажите ID блоге, если вы имеете более одного блога"
+
+#~ msgid "Error during blogger.com login: %s"
+#~ msgstr "Ошибка входа в blogger.com: %s"
+
+#~ msgid "Entry with blog ID %s is not found"
+#~ msgstr "Записи в блоге c ID %s не найдены"
+
+#~ msgid "Remote post not found"
+#~ msgstr "Удаленный пост не найдет"
+
+#~ msgid "Site"
+#~ msgstr "Сайт"
+
+#~ msgid "Technical"
+#~ msgstr "Технический"
+
+#~ msgid "Abuse"
+#~ msgstr "Злоупотребление"
+
+#~ msgid "Other"
+#~ msgstr "Прочее"
+
+#~ msgid "Correction"
+#~ msgstr "Коррекция"
+
+#~ msgid "Launch the project ASAP"
+#~ msgstr "Запустить проект компании в кратчайший срок"
+
+#~ msgid "Make site profitable"
+#~ msgstr "Сделать так, чтобы сайт приносил прибыль "
+
+#~ msgid ""
+#~ "Utilize key performance indicator (KPI) analysis for your projects  to "
+#~ "detect best development strategy with optimal expenses"
+#~ msgstr ""
+#~ "Определить ключевые показатели эффективности (KPI) для проектов и найти "
+#~ "лучший вариант развития с оптимальными затратами "
+
+#~ msgid "Protect site from viruses and hackers, obtain 24/7 technical support"
+#~ msgstr ""
+#~ "Обеспечить защиту web-сайтов от вирусов и хакеров, получить "
+#~ "круглосуточную техническую поддержку интернет-проектов "
+
+#~ msgid "Test site effectiveness and/or IT infrastructure"
+#~ msgstr "Проверить эффективность интернет-площадок и/или ИТ инфраструктуры "
+
+#~ msgid "Sender name"
+#~ msgstr "Имя отправителя"
+
+#~ msgid "Sender email"
+#~ msgstr "Электронная почта отправителя"
+
+#~ msgid "Sender phone"
+#~ msgstr "Телефон отправителя"
+
+#~ msgid "Site URL"
+#~ msgstr "URL сайта"
+
+#~ msgid "Message"
+#~ msgstr "Сообщение"
+
+#~ msgid "Feedback type"
+#~ msgstr "Тип обратной связи"
+
+#~ msgid "Goals"
+#~ msgstr "Цели"
+
+#~ msgid "Deadline"
+#~ msgstr "Срок выполнения"
+
+#~ msgid "Submit date"
+#~ msgstr "Дата отправки"
+
+#~ msgid "IP address"
+#~ msgstr "IP адрес"
+
+#~ msgid "Created object"
+#~ msgstr "Создан объект"
+
+#~ msgid "Edited object"
+#~ msgstr "Редактирован объект"
+
+#~ msgid "Deleted object"
+#~ msgstr "Удален объект"
+
+#~ msgid "Rollback"
+#~ msgstr "Откат"
+
+#~ msgid "Renamed object"
+#~ msgstr "Переименован объект"
+
+#~ msgid "Timeline"
+#~ msgstr "Хронология сайта"
+
+#~ msgid "User"
+#~ msgstr "Пользователь"
+
+#~ msgid "Add * to IP address to match subnetworks, i.e. 127.0.*"
+#~ msgstr "Добавьте * к IP адресу для поиска подсетей, например 127.0.*"
+
+#~ msgid "From date"
+#~ msgstr "От даты"
+
+#~ msgid "To date"
+#~ msgstr "До даты"
+
+#~ msgid "Old version matches current version"
+#~ msgstr "Старая версия совпадает с текущей"
+
+#~ msgid "Page %s does not exist."
+#~ msgstr "Страница %s не существует."
+
+#~ msgid "History service"
+#~ msgstr "Сервис истории"
+
+#~ msgid "Label text"
+#~ msgstr "Текст метки"
+
+#~ msgid "You are not allowed to access this service statistics"
+#~ msgstr "Вам не разрешен доступ к этой службе статистики"
+
+#~ msgid "By days"
+#~ msgstr "По дням"
+
+#~ msgid "By weeks"
+#~ msgstr "По неделям"
+
+#~ msgid "By months"
+#~ msgstr "По месяцам"
+
+#~ msgid "By years"
+#~ msgstr "По годам"
+
+#~ msgid "Default"
+#~ msgstr "по умолчанию"
+
+#~ msgid "Statistic service"
+#~ msgstr "Сервис статистики"
+
+#~ msgid "Referrer service"
+#~ msgstr "Сервис переходов"
+
+#~ msgid "External referrers"
+#~ msgstr "Переходы с сайтов"
+
+#~ msgid "Internal referrers"
+#~ msgstr "Внутренние переходы"
+
+#~ msgid "Sources for referrers"
+#~ msgstr "Источники переходов"
+
+#~ msgid "Object is deleted"
+#~ msgstr "Обьект удален"
+
+#~ msgid "Trash provider service"
+#~ msgstr "Сервис предоставления корзины"
+
+#~ msgid "Invalid thumbnail size"
+#~ msgstr "Неверный размер тамбнейла"
+
+#~ msgid "Thumbnail already exists"
+#~ msgstr "Тамбнейл уже существует"
+
+#~ msgid "Unable to change thumbnail"
+#~ msgstr "Невозможно изменить тамбнейл"
+
+#~ msgid "Thumbnail created"
+#~ msgstr "Тамбнейл создан"
+
+#~ msgid "Thumbnail not found"
+#~ msgstr "Тамбнейл не найден"
+
+#~ msgid "All objects have been deleted successful"
+#~ msgstr "Все обекты успешно удалены"
+
+#~ msgid "Attachment"
+#~ msgstr "Прикрепленные файлы (материалы)"
+
+#~ msgid "Text includes"
+#~ msgstr "Врезы в тексте"
+
+#~ msgid "Gallery medias"
+#~ msgstr "Фотогалерея"
+
+#~ msgid "Video medias"
+#~ msgstr "Видео материалы"
+
+#~ msgid "Forum user picture"
+#~ msgstr "Фото пользователя форума"
+
+#~ msgid "Chart"
+#~ msgstr "График"
+
+#~ msgid "Table"
+#~ msgstr "Таблица"
+
+#~ msgid "Scheme"
+#~ msgstr "Схема"
+
+#~ msgid "Map"
+#~ msgstr "Карта"
+
+#~ msgid "New file"
+#~ msgstr "Новый файл"
+
+#~ msgid "Replace all thumb sizes including manual uploads"
+#~ msgstr "Заменить все размеры тамбнейлов, включая загруженные вручную"
+
+#~ msgid "Create replacements for existing sizes immediately"
+#~ msgstr "Создать новые файлы тамбнейлов сразу же"
+
+#~ msgid "Group"
+#~ msgstr "Группа"
+
+#~ msgid "Data"
+#~ msgstr "Данные"
+
+#~ msgid "Use watermark"
+#~ msgstr "Ставить метку"
+
+#~ msgid "Unknown ContentType for model %s "
+#~ msgstr "Неизвестный тип контента для модели %s"
+
+#~ msgid "Is prepaid"
+#~ msgstr "Предоплаченный"
+
+#~ msgid "Description"
+#~ msgstr "Описание"
+
+#~ msgid "Source"
+#~ msgstr "Источник"
+
+#~ msgid "Create date"
+#~ msgstr "Дата создания"
+
+#~ msgid "media"
+#~ msgstr "медиа"
+
+#~ msgid "Media elements counter"
+#~ msgstr "Счетчик медиа элементов"
+
+#~ msgid "library"
+#~ msgstr "медиа библиотека"
+
+#~ msgid "Changed manually"
+#~ msgstr "Изменен вручную"
+
+#~ msgid "Ext"
+#~ msgstr "Расширение"
+
+#~ msgid "File type"
+#~ msgstr "Тип файла"
+
+#~ msgid "Is default"
+#~ msgstr "По умолчанию"
+
+#~ msgid "View type"
+#~ msgstr "Просмотр типа"
+
+#~ msgid "Icon"
+#~ msgstr "Иконка"
+
+#~ msgid "Template"
+#~ msgstr "Шаблон"
+
+#~ msgid "Object doesn't exist or has already been deleted"
+#~ msgstr "Обьект не существует или был уже удален"
+
+#~ msgid "Unable to create thumbnail"
+#~ msgstr "Невозможно создать тамбнейл"
+
+#~ msgid "No media found"
+#~ msgstr "Медиа файлы не найдены"
+
+#~ msgid "Library for %s"
+#~ msgstr "Библиотека для %s"
+
+#~ msgid "Media provider service"
+#~ msgstr "Сервис медиа провайдера"
+
+#~ msgid "Can't attach inline files."
+#~ msgstr "Невозможно прикрепить файлы."
+
+#~ msgid "Storage files form is invalid."
+#~ msgstr "Файлы из хранилища содержут ошибку."
+
+#~ msgid "ZIP file %s is corrupt, won't be unpacked."
+#~ msgstr "ZIP файл %s поврежден и не может быть распакован."
+
+#~ msgid "%s is not a valid ZIP archive, unable to unpack."
+#~ msgstr "%s не является корректным ZIP архивом и не может быть распакован."
+
+#~ msgid "Invalid code"
+#~ msgstr "Неверный код"
+
+#~ msgid "Please correct the errors below."
+#~ msgstr "Исправьте ошибки."
+
+#~ msgid "Source links and additional link. Required for author and moderator."
+#~ msgstr ""
+#~ "Ссылки на источника и дополнительная ссылка. Необходимо для автора и "
+#~ "модератора."
+
+#~ msgid "Presscenter: document provider service"
+#~ msgstr "Прессцентр: сервиз предоставления документов"
+
+#~ msgid "Presscenter: document list service"
+#~ msgstr "Прессцентр: сервиз предоставления списков документов"
+
+#~ msgid "Presscenter: magazine provider service"
+#~ msgstr "Прессцентр: сервиз предоставления журналов"
+
+#~ msgid "Issue list provider service"
+#~ msgstr "Сервис предоставления списка выпусков"
+
+#~ msgid "Unable to redirect to main page"
+#~ msgstr "Невозможно перенаправить на главную страницу"
+
+#~ msgid "New account created, welcome to editing."
+#~ msgstr "Новый пользователь создан."
+
+#~ msgid "Profile is already active"
+#~ msgstr "Пользователь уже активирован"
+
+#~ msgid "Unable to send activation key, please try again later"
+#~ msgstr "Не удалось выслать код активации, попробуйте позже"
+
+#~ msgid "Public for web"
+#~ msgstr "Публичный для всех"
+
+#~ msgid "Is visible for user of this web site domain only"
+#~ msgstr "Видимый только пользователям этого сайта"
+
+#~ msgid "Only my friends have access"
+#~ msgstr "Доступен только моим друзьям"
+
+#~ msgid "Only for me. Access restricted."
+#~ msgstr "Только для меня. Ограниченный доступ."
+
+#~ msgid "Only prepaid access is avalable"
+#~ msgstr "Доступен только при оплаченном доступе"
+
+#~ msgid "Notification"
+#~ msgstr "Оповещение"
+
+#~ msgid "Friend request"
+#~ msgstr "Запрос дружбы"
+
+#~ msgid "Event"
+#~ msgstr "Событие"
+
+#~ msgid "Play captcha as audio file"
+#~ msgstr "Проиграть капчу как аудио"
+
+#~ msgid "Password (again)"
+#~ msgstr "Повторите пароль"
+
+#~ msgid "Email new password"
+#~ msgstr "Выслать новый пароль по email"
+
+#~ msgid "First name"
+#~ msgstr "Имя"
+
+#~ msgid ""
+#~ "This value must contain only russian or english letters, numbers and "
+#~ "underscores."
+#~ msgstr ""
+#~ "Можно использовать только буквы русского или английского алфвавита, цифры "
+#~ "и подчеркивание."
+
+#~ msgid "Second name"
+#~ msgstr "Отчество"
+
+#~ msgid "Last name"
+#~ msgstr "Фамилия"
+
+#~ msgid "Birthday"
+#~ msgstr "День рождения"
+
+#~ msgid "Username must be unique."
+#~ msgstr "Имя пользователя должно быть уникальным."
+
+#~ msgid ""
+#~ "Required. 30 characters or fewer. Alphanumeric characters only (letters, "
+#~ "digits and underscores)."
+#~ msgstr ""
+#~ "Обязательное поле. 30 символов максимум. Можно использовать только буквы, "
+#~ "цифры и подчеркивание."
+
+#~ msgid "This value must contain only letters, numbers and underscores."
+#~ msgstr "Можно использовать только буквы, цифры и подчеркивание."
+
+#~ msgid "Groups"
+#~ msgstr "Группы"
+
+#~ msgid "Sites"
+#~ msgstr "Сайты"
+
+#~ msgid "Permissions"
+#~ msgstr "Права"
+
+#~ msgid "This address already belongs to other user"
+#~ msgstr "Это адрес уже использует другой пользователь"
+
+#~ msgid "This field is required"
+#~ msgstr "Обязательное поле"
+
+#~ msgid "Registered email"
+#~ msgstr "Зарегестрированный электронный адрес"
+
+#~ msgid "There is no user with this email"
+#~ msgstr "Пользователь с данным адресом электронной почты не найден"
+
+#~ msgid "This address is already used"
+#~ msgstr "Это адрес уже используется"
+
+#~ msgid "I want to subscribe for the news digest"
+#~ msgstr "Я хочу подписаться на новостную рассылку"
+
+#~ msgid "I read & accept user agreement"
+#~ msgstr "Я прочитал и принял пользовательское соглашение"
+
+#~ msgid "Please, accept the agreement to continue."
+#~ msgstr "Пожалуйста, прочитайте соглашение перед тем как продолжить."
+
+#~ msgid "Password confirmation doesn't match"
+#~ msgstr "Подтверждение пароля не совпадает"
+
+#~ msgid "Email activation key"
+#~ msgstr "Отправить ключ активации по email"
+
+#~ msgid "The two password fields didn't match."
+#~ msgstr "Пароль и его повторение не совпадают."
+
+#~ msgid "Username or email"
+#~ msgstr "Логин или email"
+
+#~ msgid "User was banned"
+#~ msgstr "Пользователь был забанен"
+
+#~ msgid "User not activated"
+#~ msgstr "Учетная запись не активирована"
+
+#~ msgid "Username must be unique"
+#~ msgstr "Имя пользователя должно быть уникальным"
+
+#~ msgid "User name"
+#~ msgstr "Имя пользователя"
+
+#~ msgid "activation key"
+#~ msgstr "ключ активации"
+
+#~ msgid "user is banned"
+#~ msgstr "пользователь забанен"
+
+#~ msgid "Accept user agreement"
+#~ msgstr "Принять пользовательскос сообщение"
+
+#~ msgid "Subscribe me for news update"
+#~ msgstr "Подписаться на новости"
+
+#~ msgid "Hide my email"
+#~ msgstr "Не отображать мой email"
+
+#~ msgid "Phone"
+#~ msgstr "Телефон"
+
+#~ msgid "You received a new message from %s"
+#~ msgstr "Вы получили новое сообщение от %s"
+
+#~ msgid "Restore password for you account on the %s"
+#~ msgstr "Восстановление пароля для вашей учетной записи на %s"
+
+#~ msgid "Anonymous"
+#~ msgstr "Анонимный"
+
+#~ msgid "Date banned"
+#~ msgstr "Дата бана"
+
+#~ msgid "Set by"
+#~ msgstr "Кому выставлен"
+
+#~ msgid "Set for"
+#~ msgstr "Кем выставлен"
+
+#~ msgid "Profile provider service"
+#~ msgstr "Сервис предоставления профилей"
+
+#~ msgid "New users"
+#~ msgstr "Новые пользователи"
+
+#~ msgid "Only activated users"
+#~ msgstr "Только активные пользователи"
+
+#~ msgid "New users that commented"
+#~ msgstr "Новые пользователи, оставившие комментарии"
+
+#~ msgid "New users that did orders"
+#~ msgstr "Новые пользователи, сделавшие заказы"
+
+#~ msgid "New users that commented and did orders"
+#~ msgstr "Новые пользователи, оставившие комментарии и сделавшие заказы"
+
+#~ msgid "Users with pins activated"
+#~ msgstr "Пользователи, активировавшие ПИНы"
+
+#~ msgid "Users with pins not activated"
+#~ msgstr "Пользователи не активировавшие ПИНы"
+
+#~ msgid "User is signed in already"
+#~ msgstr "Пользователь уже зарегестрирован"
+
+#~ msgid "Login or password is incorrect. Try again."
+#~ msgstr "Вы ввели неверное имя пользователя или пароль. Попробуйте снова."
+
+#~ msgid "Login is disabled or your account is banned."
+#~ msgstr "Учетная запись неактивно или Ваша учетная запись была забанена."
+
+#~ msgid "Password has been change successful"
+#~ msgstr "Пароль был успешно изменен"
+
+#~ msgid "Email address is already set"
+#~ msgstr "Адрес электронной почты уже указан"
+
+#~ msgid "Validation email has been sent"
+#~ msgstr "Письмо с подтверждением было отправлено на указанный адрес"
+
+#~ msgid "Enter a valid e-mail address."
+#~ msgstr "Введите верный адрес электронной почты."
+
+#~ msgid "Setup form_mod attributes at first."
+#~ msgstr "Необходимо сперва настроить атрибуты form_mod."
+
+#~ msgid "Service title"
+#~ msgstr "Название сервиса"
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid "Date joined"
+#~ msgstr "Дата регистрации"
+
+#~ msgid "Price"
+#~ msgstr "Цена"
+
+#~ msgid "Billing PK"
+#~ msgstr "Ключ оплаты"
+
+#~ msgid "Activated from"
+#~ msgstr "Активен с"
+
+#~ msgid "Activated till"
+#~ msgstr "Активен до"
+
+#~ msgid "Expiration time in seconds"
+#~ msgstr "Срок годности в секундах"
+
+#~ msgid "Is activated"
+#~ msgstr "Активирован"
+
+#~ msgid "Test Service for User"
+#~ msgstr "Тестовый Сервис Для Пользователя"
+
+#~ msgid "Test Service for All"
+#~ msgstr "Тестовый Сервис Для Всех"
+
+#~ msgid "You don't have access to publication points for this content block"
+#~ msgstr "У вас нет доступа к точкам публикации этого контент блока"
+
+#~ msgid "January"
+#~ msgstr "Январь"
+
+#~ msgid "February"
+#~ msgstr "Февраль"
+
+#~ msgid "March"
+#~ msgstr "Март"
+
+#~ msgid "April"
+#~ msgstr "Апрель"
+
+#~ msgid "May"
+#~ msgstr "Май"
+
+#~ msgid "June"
+#~ msgstr "Июнь"
+
+#~ msgid "July"
+#~ msgstr "Июль"
+
+#~ msgid "August"
+#~ msgstr "Август"
+
+#~ msgid "September"
+#~ msgstr "Сентябрь"
+
+#~ msgid "October"
+#~ msgstr "Октябрь"
+
+#~ msgid "November"
+#~ msgstr "Ноябрь"
+
+#~ msgid "December"
+#~ msgstr "Декабрь"
+
+#~ msgid "Unknown"
+#~ msgstr "Неизвестно"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Нет"
+
+#~ msgid "Changes were successfully saved."
+#~ msgstr "Изменения были успешно сохранены."
+
+#~ msgid "Please, correct the errors below."
+#~ msgstr "Исправьте пожалуйста указанные ошибки."
+
+#~ msgid "All comments have been deleted successfully"
+#~ msgstr "Все комментарии успешно удаленны"
+
+#~ msgid "All comments has been toggled hide/show successful"
+#~ msgstr "Все комментарии были успешно спрятаны/показаны"
+
+#~ msgid "All word filters have been deleted successfully"
+#~ msgstr "Все фильтры сообщений были успешно удаленны"
+
+#~ msgid "Rus. ruble"
+#~ msgstr "Рубль"
+
+#~ msgid "Ukr. Hryvnia"
+#~ msgstr "Гривна"
+
+#~ msgid "US dollar"
+#~ msgstr "Доллар"
+
+#~ msgid "Euro"
+#~ msgstr "Евро"
+
+#~ msgid "%(site_name)s comments"
+#~ msgstr "Комментарии %(site_name)s"
+
+#~ msgid "Latest comments on %(site_name)s"
+#~ msgstr "Последние комментарии на %(site_name)s"
+
+#~ msgid "Comment"
+#~ msgstr "Комментировать"
+
+#~ msgid "Watch your mouth! The word %s is not allowed here."
+#~ msgid_plural "Watch your mouth! The words %s are not allowed here."
+#~ msgstr[0] ""
+#~ "Фильтруй базар! Слово %s в приличном обществе употреблять не следует."
+#~ msgstr[1] ""
+#~ "Фильтруй базар! Слов %s в приличном обществе употреблять не следует."
+#~ msgstr[2] ""
+#~ "Фильтруй базар! Слова %s в приличном обществе употреблять не следует."
+
+#~ msgid ""
+#~ "If you enter anything in this field your comment will be treated as spam"
+#~ msgstr "Если вы введете сюда текст, ваш комментарий будет помечен как спам"
+
+#~ msgid "Leave your opinion"
+#~ msgstr "Оставьте ваше мнение"
+
+#~ msgid "You have to log in before sending comments"
+#~ msgstr "Перед отправкой комментариев необходимо залогиниться"
+
+#~ msgid "Is allowed"
+#~ msgstr "Разрешено"
+
+#~ msgid "Any"
+#~ msgstr "Любое значение"
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "New forum topic published by %s"
+#~ msgstr "Новая тема в форуме была опубликована %s"
+
+#~ msgid ""
+#~ "Your friend %(name)s published a new forum topic: %(link)s%(topic)s</a>"
+#~ msgstr ""
+#~ "Ваш друг %(name)s опубликовал новую тему в форуме: %(link)s%(topic)s</a>"
+
+#~ msgid "Users can create topics"
+#~ msgstr "Пользователи могут создавать темы"
+
+#~ msgid "Topic is important"
+#~ msgstr "Важная тема"
+
+#~ msgid "Topic is closed"
+#~ msgstr "Тема закрыта"
+
+#~ msgid "Real price"
+#~ msgstr "Рыночная цена"
+
+#~ msgid "Is auction"
+#~ msgstr "Создать аукцион"
+
+#~ msgid "Region"
+#~ msgstr "Регион"
+
+#~ msgid "Currency"
+#~ msgstr "Валюта"
+
+#~ msgid "author"
+#~ msgstr "автор"
+
+#~ msgid "comment"
+#~ msgstr "коментарий"
+
+#~ msgid "date/time submitted"
+#~ msgstr "дата и время отправки"
+
+#~ msgid "is public"
+#~ msgstr "публичный"
+
+#~ msgid ""
+#~ "Uncheck this box to make the comment effectively disappear from the site."
+#~ msgstr "Выключите это поле чтобы комментарий пропал с сайта."
+
+#~ msgid "is hidden"
+#~ msgstr "скрытый"
+
+#~ msgid ""
+#~ "Check this box if the comment is inappropriate.A \"This comment has been "
+#~ "hidden\" message will be displayed instead."
+#~ msgstr ""
+#~ "Включите это поле если комментарий был неподобающим. Вместо него будет "
+#~ "показано сообщение \"Комментарий был удален\"."
+
+#~ msgid "Is corrected"
+#~ msgstr "Откорректирован"
+
+#~ msgid "Reply to comment"
+#~ msgstr "Ответить на комментарий"
+
+#~ msgid "comments"
+#~ msgstr "коментарии"
+
+#~ msgid ""
+#~ "Posted by %(author)s at %(date)s\n"
+#~ "\n"
+#~ "%(comment)s\n"
+#~ "\n"
+#~ "http://%(domain)s%(url)s"
+#~ msgstr ""
+#~ "Оставлено %(author)s в %(date)s\n"
+#~ "\n"
+#~ "%(comment)s\n"
+#~ "\n"
+#~ "http://%(domain)s%(url)s"
+
+#~ msgid "flag"
+#~ msgstr "флаг"
+
+#~ msgid "date"
+#~ msgstr "дата"
+
+#~ msgid "comment flag"
+#~ msgstr "флаг коментария"
+
+#~ msgid "comment flags"
+#~ msgstr "флаги коментариев"
+
+#~ msgid "HTML id of paragraph"
+#~ msgstr "HTML идентификатор параграфа"
+
+#~ msgid "Word"
+#~ msgstr "Слово"
+
+#~ msgid "Unauthorized"
+#~ msgstr "Неавторизован"
+
+#~ msgid "Comment provider service"
+#~ msgstr "Сервис предоставления коментариев"
+
+#~ msgid "IP %s is blacklisted now"
+#~ msgstr "IP %s добавлен в черный список"
+
+#~ msgid "IP %s is already blacklisted"
+#~ msgstr "IP %s уже был в черном списке"
+
+#~ msgid "Forum provider service"
+#~ msgstr "Сервис предоставления форума"
+
+#~ msgid "Unable to post comment"
+#~ msgstr "Невозможно отправить комментарий"
+
+#~ msgid "User has been created"
+#~ msgstr "Пользователь был создан"
+
+#~ msgid "Message type"
+#~ msgstr "Тип сообщения"
+
+#~ msgid "Create datetime"
+#~ msgstr "Время создания"
+
+#~ msgid "Is unread"
+#~ msgstr "Не прочитано"
+
+#~ msgid "Is important"
+#~ msgstr "Важно"
+
+#~ msgid "Is system"
+#~ msgstr "Системное"
+
+#~ msgid "Subscribe for news"
+#~ msgstr "Подписаться на новости"
+
+#~ msgid "Subscribe for notifications"
+#~ msgstr "Подписаться на оповещения"
+
+#~ msgid "Always show comments"
+#~ msgstr "Показывать комментарии после бана"
+
+#~ msgid "never recieve maillists"
+#~ msgstr "никогда не получать почтовые рассылки"
+
+#~ msgid "Homepage"
+#~ msgstr "Домашняя страница"
+
+#~ msgid "Hide my homepage"
+#~ msgstr "Не отображать мою домашнюю страницу"
+
+#~ msgid "Country"
+#~ msgstr "Страна"
+
+#~ msgid "City"
+#~ msgstr "Город"
+
+#~ msgid "Address"
+#~ msgstr "Адрес"
+
+#~ msgid "Education"
+#~ msgstr "Образование"
+
+#~ msgid "Social Status"
+#~ msgstr "Социальный Статус"
+
+#~ msgid "Theme name"
+#~ msgstr "Имя темы"
+
+#~ msgid "Objects per page"
+#~ msgstr "Кол-во объектов в списке"
+
+#~ msgid "Password changed"
+#~ msgstr "Пароль изменен"
+
+#~ msgid "Confirm password is incorrect!"
+#~ msgstr "Подтверждение пароля не верно!"
+
+#~ msgid "Wrong old password!"
+#~ msgstr "Неверное старое значение пароля!"
+
+#~ msgid "1 week"
+#~ msgstr "1 неделя"
+
+#~ msgid "2 week"
+#~ msgstr "2 недели"
+
+#~ msgid "3 week"
+#~ msgstr "3 недели"
+
+#~ msgid "30 days"
+#~ msgstr "30 дней"
+
+#~ msgid "60 days"
+#~ msgstr "60 дней"
+
+#~ msgid "90 days"
+#~ msgstr "90 дней"
+
+#~ msgid "120 days"
+#~ msgstr "120 дней"
+
+#~ msgid "150 days"
+#~ msgstr "150 дней"
+
+#~ msgid "180 days"
+#~ msgstr "180 дней"
+
+#~ msgid "210 days"
+#~ msgstr "210 дней"
+
+#~ msgid "240 days"
+#~ msgstr "240 дней"
+
+#~ msgid "270 days"
+#~ msgstr "270 дней"
+
+#~ msgid "300 days"
+#~ msgstr "300 дней"
+
+#~ msgid "330 days"
+#~ msgstr "330 дней"
+
+#~ msgid "360 days"
+#~ msgstr "360 дней"
+
+#~ msgid "Unknown cost"
+#~ msgstr "ХЗ денег"
+
+#~ msgid "Profile"
+#~ msgstr "Профиль"
+
+#~ msgid "PIN code activated"
+#~ msgstr "ПИН код активирован"
+
+#~ msgid "Not activated"
+#~ msgstr "Не активирован"
+
+#~ msgid "PIN code sent"
+#~ msgstr "ПИН код отправлен"
+
+#~ msgid "Preset expiration period"
+#~ msgstr "Фиксированный срок годности"
+
+#~ msgid "Email to"
+#~ msgstr "Адрес электронной почты получателя"
+
+#~ msgid "Access code"
+#~ msgstr "Код доступа"
+
+#~ msgid "Promo code"
+#~ msgstr "Промо код"
+
+#~ msgid "Is sent"
+#~ msgstr "Отправлен"
+
+#~ msgid "Prepaid access PINs service"
+#~ msgstr "Сервис оплаченного доступа"
+
+#~ msgid "Max value in this field is '99'."
+#~ msgstr "Максимальное значение в этом поле - '99'."
+
+#~ msgid "All magazines"
+#~ msgstr "Все журналы"
+
+#~ msgid "All years"
+#~ msgstr "Все года"
+
+#~ msgid "Genre"
+#~ msgstr "Жанр"
+
+#~ msgid "Issue"
+#~ msgstr "Выпуск"
+
+#~ msgid "All months"
+#~ msgstr "Все месяцы"
+
+#~ msgid "All days"
+#~ msgstr "Все дни"
+
+#~ msgid "New article published by %s"
+#~ msgstr "%s опубликовал новую статью"
+
+#~ msgid ""
+#~ "Your friend %(name)s (%(user_link)s) published a new article: "
+#~ "%(article)s\n"
+#~ " Read article %(doc_link)s"
+#~ msgstr ""
+#~ "Ваш друг %(name)s (%(user_link)s) опубликовал новую статью: %(article)s\n"
+#~ " Читать статью %(doc_link)s"
+
+#~ msgid "Alert message"
+#~ msgstr "Сообщение об ошибке"
+
+#~ msgid "Summary"
+#~ msgstr "Резюме"
+
+#~ msgid "About"
+#~ msgstr "Информация"
+
+#~ msgid "Editorial staff members"
+#~ msgstr "Члены редакции"
+
+#~ msgid "Subscription details"
+#~ msgstr "Детали подписки"
+
+#~ msgid "Advertising details"
+#~ msgstr "Детали рекламы"
+
+#~ msgid "Main rubric"
+#~ msgstr "Главная рубрика"
+
+#~ msgid "magazine"
+#~ msgstr "журнал"
+
+#~ msgid "Subtitle"
+#~ msgstr "Подзаголовок"
+
+#~ msgid "Topic"
+#~ msgstr "Тема"
+
+#~ msgid "Absolute number"
+#~ msgstr "Абсолютный номер"
+
+#~ msgid "Absolute number, if there are multiple numbers"
+#~ msgstr "Абсолютный номер, для множества номеров"
+
+#~ msgid "Year relative number"
+#~ msgstr "Номер в году"
+
+#~ msgid "Year relative number, if there are multiple numbers"
+#~ msgstr "Относительный номер, для множества номеров"
+
+#~ msgid "Publication date from"
+#~ msgstr "Дата начала публикации"
+
+#~ msgid "Publication date to"
+#~ msgstr "Дата конца публикации"
+
+#~ msgid "Year"
+#~ msgstr "Год"
+
+#~ msgid "issue"
+#~ msgstr "выпуск"
+
+#~ msgid "blog"
+#~ msgstr "блог"
+
+#~ msgid "Category"
+#~ msgstr "Категория"
+
+#~ msgid "Sub title"
+#~ msgstr "Подзаголовок"
+
+#~ msgid "Club"
+#~ msgstr "Клуб"
+
+#~ msgid "template"
+#~ msgstr "шаблон"
+
+#~ msgid "Tag for template"
+#~ msgstr "Тег для шаблона"
+
+#~ msgid "Print issue"
+#~ msgstr "Печатное издание"
+
+#~ msgid "Blog"
+#~ msgstr "Блог"
+
+#~ msgid "Issue page number"
+#~ msgstr "Номер страницы в печатном издании"
+
+#~ msgid "Priority"
+#~ msgstr "Приоритет"
+
+#~ msgid "Publication end date"
+#~ msgstr "Дата окончания публикации"
+
+#~ msgid "Sub rubric"
+#~ msgstr "Подрубрика"
+
+#~ msgid "Quote"
+#~ msgstr "Цитата"
+
+#~ msgid "Was public"
+#~ msgstr "Был публичным"
+
+#~ msgid "Youtube link"
+#~ msgstr "Ссылка на видео"
+
+#~ msgid "Media html"
+#~ msgstr "Raw html object"
+
+#~ msgid "Show in issue contents"
+#~ msgstr "Показывать в содержимом выпуска"
+
+#~ msgid "Online interview opened"
+#~ msgstr "Онлайн интервью открыто"
+
+#~ msgid "Publication point"
+#~ msgstr "Точка публикации"
+
+#~ msgid "Get docs only with"
+#~ msgstr "Получить документы только с"
+
+#~ msgid "Show document preview"
+#~ msgstr "Отображать превью документа"
+
+#~ msgid "Limit for auto loaded articles list"
+#~ msgstr "Ограничение для автоматически загруженного списка статей"
+
+#~ msgid "Additional body"
+#~ msgstr "Дополнительное тело"
+
+#~ msgid "period"
+#~ msgstr "период"
+
+#~ msgid "date_range"
+#~ msgstr "период даты"
+
+#~ msgid "all"
+#~ msgstr "все"
+
+#~ msgid "today"
+#~ msgstr "сегодня"
+
+#~ msgid "by three days"
+#~ msgstr "за три дня"
+
+#~ msgid "by last week"
+#~ msgstr "за последнюю неделю"
+
+#~ msgid "by last month"
+#~ msgstr "за последний месяц"
+
+#~ msgid "by last year"
+#~ msgstr "за последний год"
+
+#~ msgid "Pub. point"
+#~ msgstr "Точка публикации"
+
+#~ msgid "Content service"
+#~ msgstr "Сервис контента"
+
+#~ msgid "Content service name"
+#~ msgstr "Имя контент-сервиса"
+
+#~ msgid "Is visible"
+#~ msgstr "Видимый"
+
+#~ msgid "Analytic GET param /?ap=XXX"
+#~ msgstr "Параметр GET для аналитики /?ap=XXX"
+
+#~ msgid "Place title"
+#~ msgstr "Разместить название"
+
+#~ msgid "Column class name"
+#~ msgstr "Имя класса колонки"
+
+#~ msgid "Block class name"
+#~ msgstr "Имя класса блока"
+
+#~ msgid "Is editable"
+#~ msgstr "Редактирование включено"
+
+#~ msgid "Siteskin content block provider service"
+#~ msgstr "Сервис предоставления контент-блоков для сайтов"
+
+#~ msgid "HTML content block provider service"
+#~ msgstr "Сервис предоставления блоков с HTML кодом"
+
+#~ msgid "RSS content block provider service"
+#~ msgstr "Сервис предоставления блоков с RSS"
+
+#~ msgid "previous"
+#~ msgstr "предыдущая"
+
+#~ msgid "next"
+#~ msgstr "следующая"
+
+#~ msgid "Page %(page_num)s"
+#~ msgstr "Страница %(page_num)s"
+
+#~ msgid "Administrative access"
+#~ msgstr "Административный доступ"
+
+#~ msgid "You are welcome"
+#~ msgstr "Добро пожаловать"
+
+#~ msgid "Sign out"
+#~ msgstr "Выйти"
+
+#~ msgid "Log out"
+#~ msgstr "Выйти"
+
+#~ msgid "Component"
+#~ msgstr "Компонент"
+
+#~ msgid "Navigation place"
+#~ msgstr "Место в навигации"
+
+#~ msgid "Media Group &laquo;Expert&raquo;"
+#~ msgstr "Группа &laquo;Эксперт&raquo;"
+
+#~ msgid "Siteskin"
+#~ msgstr "Контент-блоки"
+
+#~ msgid "Mediacenter"
+#~ msgstr "Медиа"
+
+#~ msgid "Editorial workflow"
+#~ msgstr "Редакционные планы"
+
+#~ msgid "xTags"
+#~ msgstr "Теги"
+
+#~ msgid "Profiles"
+#~ msgstr "Профайлы"
+
+#~ msgid "Shop"
+#~ msgstr "Магазин"
+
+#~ msgid "Access codes"
+#~ msgstr "Коды доступа"
+
+#~ msgid "Feedback"
+#~ msgstr "Обратная связь"
+
+#~ msgid "Spreadsheet"
+#~ msgstr "Таблица"
+
+#~ msgid "Trash"
+#~ msgstr "Корзина"
+
+#~ msgid "Comments"
+#~ msgstr "Комментарии"
+
+#~ msgid "Blogs"
+#~ msgstr "Блоги"
+
+#~ msgid "TV"
+#~ msgstr "ТВ"
+
+#~ msgid "Polls"
+#~ msgstr "Опросы"
+
+#~ msgid "Events"
+#~ msgstr "События"
+
+#~ msgid "History"
+#~ msgstr "Редактор"
+
+#~ msgid "Statistic"
+#~ msgstr "Статистика"
+
+#~ msgid "Mail lists"
+#~ msgstr "Списки рассылки"
+
+#~ msgid "Services"
+#~ msgstr "Услуги"
+
+#~ msgid "System Info"
+#~ msgstr "Системная Информация"
+
+#~ msgid "New event"
+#~ msgstr "Новое событие"
+
+#~ msgid "Edit event"
+#~ msgstr "Редактировать событие"
+
+#~ msgid "Event settings"
+#~ msgstr "Настройки события"
+
+#~ msgid "Create tag"
+#~ msgstr "Создать тег"
+
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#~ msgid "Create event"
+#~ msgstr "Создать событие"
+
+#~ msgid "Login"
+#~ msgstr "Вход"
+
+#~ msgid "New message on %(site_name)s"
+#~ msgstr "Новое сообшение на %(site_name)s"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "day,day,days"
+#~ msgstr "день,дня,дней"
+
+#~ msgid "New feedback on %(site_name)s"
+#~ msgstr "Обратная связь с %(site_name)s"
+
+#~ msgid "Password reset for your account on %(name)s."
+#~ msgstr "Сброс пароля на вашу учетную запись на %(name)s."
+
+#~ msgid "New password has been generated:"
+#~ msgstr "Был сгенерирован новый пароль:"
+
+#~ msgid ""
+#~ "Thank you for being with us,\n"
+#~ "%(domain)s team."
+#~ msgstr ""
+#~ "Спасибо что вы с нами,\n"
+#~ "Администрация %(domain)s."
+
+#~ msgid "Select preview"
+#~ msgstr "Выбор превью"
+
+#~ msgid "Edit gallery files"
+#~ msgstr "Редактировать файлы галереи"
+
+#~ msgid "Drop files here to upload"
+#~ msgstr "Перетащите сюда файлы для загрузки"
+
+#~ msgid "Upload files"
+#~ msgstr "Загрузить файлы"
+
+#~ msgid "Cancel"
+#~ msgstr "Отменить"
+
+#~ msgid "Error"
+#~ msgstr "Ошибка"
+
+#~ msgid "Please use a javascript-enabled browser"
+#~ msgstr "Пожалуйста используйте браузер с поддержкой JavaScript"
+
+#~ msgid "Full article is visible to registered community members only"
+#~ msgstr "Полная статья видна только зарегестрированным пользователям"
+
+#~ msgid "Enter"
+#~ msgstr "Войти"
+
+#~ msgid "via:"
+#~ msgstr "через:"
+
+#~ msgid "or"
+#~ msgstr "или"
+
+#~ msgid "Registration"
+#~ msgstr "Регистрация"
+
+#~ msgid "More on topic:"
+#~ msgstr "Читать по теме:"
+
+#~ msgid "Authors"
+#~ msgstr "Авторы"
+
+#~ msgid ""
+#~ "User <b>is banned</b> for breaking terms of <a "
+#~ "href=\"/help/user-agreement/\">user agreement</a>"
+#~ msgstr ""
+#~ "Пользователь <b>заблокирован</b> за нарушение<a "
+#~ "href='/help/user-agreement/'>пользовательского соглашения</a>"
+
+#~ msgid "Author's contacts"
+#~ msgstr "Контакты автора"
+
+#~ msgid ""
+#~ "Increase your rating by writing interesting articles and inviting friends!"
+#~ msgstr ""
+#~ "Увеличивайте рейтинг написанием интересных статей и приглашая друзей!"
+
+#~ msgid "Contacts"
+#~ msgstr "Контакты"
+
+#~ msgid "Edit"
+#~ msgstr "Редактировать"
+
+#~ msgid "VKontakte"
+#~ msgstr "ВКонтакте"
+
+#~ msgid "This data is visible only to registered users"
+#~ msgstr "Эти данные видны только зарегестрированным пользователям"
+
+#~ msgid "years"
+#~ msgstr "года"
+
+#~ msgid "now"
+#~ msgstr "текущего дня"
+
+#~ msgid "This sportcard is not confirmed yet. Moderation is on the way."
+#~ msgstr "Этот стаж ещё не был подтвержден. Идет модерация."
+
+#~ msgid "Team"
+#~ msgstr "Команда"
+
+#~ msgid "Coach"
+#~ msgstr "Тренер"
+
+#~ msgid "Rank"
+#~ msgstr "Звание/Разряд"
+
+#~ msgid "no sports achievements"
+#~ msgstr "без спортивного разряда"
+
+#~ msgid "No achievements due to lazyness or being too shy"
+#~ msgstr "Стаж отсутствует из-за лени или желания остаться в тени коллег"
+
+#~ msgid "Brief bio"
+#~ msgstr "Краткая биография"
+
+#~ msgid "No usable info about this person."
+#~ msgstr "О данном пользователе нет полезной информации."
+
+#~ msgid "Charts"
+#~ msgstr "Графики"
+
+#~ msgid "Edit chart group"
+#~ msgstr "Редактровать группу графиков"
+
+#~ msgid "Chart groups"
+#~ msgstr "Группы графиков"
+
+#~ msgid "Create chart group"
+#~ msgstr "Создать группу графиков"
+
+#~ msgid "Order lv"
+#~ msgstr "№"
+
+#~ msgid "Chart col"
+#~ msgstr "Колонка графика"
+
+#~ msgid "Create chart indicator"
+#~ msgstr "Создать индикатор графика"
+
+#~ msgid "Bulk document operation:"
+#~ msgstr "Групповая операция над документами:"
+
+#~ msgid "Main text"
+#~ msgstr "Текст публикации"
+
+#~ msgid "Macro data"
+#~ msgstr "Макро данные"
+
+#~ msgid "Import CSV"
+#~ msgstr "Импорт CSV"
+
+#~ msgid "Import"
+#~ msgstr "Импорт"
+
+#~ msgid "Change"
+#~ msgstr "Изменить"
+
+#~ msgid "Media settings (preview, pdf, etc...)"
+#~ msgstr "Настройка медиа (превью, pdf, и т.п.)"
+
+#~ msgid "Date"
+#~ msgstr "Дата"
+
+#~ msgid "Source data"
+#~ msgstr "Источники данных"
+
+#~ msgid "Season data"
+#~ msgstr "Сезонные данные"
+
+#~ msgid "Increment rate"
+#~ msgstr "Скорость роста"
+
+#~ msgid "Trend"
+#~ msgstr "Тренд"
+
+#~ msgid "Download data"
+#~ msgstr "Загрузить данные"
+
+#~ msgid "Data can be downloaded in these formats: "
+#~ msgstr "Данные можно загрузить в следующих форматах:"
+
+#~ msgid "View settings"
+#~ msgstr "Настройки вида"
+
+#~ msgid "Create chart"
+#~ msgstr "Создать график"
+
+#~ msgid "Fincake"
+#~ msgstr "Fincake"
+
+#~ msgid "Expert"
+#~ msgstr "Эксперт"
+
+#~ msgid "RTS"
+#~ msgstr "РТС"
+
+#~ msgid "MICEX"
+#~ msgstr "ММВБ"
+
+#~ msgid "MICEX currency"
+#~ msgstr "Валюта ММВБ"
+
+#~ msgid "Import data"
+#~ msgstr "Импорт данных"
+
+#~ msgid "Attached charts"
+#~ msgstr "Прикрепленные графики"
+
+#~ msgid "Search chart"
+#~ msgstr "Искать график"
+
+#~ msgid "Attach"
+#~ msgstr "Присоеденить"
+
+#~ msgid "Create Section"
+#~ msgstr "Создать раздел"
+
+#~ msgid "Forum"
+#~ msgstr "Форум"
+
+#~ msgid "Create thread"
+#~ msgstr "Создать тему"
+
+#~ msgid "All threads"
+#~ msgstr "Все темы"
+
+#~ msgid "threads"
+#~ msgstr "темы"
+
+#~ msgid "%(section_name)s section"
+#~ msgstr "Раздел %(section_name)s"
+
+#~ msgid "Sections"
+#~ msgstr "Разделы"
+
+#~ msgid "Topics count"
+#~ msgstr "Счетчик тем"
+
+#~ msgid "Last update date"
+#~ msgstr "Дата последнего обновления"
+
+#~ msgid "Select all"
+#~ msgstr "Выделить все"
+
+#~ msgid "Operations"
+#~ msgstr "Операции"
+
+#~ msgid "Date and time"
+#~ msgstr "Дата и время"
+
+#~ msgid "Author"
+#~ msgstr "Автор"
+
+#~ msgid "Comment text"
+#~ msgstr "Текст коментария"
+
+#~ msgid "question is visible only to author"
+#~ msgstr "вопрос виден только автору"
+
+#~ msgid "comment is hidden"
+#~ msgstr "комментарий скрыт"
+
+#~ msgid "Show to everybody"
+#~ msgstr "Показать всем"
+
+#~ msgid "question is visible to everybody"
+#~ msgstr "вопрос виден всем"
+
+#~ msgid "comment is visible to everybody"
+#~ msgstr "комментарий виден всем"
+
+#~ msgid "Hide"
+#~ msgstr "Скрыть"
+
+#~ msgid "Answer is published"
+#~ msgstr "Ответ опубликован"
+
+#~ msgid "Remove from site"
+#~ msgstr "Убрать с сайта"
+
+#~ msgid "Publish answer"
+#~ msgstr "Опубликовать ответ"
+
+#~ msgid "Are you sure you want this?"
+#~ msgstr "Вы уверены в этом?"
+
+#~ msgid "Remove permanently"
+#~ msgstr "Удалить насовсем"
+
+#~ msgid "Saved"
+#~ msgstr "Сохранено"
+
+#~ msgid "There are no comments"
+#~ msgstr "Комментариев нет"
+
+#~ msgid "You're not allowed to access this page"
+#~ msgstr "Вам не разрешен доступ к этой странице"
+
+#~ msgid "You can"
+#~ msgstr "Вы можете"
+
+#~ msgid "Authorize"
+#~ msgstr "Авторизоваться"
+
+#~ msgid " and try visiting this page again."
+#~ msgstr "и попробовать снова зайти на эту страницу."
+
+#~ msgid "Register with accounts from other services and social networks"
+#~ msgstr "Регистрация с помощью аккаунта других сервисов и социальных сетей"
+
+#~ msgid "The fish is out there!"
+#~ msgstr "Здесь рыбы нет!"
+
+#~ msgid "You can try to"
+#~ msgstr "Вы можете попробовать"
+
+#~ msgid "search"
+#~ msgstr "искать"
+
+#~ msgid "for whatever you were looking for."
+#~ msgstr "то что вам было нужно."
+
+#~ msgid "Server error. Please try visiting our site later."
+#~ msgstr "Ошибка сервера. Попробуйте воспользоваться нашим сайтом позже."
+
+#~ msgid "You can notify us about this error with an email to"
+#~ msgstr "Вы можете оповестить нас об этой ошибке отправив email по адресу"
+
+#~ msgid ""
+#~ "describing details of your actions that caused this error and URL where "
+#~ "it happened."
+#~ msgstr ""
+#~ "с детальным описанием действий, которые её вызвали, и URL по которомоу "
+#~ "она произошла."
+
+#~ msgid "Sorry for the inconvenience."
+#~ msgstr "Просим прощения за неудобства."
+
+#~ msgid "spearfishing, freediving, fishing, sport"
+#~ msgstr "подводная охота, фридайвинг, рыбалка, спорт"
+
+#~ msgid "Search"
+#~ msgstr "Поиск"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "My profile"
+#~ msgstr "Мой профайл"
+
+#~ msgid "Notifications"
+#~ msgstr "Оповещения"
+
+#~ msgid "Friends / acquaintances"
+#~ msgstr "Друзья / знакомые"
+
+#~ msgid "Personal messages"
+#~ msgstr "Личные сообщения"
+
+#~ msgid "Flea market"
+#~ msgstr "Барахолка"
+
+#~ msgid "Swimming pools"
+#~ msgstr "Бассейны"
+
+#~ msgid "Education and relaxation, clubs"
+#~ msgstr "Обучение и отдых, клубы"
+
+#~ msgid "Open water"
+#~ msgstr "Акватории"
+
+#~ msgid "Fish encyclopedia"
+#~ msgstr "Энциклопедия рыб"
+
+#~ msgid "Legislation & FAQ"
+#~ msgstr "Законы и FAQ"
+
+#~ msgid "Calendar"
+#~ msgstr "Календарь"
+
+#~ msgid "We in social networks:"
+#~ msgstr "Мы в социальных сетях:"
+
+#~ msgid "Russian"
+#~ msgstr "Русский"
+
+#~ msgid "Terms of service"
+#~ msgstr "Пользовательское соглашение"
+
+#~ msgid "About us"
+#~ msgstr "О нас"
+
+#~ msgid "Diving - DIVEtop rating"
+#~ msgstr "Дайвинг - рейтинг DIVEtop"
+
+#~ msgid "Follow @deephunt_ru"
+#~ msgstr "Фолловить @deephunt_ru"
+
+#~ msgid "Add content"
+#~ msgstr "Добавить контент"
+
+#~ msgid "Article"
+#~ msgstr "Статья"
+
+#~ msgid "Swimming pool"
+#~ msgstr "Бассейн"
+
+#~ msgid "Brand (trade mark)"
+#~ msgstr "Бренд (торговая марка)"
+
+#~ msgid "Equipment"
+#~ msgstr "Снаряжение"
+
+#~ msgid "Remember me"
+#~ msgstr "Запомнить меня"
+
+#~ msgid "Forgot password?"
+#~ msgstr "Забыли пароль?"
+
+#~ msgid "Login with social network account"
+#~ msgstr "Войти с помощью аккаунта социальной сети "
+
+#~ msgid "register on site"
+#~ msgstr "регистрация на сайте"
+
+#~ msgid "using your account in one of social networks"
+#~ msgstr "с помощьу аккаунта одной из социальных сетей"
+
+#~ msgid "Admin"
+#~ msgstr "Админка"
+
+#~ msgid "My drafts"
+#~ msgstr "Мои черновики"
+
+#~ msgid "Messages"
+#~ msgstr "Сообщения"
+
+#~ msgid "Friends"
+#~ msgstr "Друзья"
+
+#~ msgid "Photo albums"
+#~ msgstr "Фотоальбомы"
+
+#~ msgid "My comments"
+#~ msgstr "Мои комментарии"
+
+#~ msgid "Profile settings"
+#~ msgstr "Настройки профайла"
+
+#~ msgid "Logout"
+#~ msgstr "Выйти"
+
+#~ msgid "User agreement"
+#~ msgstr "Пользовательско соглашение"
+
+#~ msgid "Ratings calculation"
+#~ msgstr "Расчет рейтингов"
+
+#~ msgid "\"Plush bream\" action"
+#~ msgstr "Акция \"Плюшевый лещь\""
+
+#~ msgid "Like"
+#~ msgstr "Нравится"
+
+#~ msgid "Add advertising"
+#~ msgstr "Добавить объявление"
+
+#~ msgid "last reply from"
+#~ msgstr "последний ответ от"
+
+#~ msgid "This section doesn't have any topics to discuss yet"
+#~ msgstr "В этом разделе пока нет тем для обсуждений"
+
+#~ msgid "Ask a question"
+#~ msgstr "Задать вопрос"
+
+#~ msgid "Ask"
+#~ msgstr "Спросить"
+
+#~ msgid "You must"
+#~ msgstr "Вы должны"
+
+#~ msgid "register or authorize"
+#~ msgstr "зарегистрироваться или авторизоваться"
+
+#~ msgid "in order to ask questions."
+#~ msgstr ", чтобы задавать вопросы. "
+
+#~ msgid "No more questions are accepted"
+#~ msgstr "Вопросы больше не принимаются"
+
+#~ msgid "Questions (approved by moderator: %(real_comments_cnt)s)"
+#~ msgstr "Вопросы (одобрены модератором: %(real_comments_cnt)s)"
+
+#~ msgid "Show comment"
+#~ msgstr "Показать комментарий"
+
+#~ msgid "Hide comment"
+#~ msgstr "Скрыть коментарий"
+
+#~ msgid "Question waiting moderator's approval"
+#~ msgstr "Вопрос ожидает одобрения модератором"
+
+#~ msgid "Send"
+#~ msgstr "Отправить"
+
+#~ msgid "in order to leave comments."
+#~ msgstr ", чтобы оставлять комментарии."
+
+#~ msgid "Comment removed by moderator"
+#~ msgstr "Комментарий одобрен модератором"
+
+#~ msgid "User blocked due to breaking"
+#~ msgstr "Пользователь заблокирован т.к. нарушил"
+
+#~ msgid "user agreement"
+#~ msgstr "пользовательское соглашение"
+
+#~ msgid "Comments preview mode. Staff access."
+#~ msgstr "Режим предпросмотра комментариев. Доступ сотрудника."
+
+#~ msgid "No comments left yet"
+#~ msgstr "Не оставлено ни одного комментария"
+
+#~ msgid "Show"
+#~ msgstr "Показать"
+
+#~ msgid "Deleting comment can't be undone. Are you sure?"
+#~ msgstr "Удаление комментария необратимо. Вы уверены?"
+
+#~ msgid "All comment"
+#~ msgstr "Все коментарии"
+
+#~ msgid "Add comment"
+#~ msgstr "Добавить комментарий"
+
+#~ msgid "Deephunt.ru forum"
+#~ msgstr "форум Deephunt.ru"
+
+#~ msgid "Add new topic"
+#~ msgstr "Добавить новую тему"
+
+#~ msgid "You can't create topics in this section"
+#~ msgstr "Вы не можете создавать новые темы в этом разделе"
+
+#~ msgid "Moscow"
+#~ msgstr "Москва"
+
+#~ msgid "Street price"
+#~ msgstr "Розничная цена"
+
+#~ msgid "Topic will be moved to the Trash. Continue?"
+#~ msgstr "Тема будет перемещена в Корзину. Продолжить?"
+
+#~ msgid "Unlock"
+#~ msgstr "Открыть"
+
+#~ msgid "Lock"
+#~ msgstr "Закрыть"
+
+#~ msgid "New messages available"
+#~ msgstr "Есть новые сообщения"
+
+#~ msgid "No new messages"
+#~ msgstr "Нет новых сообщений"
+
+#~ msgid "Topic closed"
+#~ msgstr "Тема закрыта"
+
+#~ msgid "No new messages in this section. You can be first!"
+#~ msgstr "В это разделе нет новых сообщений. Вы можете быть первым!"
+
+#~ msgid "Email subscription"
+#~ msgstr "Email подписка"
+
+#~ msgid "edit title"
+#~ msgstr "редактировать заголовок"
+
+#~ msgid "Deleting topic can't be undone. Are you sure?"
+#~ msgstr "Удаление темы необратимо. Вы уверены?"
+
+#~ msgid "open topic"
+#~ msgstr "открыть тему"
+
+#~ msgid "close topic"
+#~ msgstr "закрыть тему"
+
+#~ msgid "Rating"
+#~ msgstr "Рейтинг"
+
+#~ msgid "%(votes_cnt)s votes"
+#~ msgstr "%(votes_cnt)s голосов"
+
+#~ msgid "Vote"
+#~ msgstr "Голосовать"
+
+#~ msgid "Contact"
+#~ msgstr "Контакт"
+
+#~ msgid "Phone number"
+#~ msgstr "Телефонный номер"
+
+#~ msgid "E-mail"
+#~ msgstr "Адрес электронной почты"
+
+#~ msgid "Auction"
+#~ msgstr "Аукцион"
+
+#~ msgid "Time left"
+#~ msgstr "Осталось времени"
+
+#~ msgid "Bids number"
+#~ msgstr "Количество ставок"
+
+#~ msgid "Buy it now"
+#~ msgstr "Купить сразу"
+
+#~ msgid "Last bid"
+#~ msgstr "Последняя ставка"
+
+#~ msgid "My bid"
+#~ msgstr "Моя ставка"
+
+#~ msgid "Place bid"
+#~ msgstr "Сделать ставку"
+
+#~ msgid "read full article"
+#~ msgstr "читать статью полностью"
+
+#~ msgid "Subscribe by email"
+#~ msgstr "Подпишитесь на email рассылку"
+
+#~ msgid "Topic management"
+#~ msgstr "Управление темой"
+
+#~ msgid "Photo"
+#~ msgstr "Фото"
+
+#~ msgid "Advertising"
+#~ msgstr "Объявление"
+
+#~ msgid "Move to"
+#~ msgstr "Переместить"
+
+#~ msgid "Important"
+#~ msgstr "Важно"
+
+#~ msgid "Video"
+#~ msgstr "Видео"
+
+#~ msgid "Podcast"
+#~ msgstr "Подкаст"
+
+#~ msgid "Bids"
+#~ msgstr "Ставки"
+
+#~ msgid "Buy now"
+#~ msgstr "Купить сразу"
+
+#~ msgid "Current price"
+#~ msgstr "Текущая цена"
+
+#~ msgid "Discussions"
+#~ msgstr "Комментарии"
+
+#~ msgid "Loading..."
+#~ msgstr "Загружается..."
+
+#~ msgid "Comment will be removed. Continue?"
+#~ msgstr "Комментарий будет удален. Продолжить?"
+
+#~ msgid "Staff preview"
+#~ msgstr "Превью для персонала"
+
+#~ msgid "by Moderator at"
+#~ msgstr "редактировано Модератором"
+
+#~ msgid "Comment as"
+#~ msgstr "Комментировать как"
+
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgid "Vkontakte"
+#~ msgstr "ВКонтакте"
+
+#~ msgid "Join to the forum discussions"
+#~ msgstr "Присоедениться к дискуссии в форуме"
+
+#~ msgid "All forum comments"
+#~ msgstr "Все коментарии форума"
+
+#~ msgid "Comments are disabled, try later."
+#~ msgstr "Комментарии отключены, попробуйте позже."
+
+#~ msgid "Co-authorship on"
+#~ msgstr "Соавторство на"
+
+#~ msgid "Add event"
+#~ msgstr "Добавить событие"
+
+#~ msgid "Categories and relations"
+#~ msgstr "Категории и связи"
+
+#~ msgid "Custom settings"
+#~ msgstr "Специальные настройки"
+
+#~ msgid "Location"
+#~ msgstr "Место"
+
+#~ msgid "Search location"
+#~ msgstr "Искать место"
+
+#~ msgid "Draft notes"
+#~ msgstr "Черновики"
+
+#~ msgid "Photo & Files"
+#~ msgstr "Фото и Файлы"
+
+#~ msgid "Event visitors"
+#~ msgstr "Посетят событие"
+
+#~ msgid "All interested"
+#~ msgstr "Все заинтересованные"
+
+#~ msgid "Page management"
+#~ msgstr "Управление страницей"
+
+#~ msgid "Subscribe to event"
+#~ msgstr "Подписаться на событие"
+
+#~ msgid "participants"
+#~ msgstr "участники"
+
+#~ msgid "requests"
+#~ msgstr "запросы"
+
+#~ msgid "Common data"
+#~ msgstr "Общие данные"
+
+#~ msgid "Organizators"
+#~ msgstr "Организаторы"
+
+#~ msgid "Pool"
+#~ msgstr "Бассейн"
+
+#~ msgid "Pools"
+#~ msgstr "Бассейны"
+
+#~ msgid "Openwaters"
+#~ msgstr "Акватории"
+
+#~ msgid "Website"
+#~ msgstr "Веб-сайт"
+
+#~ msgid "Recommendation"
+#~ msgstr "Рекоммендация"
+
+#~ msgid "For up-to-date news, subscribe to Deephunt.ru via"
+#~ msgstr "Чтобы всегда быть начеку подпишись на Deephunt.ru через"
+
+#~ msgid "Subscribers"
+#~ msgstr "Подписчики"
+
+#~ msgid "Unfortunately, %(username)s is too lazy."
+#~ msgstr "К сожалению, %(username)s - домосед."
+
+#~ msgid "Sports calendar"
+#~ msgstr "Спортивный календарь"
+
+#~ msgid "Editors' choice"
+#~ msgstr "Выбор редакции"
+
+#~ msgid "More about"
+#~ msgstr "Подробнее о"
+
+#~ msgid "Send request"
+#~ msgstr "Отправить запрос"
+
+#~ msgid "Cancel request"
+#~ msgstr "Отменить запрос"
+
+#~ msgid "Cancel requests"
+#~ msgstr "Отменить запросы"
+
+#~ msgid "Sportsman's calendar"
+#~ msgstr "Календарь спортсмена"
+
+#~ msgid "Subject"
+#~ msgstr "Тема"
+
+#~ msgid "Technical support"
+#~ msgstr "Техническая поддержка"
+
+#~ msgid "Found an error"
+#~ msgstr "Онаружена ошибка"
+
+#~ msgid "Complaint"
+#~ msgstr "Жалоба"
+
+#~ msgid "CAPTCHA"
+#~ msgstr "Защита от аквалангистов"
+
+#~ msgid "Please enter symbols from the image"
+#~ msgstr "Пожалуйста введите символы с картинки"
+
+#~ msgid "send"
+#~ msgstr "отправить"
+
+#~ msgid "%(sent_by)s sent you friend request"
+#~ msgstr "%(sent_by)s отправил вам предложение дружбы"
+
+#~ msgid "Accept"
+#~ msgstr "Принять"
+
+#~ msgid "Reject"
+#~ msgstr "Отклонить"
+
+#~ msgid "Accept invite"
+#~ msgstr "Принять приглашение"
+
+#~ msgid "Send invite"
+#~ msgstr "Отправить приглашение"
+
+#~ msgid "Sent invites"
+#~ msgstr "Отправленные приглашения"
+
+#~ msgid "Invites"
+#~ msgstr "Приглашения"
+
+#~ msgid "Invites left:"
+#~ msgstr "Осталось приглашений:"
+
+#~ msgid "Invite a friend"
+#~ msgstr "Пригласить друга"
+
+#~ msgid "No invites sent yet"
+#~ msgstr "Нет отправленных приглашений"
+
+#~ msgid "Mutual friends"
+#~ msgstr "Взаимные друзья"
+
+#~ msgid "Friend of"
+#~ msgstr "В друзьях у"
+
+#~ msgid "No friends yet"
+#~ msgstr "Пока нет друзей"
+
+#~ msgid "Go deeper"
+#~ msgstr "Нырнуть глубже"
+
+#~ msgid "Updated by"
+#~ msgstr "Обновил"
+
+#~ msgid "Vodolaz-Radio internet radio"
+#~ msgstr "Интернет-радиостанция Vodolaz-Radio"
+
+#~ msgid "Recent updates"
+#~ msgstr "Последние обновления"
+
+#~ msgid "News"
+#~ msgstr "Новости"
+
+#~ msgid "User %(screenname)s has sent you a private message."
+#~ msgstr "Пользователь%(screenname)s отправил вам личное сообщение."
+
+#~ msgid "Read the message"
+#~ msgstr "Прочитать сообщение"
+
+#~ msgid "%(sent_by)s invites you as a friend to %(domain)s"
+#~ msgstr "%(sent_by)s приглашает вас в друзья на %(domain)s"
+
+#~ msgid "%(sent_by)s invites you to %(name)s."
+#~ msgstr "%(sent_by)s приглашает вас в друзья на %(name)s."
+
+#~ msgid ""
+#~ "In order to accept or reject this invite you should click the following "
+#~ "link:"
+#~ msgstr ""
+#~ "Чтобы принять или отклонить данное предложение, перейдите по следующей "
+#~ "ссылке:"
+
+#~ msgid "Regards, %(domain)s team."
+#~ msgstr "С уважением, команда %(domain)s."
+
+#~ msgid "Welcome to %(name)s!"
+#~ msgstr "Добро пожаловать на %(name)s!"
+
+#~ msgid "Your account has been activated"
+#~ msgstr "Ваша учетная запись была активирована"
+
+#~ msgid "Your registration details:"
+#~ msgstr "Ваши регистрационные данные:"
+
+#~ msgid "Password can be changed on this page:"
+#~ msgstr "Пароль может быть изменен на этой странице:"
+
+#~ msgid "Thank you for registering on our site"
+#~ msgstr "Благодарим вам за регистрацию на нашем сайте"
+
+#~ msgid "Your invitation to %(name)s has been accepted"
+#~ msgstr "Ваше приглашение к %(name)s было принято "
+
+#~ msgid "Your invite to %(name)s has been accepted by %(send_to_user)s"
+#~ msgstr "Ваше приглашение к %(name)s было принято %(send_to_user)s   "
+
+#~ msgid "You can see his profile at:"
+#~ msgstr "Вы можете посмотреть его профайл по адресу:"
+
+#~ msgid ""
+#~ "Best regards,\n"
+#~ "%(domain)s administration"
+#~ msgstr ""
+#~ "С наилучшими пожеланиями,\n"
+#~ "Администрация %(domain)s "
+
+#~ msgid "%(sent_by)s invited you as a friend at %(name)s."
+#~ msgstr "%(sent_by)s приглашает вас в друзья на %(name)s."
+
+#~ msgid "In order to accept this invite click the following link:"
+#~ msgstr "Чтобы принять это предложение, перейдите по следующей ссылке:"
+
+#~ msgid "If you'r not interested in this offer, just ignore it."
+#~ msgstr ""
+#~ "Если это предложение вам не интересно, вы можете его просто "
+#~ "проигнорировать."
+
+#~ msgid "User added the following message: \"%(message)s\"."
+#~ msgstr "Пользователь добавил следующее сообщение: \"%(message)s\"."
+
+#~ msgid ""
+#~ "Regards,\n"
+#~ "%(domain)s team."
+#~ msgstr ""
+#~ "С уважением,\n"
+#~ "команда %(domain)s."
+
+#~ msgid "You've successfully unsubscribed from the mailing list"
+#~ msgstr "Вы успешно отписались от почтовой рассылки"
+
+#~ msgid "You won't receive more messages from"
+#~ msgstr "Вы больше не будете получать письма от"
+
+#~ msgid "Unsubscribe"
+#~ msgstr "Отписаться"
+
+#~ msgid "Deephunt.ru mail list"
+#~ msgstr "Почтовая рассылка Deephunt.ru"
+
+#~ msgid ""
+#~ "Congratulations, you'ru user number 100 000! This means you've won a "
+#~ "COW!!!"
+#~ msgstr ""
+#~ "Поздравляем, вы 100 000 пользователь! А это значит - вы выиграли КОРОВУ!!!"
+
+#~ msgid "Your region"
+#~ msgstr "Ваш регион"
+
+#~ msgid "Select your region"
+#~ msgstr "Выберите ваш регион"
+
+#~ msgid "Remove map"
+#~ msgstr "Удалить карту"
+
+#~ msgid "Coords"
+#~ msgstr "Координаты"
+
+#~ msgid "Latitude"
+#~ msgstr "Широта"
+
+#~ msgid "Longitude."
+#~ msgstr "Долгота."
+
+#~ msgid "lat"
+#~ msgstr "шир"
+
+#~ msgid "lng"
+#~ msgstr "длг"
+
+#~ msgid ""
+#~ "All photos will be scaled/cropped for necessary size automatically. So in "
+#~ "most cases you don't have to edit them, just upload!"
+#~ msgstr ""
+#~ "Все фото будут уменьшены/обрезаны под нужный размер автоматически. "
+#~ "Поэтому в большинстве случаев их не надо редактировать, достаточно просто "
+#~ "загрузить!"
+
+#~ msgid "Upload"
+#~ msgstr "Загрузка"
+
+#~ msgid "FTP"
+#~ msgstr "FTP"
+
+#~ msgid "Upload date"
+#~ msgstr "Дата загрузки"
+
+#~ msgid "Storage is empty or wrong configured mediacentee.defaults settings"
+#~ msgstr ""
+#~ "Хранилище пусто или неправильно сконфигурировано в настройках "
+#~ "mediacenter.defaults"
+
+#~ msgid "Select"
+#~ msgstr "Выбрать"
+
+#~ msgid "File"
+#~ msgstr "Файл"
+
+#~ msgid "Size"
+#~ msgstr "Размер"
+
+#~ msgid "Photoalbums"
+#~ msgstr "Фотоальбомы"
+
+#~ msgid "Create album"
+#~ msgstr "Создать альбом"
+
+#~ msgid "Add files / Edit"
+#~ msgstr "Добавить файлы / Редактировать"
+
+#~ msgid "Photos"
+#~ msgstr "Фотографии"
+
+#~ msgid "Unpack archives"
+#~ msgstr "Распаковать архивы"
+
+#~ msgid "files counter"
+#~ msgstr "счетчик файлов"
+
+#~ msgid "Add files / edit library settings"
+#~ msgstr "Добавить файлы / редактировать параметры библиотеки"
+
+#~ msgid "Choose preview"
+#~ msgstr "Выбрать превью"
+
+#~ msgid "Preview2"
+#~ msgstr "Превью2"
+
+#~ msgid "The file was uploaded successfully!"
+#~ msgstr "Файл был успешно загружен!"
+
+#~ msgid "There was an error during file upload!"
+#~ msgstr "При загрузке файла произошла ошибка!"
+
+#~ msgid "Photo thumbnails"
+#~ msgstr "Миниатюры фото"
+
+#~ msgid ""
+#~ "Choose a region of your main photography that will be seen on site "
+#~ "thumbnails."
+#~ msgstr ""
+#~ "Выберите область на вашей основной фотографии, которая будет видна в "
+#~ "миниатюрах на сайте."
+
+#~ msgid "Download file"
+#~ msgstr "Скачать файл"
+
+#~ msgid "You don't have access for downloading PDF magazine files"
+#~ msgstr "У вас нет доступа для скачивания PDF версий журналов"
+
+#~ msgid "Become"
+#~ msgstr "Станьте"
+
+#~ msgid "a subscriber"
+#~ msgstr "постоянным подписчиком"
+
+#~ msgid "and get a special PIN code"
+#~ msgstr "и получите специальный ПИН код"
+
+#~ msgid "votes"
+#~ msgstr "голоса"
+
+#~ msgid "Total votes:"
+#~ msgstr "Всего голосов:"
+
+#~ msgid "Video link"
+#~ msgstr "Видео ссылка"
+
+#~ msgid "Relations"
+#~ msgstr "Связи"
+
+#~ msgid "This section has no publications yet, you can"
+#~ msgstr "В этом разделе пока нет сообщений, вы можете"
+
+#~ msgid "become first author"
+#~ msgstr "стать первым автором"
+
+#~ msgid "return to article"
+#~ msgstr "вернуться к статье"
+
+#~ msgid "Next photo"
+#~ msgstr "Следующее фото"
+
+#~ msgid "Go to article"
+#~ msgstr "Перейти к статье"
+
+#~ msgid "This section has no articles yet, you can"
+#~ msgstr "В этом разделе еще нет публикаций, вы можете"
+
+#~ msgid "from"
+#~ msgstr "от"
+
+#~ msgid "all issues"
+#~ msgstr "все выпуски"
+
+#~ msgid "Blog of %(username)s"
+#~ msgstr "Блог %(username)s"
+
+#~ msgid "Mentioned in articles"
+#~ msgstr "Упоминания в прессе"
+
+#~ msgid "Future articles"
+#~ msgstr "Будущие статьи"
+
+#~ msgid ""
+#~ "User <b>is banned</b> for breaking <a href='/help/user-agreement/'>user "
+#~ "agreement</a>"
+#~ msgstr ""
+#~ "Пользователь <b>заблокирован</b> за нарушение<a "
+#~ "href='/help/user-agreement/'>пользовательского соглашения</a> "
+
+#~ msgid ""
+#~ "This materials are <b>not published</b>. After publishing, this article "
+#~ "will be available in your blog, and if it passes premoderation, on main "
+#~ "page and related site rubrics."
+#~ msgstr ""
+#~ "Эти материалы <b>не опубликованы</b>. После публикации статьи будут видны "
+#~ "в вашем блоге, а если пройдут премодерацию, то и на главной странице "
+#~ "сайта и в соответственных рубриках."
+
+#~ msgid "%(screenname)s's sport career"
+#~ msgstr "Спортивный стаж %(screenname)s"
+
+#~ msgid "General settings"
+#~ msgstr "Общие настройки"
+
+#~ msgid "Sports career"
+#~ msgstr "Спортивный стаж"
+
+#~ msgid "Change password"
+#~ msgstr "Изменить пароль"
+
+#~ msgid "Sport card"
+#~ msgstr "Карточка спортсмена"
+
+#~ msgid "Add new card"
+#~ msgstr "Добавить новую карточку"
+
+#~ msgid ""
+#~ "You must activate your profile. Activation link has been sent by email."
+#~ msgstr ""
+#~ "Необходимо активировать ваш профайл. Ссылка для активации была отправлена "
+#~ "по электронной почте."
+
+#~ msgid ""
+#~ "Please check your email <b>%(email)s</b>. You have been sent a letter "
+#~ "containing profile activation link. <br/><b>Attention!</b> The letter "
+#~ "could have arrived in your Spam folder, make sure to check it."
+#~ msgstr ""
+#~ "Пожалуйста, проверти вашу электронную почту <b>%(email)s</b>. Вам было "
+#~ "отправлено письмо со ссылкой для активации профайла. "
+#~ "<br/><b>Внимание!</b> Письмо могло оказаться в папке Спам, обязательно "
+#~ "проверьте её."
+
+#~ msgid "Future articles %(username)s"
+#~ msgstr "Будущие статьи %(username)s "
+
+#~ msgid "Travels map"
+#~ msgstr "Карта путешествий"
+
+#~ msgid "Fishing map"
+#~ msgstr "Карта охотника"
+
+#~ msgid "Sportsman's rating"
+#~ msgstr "Рейтинг спортсмена"
+
+#~ msgid "%(username)s mentioned in press"
+#~ msgstr "Упоминания в прессе %(username)s "
+
+#~ msgid "Messages for %(username)s"
+#~ msgstr "Сообщения для %(username)s"
+
+#~ msgid "Received messages"
+#~ msgstr "Полученные"
+
+#~ msgid "Sent messages"
+#~ msgstr "Отправленные"
+
+#~ msgid "Reply"
+#~ msgstr "Ответить"
+
+#~ msgid "Unread"
+#~ msgstr "Непрочитанные"
+
+#~ msgid "Unfortunately, nobody loves you"
+#~ msgstr "К сожалению, вы никому не нужны"
+
+#~ msgid ""
+#~ "You've entered invalid username and password combination. Please make "
+#~ "sure that you're entering valid data."
+#~ msgstr ""
+#~ "Вы ввели неправильную комбинацию имени пользователя и пароля. Убедитесь, "
+#~ "что вводите правильные данные."
+
+#~ msgid "If you already have an account on site:"
+#~ msgstr "Если у вас уже есть аккаунт на сайте:"
+
+#~ msgid "Registering for the first time:"
+#~ msgstr "Вы регистрируетесь впервые:"
+
+#~ msgid ""
+#~ "I have read and accepted <a href=\"/help/user-agreement/\">user "
+#~ "agreement</a>"
+#~ msgstr ""
+#~ "Я прочитал и согласен с правилами <a "
+#~ "href=\"/help/user_agreement/\">пользовательского соглашения</a>"
+
+#~ msgid "Password change"
+#~ msgstr "Изменить пароль"
+
+#~ msgid "Sport career"
+#~ msgstr "Спортивный стаж"
+
+#~ msgid "Subscribe for digest"
+#~ msgstr "Подписка на рассылку"
+
+#~ msgid "Your email address"
+#~ msgstr "Ваш email адрес"
+
+#~ msgid "Subscribe"
+#~ msgstr "Подписаться"
+
+#~ msgid "Receiver"
+#~ msgstr "Получатель"
+
+#~ msgid "User status"
+#~ msgstr "Подпись/статус"
+
+#~ msgid "Edit userpic"
+#~ msgstr "Редактировать фото"
+
+#~ msgid "Send message"
+#~ msgstr "Отправить сообщение"
+
+#~ msgid "Mutual friend"
+#~ msgstr "Взаимный друг"
+
+#~ msgid "Your friend"
+#~ msgstr "Ваш друг"
+
+#~ msgid "Add to friends"
+#~ msgstr "Добавить в друзья"
+
+#~ msgid "Invite your friends and grow up rating about 5%% per invitation."
+#~ msgstr ""
+#~ "Пригласите друзей и ваш рейтинг увеличится на 5%% за каждое принятое "
+#~ "приглашение."
+
+#~ msgid "friend's e-mail"
+#~ msgstr "e-mail друга"
+
+#~ msgid "Articles"
+#~ msgstr "Статьи"
+
+#~ msgid "Mention"
+#~ msgstr "Пишут об авторе"
+
+#~ msgid "Draft"
+#~ msgstr "Черновик"
+
+#~ msgid "Login:"
+#~ msgstr "Логин:"
+
+#~ msgid "Restore password"
+#~ msgstr "Восстановить пароль"
+
+#~ msgid "Page %(number)s"
+#~ msgstr "Страница %(number)s"
+
+#~ msgid "Fish finder"
+#~ msgstr "Поиск рыб"
+
+#~ msgid "Average depth"
+#~ msgstr "Средняя глубина"
+
+#~ msgid "Average temperature"
+#~ msgstr "Средняя температура"
+
+#~ msgid "Pool finder"
+#~ msgstr "Поиск бассейна"
+
+#~ msgid "Max. length"
+#~ msgstr "Макс. длина"
+
+#~ msgid "Max. depth"
+#~ msgstr "Макс. глубина"
+
+#~ msgid "Chronology"
+#~ msgstr "Хронология"
+
+#~ msgid "Add fish"
+#~ msgstr "Добавить рыбу"
+
+#~ msgid "Habitat"
+#~ msgstr "Среда обитания"
+
+#~ msgid "Catch rules"
+#~ msgstr "Правила ловли"
+
+#~ msgid "Openwater"
+#~ msgstr "Акватории"
+
+#~ msgid "Add openwater"
+#~ msgstr "Добавить акваторию"
+
+#~ msgid "Diving"
+#~ msgstr "Дайвинг"
+
+#~ msgid "Marine life"
+#~ msgstr "Морская жизнь"
+
+#~ msgid "Additional relations"
+#~ msgstr "Дополнительные связи"
+
+#~ msgid "Members"
+#~ msgstr "Члены"
+
+#~ msgid "Leave community"
+#~ msgstr "Оставить сообщество"
+
+#~ msgid "I'am club staff"
+#~ msgstr "Я - сотрудник клуба"
+
+#~ msgid "I'am club member"
+#~ msgstr "Я - член клуба"
+
+#~ msgid "Clubs"
+#~ msgstr "Клубы"
+
+#~ msgid "Work hours"
+#~ msgstr "Рабочие часы"
+
+#~ msgid "Requires medical certificate"
+#~ msgstr "Требуется справка"
+
+#~ msgid "yes,no"
+#~ msgstr "да,нет"
+
+#~ msgid "Session length"
+#~ msgstr "Длительность сеанса"
+
+#~ msgid "minutes"
+#~ msgstr "минут"
+
+#~ msgid "Hour cost"
+#~ msgstr "стоимость сеанса"
+
+#~ msgid "Monthly cost"
+#~ msgstr "Стоимость абонемента на месяц"
+
+#~ msgid "Technical data"
+#~ msgstr "Технические данные"
+
+#~ msgid "Number of pools"
+#~ msgstr "Количество бассейнов"
+
+#~ msgid "Minimal depth"
+#~ msgstr "Минимальная глубина"
+
+#~ msgid "Maximal depth"
+#~ msgstr "Максимальная глубина"
+
+#~ msgid "50 meters pool"
+#~ msgstr "Ванна 50 метров"
+
+#~ msgid "25 meters pool"
+#~ msgstr "Ванна 25 метров"
+
+#~ msgid "Maximum pool length"
+#~ msgstr "Максимальная длина бассейна"
+
+#~ msgid "Water type"
+#~ msgstr "Тип воды"
+
+#~ msgid "Water filtration type"
+#~ msgstr "Тип фильтрации воды "
+
+#~ msgid "Has open water"
+#~ msgstr "Есть открытый бассейн"
+
+#~ msgid "Extra services"
+#~ msgstr "Дополнительные сервисы"
+
+#~ msgid "Shooting allowed (underwater shooting/spearfishing)"
+#~ msgstr "Разрешают стрелять (Тренировки СПС/ Поводная охота)"
+
+#~ msgid "Has diving"
+#~ msgstr "Есть дайвинг"
+
+#~ msgid "Has sauna"
+#~ msgstr "Есть сауна"
+
+#~ msgid "Has gym"
+#~ msgstr "Есть спортзал"
+
+#~ msgid "Has yoga"
+#~ msgstr "Есть йога"
+
+#~ msgid "Stage"
+#~ msgstr "Этап"
+
+#~ msgid "Stage type"
+#~ msgstr "Тип этапа"
+
+#~ msgid "Notify"
+#~ msgstr "Оповещать"
+
+#~ msgid "State"
+#~ msgstr "Состояние"
+
+#~ msgid "Time limit"
+#~ msgstr "Лимит времени"
+
+#~ msgid "Assignee group"
+#~ msgstr "Назначенная группа"
+
+#~ msgid "Assignee user"
+#~ msgstr "Назначенный пользователь"
+
+#~ msgid "No stages"
+#~ msgstr "Нет этапов"
+
+#~ msgid "Process"
+#~ msgstr "Процесс"
+
+#~ msgid "Accept stage"
+#~ msgstr "Принять этап"
+
+#~ msgid "Start time"
+#~ msgstr "Начало в"
+
+#~ msgid "Deadline time"
+#~ msgstr "Время сдачи работ"
+
+#~ msgid "Publication stages"
+#~ msgstr "Этапы публикации"
+
+#~ msgid "Available stages"
+#~ msgstr "Доступные этапы"
+
+#~ msgid "Owned stages"
+#~ msgstr "Принятые этапы"
+
+#~ msgid "Past stages"
+#~ msgstr "Завершенные этапы"
+
+#~ msgid "Publication processes"
+#~ msgstr "Процессы публикации"
+
+#~ msgid "Active processes"
+#~ msgstr "Активные процессы"
+
+#~ msgid "Completed processes"
+#~ msgstr "Завершенные процессы"
+
+#~ msgid "Publication templates"
+#~ msgstr "Шаблоны публикации"
+
+#~ msgid "Templates list"
+#~ msgstr "Список шаблонов"
+
+#~ msgid "Reports"
+#~ msgstr "Отчеты"
+
+#~ msgid "Report"
+#~ msgstr "Отчет"
+
+#~ msgid "Create process"
+#~ msgstr "Создать процесс"
+
+#~ msgid "Edit process"
+#~ msgstr "Редактировать процесс"
+
+#~ msgid "Process creator"
+#~ msgstr "Создатель процесса"
+
+#~ msgid "No process selected"
+#~ msgstr "Процесс не выбран"
+
+#~ msgid "Cancel process"
+#~ msgstr "Отменить процесс"
+
+#~ msgid "Started on"
+#~ msgstr "Началов в"
+
+#~ msgid "Deadline on"
+#~ msgstr "Сдача работ в"
+
+#~ msgid "Completed on"
+#~ msgstr "Завершено в"
+
+#~ msgid "No processes"
+#~ msgstr "Нет процессов"
+
+#~ msgid "Pub date from"
+#~ msgstr "Дата начала публикации"
+
+#~ msgid "Pub date till"
+#~ msgstr "Дата конца публикации"
+
+#~ msgid "Show report"
+#~ msgstr "Показать отчет"
+
+#~ msgid "Download as CSV"
+#~ msgstr "Скачать в формате CSV"
+
+#~ msgid "Has no author"
+#~ msgstr "Нет автора"
+
+#~ msgid "Is published"
+#~ msgstr "Опубликовано"
+
+#~ msgid "Is pub."
+#~ msgstr "Опубл."
+
+#~ msgid "Stages list"
+#~ msgstr "Список этапов"
+
+#~ msgid "Accepted stages"
+#~ msgstr "Принятые этапы"
+
+#~ msgid "Available to me"
+#~ msgstr "Доступные мне"
+
+#~ msgid "Available to my groups"
+#~ msgstr "Доступные моим группам"
+
+#~ msgid "Available to anyone"
+#~ msgstr "Доступные всем"
+
+#~ msgid "Create template"
+#~ msgstr "Создать шаблон"
+
+#~ msgid "Delete template"
+#~ msgstr "Удалить шаблон"
+
+#~ msgid "Are you sure want to delete all objects?"
+#~ msgstr "Вы действительно хотите удалить все выделенные объекты?"
+
+#~ msgid "Return to the editing"
+#~ msgstr "Вернуться к редактированию"
+
+#~ msgid "Edit template"
+#~ msgstr "Редактировать шаблон"
+
+#~ msgid "Start process"
+#~ msgstr "Запустить процесс"
+
+#~ msgid "Start"
+#~ msgstr "Начать"
+
+#~ msgid "No templates"
+#~ msgstr "Нет шаблонов"
+
+#~ msgid "Bold"
+#~ msgstr "Жирный"
+
+#~ msgid "Italic"
+#~ msgstr "Курсив"
+
+#~ msgid "Underline"
+#~ msgstr "Подчеркивание"
+
+#~ msgid "Picture"
+#~ msgstr "Изображение"
+
+#~ msgid "Link"
+#~ msgstr "Ссылка"
+
+#~ msgid "Your text to link here..."
+#~ msgstr "Ваш текст для ссылки здесь..."
+
+#~ msgid "Quotes"
+#~ msgstr "Кавычки"
+
+#~ msgid "Clean"
+#~ msgstr "Очистить"
+
+#~ msgid "Previous page"
+#~ msgstr "Предыдущая страница"
+
+#~ msgid "To contents"
+#~ msgstr "В содержание"
+
+#~ msgid "Next page"
+#~ msgstr "Следующая страница"
+
+#~ msgid "Sign in"
+#~ msgstr "Войти"
+
+#~ msgid "Years"
+#~ msgstr "Года"
+
+#~ msgid "All messages"
+#~ msgstr "Все сообщения"
+
+#~ msgid "Company name"
+#~ msgstr "Название компании"
+
+#~ msgid "Actions details"
+#~ msgstr "Подробности действия"
+
+#~ msgid "Editor"
+#~ msgstr "Редактор"
+
+#~ msgid "Diff"
+#~ msgstr "Diff"
+
+#~ msgid "Diff details"
+#~ msgstr "Детали изменения"
+
+#~ msgid "Action"
+#~ msgstr "Действие"
+
+#~ msgid "First version"
+#~ msgstr "Первая версия"
+
+#~ msgid "Previous version"
+#~ msgstr "Предыдущая версия"
+
+#~ msgid "Version number: %(version)s"
+#~ msgstr "Версия №%(version)s"
+
+#~ msgid "Next version"
+#~ msgstr "Следущая версия"
+
+#~ msgid "Last version"
+#~ msgstr "Последняя версия"
+
+#~ msgid "This is last version"
+#~ msgstr "Это последняя версия"
+
+#~ msgid "Rollback to this version"
+#~ msgstr "Вернуться к этой версии"
+
+#~ msgid "Error when attempting to rollback"
+#~ msgstr "Ошибка при откате версии"
+
+#~ msgid "Rollback successful"
+#~ msgstr "Откат удался"
+
+#~ msgid "History log"
+#~ msgstr "История изменений"
+
+#~ msgid "Edited fields"
+#~ msgstr "Редактированные поля"
+
+#~ msgid "Log time"
+#~ msgstr "Время изменения"
+
+#~ msgid "Object"
+#~ msgstr "Объект"
+
+#~ msgid "Rollback \"%(field_name)s\" to version # %(rollback_version)s"
+#~ msgstr "Откат \"%(field_name)s\" к версии№%(rollback_version)s"
+
+#~ msgid "Deleted %(cons_type)s"
+#~ msgstr "Удаленный  %(cons_type)s"
+
+#~ msgid "Edit time"
+#~ msgstr "Время редактирования"
+
+#~ msgid "Create mail list"
+#~ msgstr "Создать список рассылки"
+
+#~ msgid "Create subscriber"
+#~ msgstr "Создать подписчика"
+
+#~ msgid "Edit letter"
+#~ msgstr "Редакторовать письмо"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Attached files"
+#~ msgstr "Прикрепленные файлы"
+
+#~ msgid "Upload File"
+#~ msgstr "Загрузить Файл"
+
+#~ msgid "Rendered Letter"
+#~ msgstr "Видимое письмо"
+
+#~ msgid "Sent to these emails"
+#~ msgstr "Отправлено на эти адреса"
+
+#~ msgid "Edit mail list"
+#~ msgstr "Редактировать список рассылки"
+
+#~ msgid "Add user subscription"
+#~ msgstr "Добавить подписку пользователя"
+
+#~ msgid "Add customer subscription"
+#~ msgstr "Добавить подписку клиента"
+
+#~ msgid "Maillist subscribers"
+#~ msgstr "Подписчики списка рассылки"
+
+#~ msgid "Letters"
+#~ msgstr "Письма"
+
+#~ msgid "Type"
+#~ msgstr "Тип"
+
+#~ msgid "Sender"
+#~ msgstr "Отправитель"
+
+#~ msgid "Send date"
+#~ msgstr "Дата отправки"
+
+#~ msgid "Mailing list title"
+#~ msgstr "Название списка рассылки"
+
+#~ msgid "Create letter"
+#~ msgstr "Создать письмо"
+
+#~ msgid "Templates"
+#~ msgstr "Шаблоны"
+
+#~ msgid "Mail list"
+#~ msgstr "Список рассылки"
+
+#~ msgid "Content Blocks"
+#~ msgstr "Контент-блоки"
+
+#~ msgid "Path"
+#~ msgstr "Путь"
+
+#~ msgid "Add file"
+#~ msgstr "Добавить файл"
+
+#~ msgid "Configure your mediacenter defaults settings."
+#~ msgstr "Конфигурировать настройки по умолчанию для медиацентра"
+
+#~ msgid "Create media library"
+#~ msgstr "Создать медиа-библиотеку"
+
+#~ msgid "Media"
+#~ msgstr "Медиа"
+
+#~ msgid "Media library"
+#~ msgstr "Медиа библиотека"
+
+#~ msgid "Publication settings"
+#~ msgstr "Публикация"
+
+#~ msgid "Add media"
+#~ msgstr "Добавить медиа"
+
+#~ msgid "Upload all files"
+#~ msgstr "Загрузить все файлы"
+
+#~ msgid "Show original photo"
+#~ msgstr "Показать оригинал фото"
+
+#~ msgid "Thumbnails"
+#~ msgstr "Тамбнейлы"
+
+#~ msgid "Thumbnail"
+#~ msgstr "Тамбнейл"
+
+#~ msgid "Usage"
+#~ msgstr "Использование"
+
+#~ msgid "Reload media"
+#~ msgstr "Перезалить медиа"
+
+#~ msgid "Add files"
+#~ msgstr "Добавить файлы"
+
+#~ msgid "Files"
+#~ msgstr "Файлы"
+
+#~ msgid "Combined"
+#~ msgstr "Смешанный"
+
+#~ msgid "Pub. date"
+#~ msgstr "Дата публ."
+
+#~ msgid "File creation date"
+#~ msgstr "Дата создания файла"
+
+#~ msgid "Creation date"
+#~ msgstr "Дата создания"
+
+#~ msgid "Number of files"
+#~ msgstr "Количество файлов"
+
+#~ msgid "Amount"
+#~ msgstr "Количество"
+
+#~ msgid "Header & description"
+#~ msgstr "Заголовок и описание"
+
+#~ msgid "Media list"
+#~ msgstr "Список медиа"
+
+#~ msgid "No preview"
+#~ msgstr "Нет превью"
+
+#~ msgid "PDF"
+#~ msgstr "PDF"
+
+#~ msgid "No PDF"
+#~ msgstr "Нет PDF"
+
+#~ msgid "Audio"
+#~ msgstr "Аудио"
+
+#~ msgid "No audio"
+#~ msgstr "Нет аудио"
+
+#~ msgid "Clear"
+#~ msgstr "Сбросить"
+
+#~ msgid ""
+#~ "No %(vtype)s available, attach some media first. Compatible types: "
+#~ "%(required_types)s"
+#~ msgstr ""
+#~ "Нет файлов вида %(vtype)s, необходимо сначала прикрепить медиа. "
+#~ "Подходящие типы: %(required_types)s"
+
+#~ msgid "Choose media in the defined templates"
+#~ msgstr "Выберите медиа в определенных шаблонах"
+
+#~ msgid "No available media, attach some media first."
+#~ msgstr "Отсутствует медиа, необходимо сперва что-то прикрепить."
+
+#~ msgid "All recomendations"
+#~ msgstr "Рекомендованные файлы и библиотеки"
+
+#~ msgid "Search media in the mediacenter bank"
+#~ msgstr "Поиск медиа файлов и библиотек в медиацентре"
+
+#~ msgid "Detach"
+#~ msgstr "Отсоеденить"
+
+#~ msgid "Title / Description"
+#~ msgstr "Название / Описание"
+
+#~ msgid "Edit original"
+#~ msgstr "Редактировать оригинал"
+
+#~ msgid "Media libraries"
+#~ msgstr "Медиа библиотеки"
+
+#~ msgid "File state"
+#~ msgstr "Состояние файла"
+
+#~ msgid "Gallery"
+#~ msgstr "Фотогалерея"
+
+#~ msgid "Telecast"
+#~ msgstr "Видео сюжеты"
+
+#~ msgid "Access codes list"
+#~ msgstr "Список кодов доступа"
+
+#~ msgid "Reset filter"
+#~ msgstr "Сбросить фильтр"
+
+#~ msgid "Code"
+#~ msgstr "Код"
+
+#~ msgid "Item code"
+#~ msgstr "Код предмета"
+
+#~ msgid "Edit access code"
+#~ msgstr "Редактировать код доступа"
+
+#~ msgid "Generate access codes"
+#~ msgstr "Генерировать коды доступа"
+
+#~ msgid "Generate"
+#~ msgstr "Генерировать"
+
+#~ msgid "New poll"
+#~ msgstr "Новый опрос"
+
+#~ msgid "Edit poll"
+#~ msgstr "Редактировать опрос"
+
+#~ msgid "Poll settings"
+#~ msgstr "Настройки опроса"
+
+#~ msgid "Choices"
+#~ msgstr "Варианты выбора"
+
+#~ msgid "Choice"
+#~ msgstr "Выбор"
+
+#~ msgid "Button text"
+#~ msgstr "Текст на кнопке"
+
+#~ msgid "Total votes"
+#~ msgstr "Всего голосов"
+
+#~ msgid "Create poll"
+#~ msgstr "Создать опрос"
+
+#~ msgid "Create issue"
+#~ msgstr "Создать выпуск"
+
+#~ msgid "Create magazine"
+#~ msgstr "Создать журнал"
+
+#~ msgid "Contents"
+#~ msgstr "Содержимое"
+
+#~ msgid ""
+#~ "Select documents to delete. Unselected documents will be unlinked from "
+#~ "this issue."
+#~ msgstr ""
+#~ "Выберите документы для удаления. Не выбранные документы будут отвязаны от "
+#~ "этого выпуска."
+
+#~ msgid "Publication points"
+#~ msgstr "Точки публикации"
+
+#~ msgid "Content blocks"
+#~ msgstr "Контент-блоки"
+
+#~ msgid "Save additional texts"
+#~ msgstr "Сохранить дополнительные тексты"
+
+#~ msgid "Body"
+#~ msgstr "Тело"
+
+#~ msgid "Complete stage"
+#~ msgstr "Завершить этап"
+
+#~ msgid "Cancel stage"
+#~ msgstr "Отменить этап"
+
+#~ msgid "Pass stage to other user"
+#~ msgstr "Передать этап другому пользователю"
+
+#~ msgid "Publication stage completed"
+#~ msgstr "Этап публикации завершен"
+
+#~ msgid "Publication stage cancelled"
+#~ msgstr "Этап публикации отменен"
+
+#~ msgid "Publication stage passed to another user"
+#~ msgstr "Этап публикации передан другому пользователю"
+
+#~ msgid "Unknown stage"
+#~ msgstr "Неизвестный этап"
+
+#~ msgid "Please select user"
+#~ msgstr "Пожалуйста выберите пользователя"
+
+#~ msgid "Photo includes"
+#~ msgstr "Врезы фотографий"
+
+#~ msgid "Tables"
+#~ msgstr "Таблицы"
+
+#~ msgid "Save media settings"
+#~ msgstr "Сохранить настройки медиа"
+
+#~ msgid "Tags & relations"
+#~ msgstr "Теги и связи"
+
+#~ msgid "Additional Texts"
+#~ msgstr "Дополнительные Тексты"
+
+#~ msgid "Media settings (preview, gallery, video)"
+#~ msgstr "Превью, галерея, видео, и файлы"
+
+#~ msgid "Document opened by: "
+#~ msgstr "Документ открыт: "
+
+#~ msgid "Same page opened by: "
+#~ msgstr "Эта страница открыта: "
+
+#~ msgid "Save tags & relations"
+#~ msgstr "Сохранить «Теги и связи»"
+
+#~ msgid "Search and recommend media"
+#~ msgstr "Поиск файлов"
+
+#~ msgid "Save publication settings"
+#~ msgstr "Сохранить «Настройки публикации»"
+
+#~ msgid "Magazine settings"
+#~ msgstr "Настройки журнала"
+
+#~ msgid "Tags settings"
+#~ msgstr "Настройки тегов"
+
+#~ msgid "Tag"
+#~ msgstr "Тег"
+
+#~ msgid "Position"
+#~ msgstr "Позиция"
+
+#~ msgid "Is contributor/anchorman"
+#~ msgstr "Автор/Ведущий"
+
+#~ msgid "No tags"
+#~ msgstr "Нет тегов"
+
+#~ msgid "Additional titles (hyperlinks)"
+#~ msgstr "Дополнительные заголовки (ссылки)"
+
+#~ msgid "Delete document"
+#~ msgstr "Удалить документ"
+
+#~ msgid "Edit issue"
+#~ msgstr "Редактировать выпуск"
+
+#~ msgid "Page"
+#~ msgstr "Страница"
+
+#~ msgid "Show contents"
+#~ msgstr "В содержании"
+
+#~ msgid "Is prep."
+#~ msgstr "Предопл."
+
+#~ msgid "Has media"
+#~ msgstr "Фото"
+
+#~ msgid "Is proof."
+#~ msgstr "Провер."
+
+#~ msgid "Comm. cnt."
+#~ msgstr "Комм."
+
+#~ msgid "Rubric"
+#~ msgstr "Рубрика"
+
+#~ msgid "Issue list"
+#~ msgstr "Список выпусков"
+
+#~ msgid "Magazine"
+#~ msgstr "Журнал"
+
+#~ msgid "Abs. number"
+#~ msgstr "Абс. номер"
+
+#~ msgid "Year number"
+#~ msgstr "Номер в году"
+
+#~ msgid "Issue topic"
+#~ msgstr "Тема выпуска"
+
+#~ msgid "Document list"
+#~ msgstr "Список документов"
+
+#~ msgid "Month"
+#~ msgstr "Месяц"
+
+#~ msgid "Day"
+#~ msgstr "День"
+
+#~ msgid "Filter / Search"
+#~ msgstr "Фильтр / Поиск"
+
+#~ msgid "Supervisor"
+#~ msgstr "Супервизор"
+
+#~ msgid "Edit magazine"
+#~ msgstr "Редактировать журнал"
+
+#~ msgid "Rubrics"
+#~ msgstr "Рубрики"
+
+#~ msgid "Add rubric"
+#~ msgstr "Добавить рубрику"
+
+#~ msgid "Sub Title"
+#~ msgstr "Подзаголовок"
+
+#~ msgid "Are you sure, really, delete this rubric?"
+#~ msgstr "Вы действительно хотите удалить эту рубрику?"
+
+#~ msgid "Editorial staff"
+#~ msgstr "Сотрудник редакции"
+
+#~ msgid "Subscribe details"
+#~ msgstr "Детали подписки"
+
+#~ msgid "Article list"
+#~ msgstr "Список статей"
+
+#~ msgid "All issues"
+#~ msgstr "Все выпуски/издания"
+
+#~ msgid "Create magazine article"
+#~ msgstr "Создать статью журнала"
+
+#~ msgid "Edit magazines"
+#~ msgstr "Редактировать журналы"
+
+#~ msgid "Edit magazine form"
+#~ msgstr "Форма редактирования журнала"
+
+#~ msgid "Create online document"
+#~ msgstr "Создать онлайн документ"
+
+#~ msgid "Presscenter profiles"
+#~ msgstr "Профайлы прессцентра"
+
+#~ msgid "Online documents"
+#~ msgstr "Online документы"
+
+#~ msgid "Magazine articles"
+#~ msgstr "Журнальные статьи"
+
+#~ msgid "Blog posts"
+#~ msgstr "Посты в блог"
+
+#~ msgid "Filtered by site"
+#~ msgstr "Отфильтровать по сайту"
+
+#~ msgid "Categories"
+#~ msgstr "Категории"
+
+#~ msgid "All categories"
+#~ msgstr "Все категории"
+
+#~ msgid "Add category"
+#~ msgstr "Добавить категорию"
+
+#~ msgid "Service for creating content blocks based on documents list"
+#~ msgstr "Сервис для создания контент-блоков на основе списка документов"
+
+#~ msgid "Tags for querying:"
+#~ msgstr "Теги для запроса:"
+
+#~ msgid "Editable fields:"
+#~ msgstr "Редакторуемые поля:"
+
+#~ msgid "Tags - subject to query"
+#~ msgstr "Теги - критерий поиска"
+
+#~ msgid "selection depends on tags ordering"
+#~ msgstr "выборка зависит от порядка тегов"
+
+#~ msgid "Number of elements to display"
+#~ msgstr "Количество видимых элементов"
+
+#~ msgid "Publication date filter"
+#~ msgstr "Фильтр даты публикации"
+
+#~ msgid ""
+#~ "A separate service for querying documents by tag with author preview."
+#~ msgstr ""
+#~ "Отдельный сервис для запроса документов по тегу с предпросмотром автора."
+
+#~ msgid "Stories"
+#~ msgstr "Темы"
+
+#~ msgid "Has no stories"
+#~ msgstr "Нет тем"
+
+#~ msgid "Blacklisted IPs"
+#~ msgstr "Черный список IP"
+
+#~ msgid "Create user profile"
+#~ msgstr "Создать профайл"
+
+#~ msgid "Attention"
+#~ msgstr "Внимание"
+
+#~ msgid "Password will be generated automaticaly if password fields are clean"
+#~ msgstr "Пароль будет генерироваться автоматически если не будет введен"
+
+#~ msgid "Create users group"
+#~ msgstr "Создать группу пользователей"
+
+#~ msgid "Group permissions"
+#~ msgstr "Права группы"
+
+#~ msgid "Group members"
+#~ msgstr "Члены группы"
+
+#~ msgid ""
+#~ "Users will lose permissions granted by this group, but won't be deleted"
+#~ msgstr ""
+#~ "Пользователи будут лишены прав предоставленные им этой группой, но не "
+#~ "будут удалены сами"
+
+#~ msgid "Are you sure want to delete this group?"
+#~ msgstr "Вы действительно хотите удалить эту группу?"
+
+#~ msgid "Return to groups list"
+#~ msgstr "Вернуться списку групп"
+
+#~ msgid "Error resending activation key"
+#~ msgstr "Ошибка при отправке ключа активации"
+
+#~ msgid "Activation key resent"
+#~ msgstr "Повторно отправлен ключ активации"
+
+#~ msgid "Add order"
+#~ msgstr "Добавить заказ"
+
+#~ msgid "User's orders"
+#~ msgstr "Заказы пользователя"
+
+#~ msgid "All form fields are required."
+#~ msgstr "Все поля обязательны для заполнения."
+
+#~ msgid "Resend activation"
+#~ msgstr "Отправить ключ активации"
+
+#~ msgid "Profile info"
+#~ msgstr "Информация о профайле"
+
+#~ msgid "date joined"
+#~ msgstr "дата регистрации"
+
+#~ msgid "last login"
+#~ msgstr "дата последней авторизации"
+
+#~ msgid "Free services"
+#~ msgstr "Бесплатные сервисы"
+
+#~ msgid "User's PIN codes"
+#~ msgstr "ПИН коды пользователя"
+
+#~ msgid "Groups & Permissions"
+#~ msgstr "Группы и Права"
+
+#~ msgid "User profiles"
+#~ msgstr "Все пользователи"
+
+#~ msgid "All profiles"
+#~ msgstr "Все профили"
+
+#~ msgid "Is Active"
+#~ msgstr "Активный"
+
+#~ msgid "Date j."
+#~ msgstr "Дата рег."
+
+#~ msgid "Last login"
+#~ msgstr "Дата последней авторизации"
+
+#~ msgid "Last l."
+#~ msgstr "Дата авт."
+
+#~ msgid "Full name"
+#~ msgstr "Полное имя (ФИО)"
+
+#~ msgid "Has no group"
+#~ msgstr "Без группы"
+
+#~ msgid "No site"
+#~ msgstr "Без сайта"
+
+#~ msgid "Account types"
+#~ msgstr "Типы аккаунтов"
+
+#~ msgid "Staff"
+#~ msgstr "Сотрудник"
+
+#~ msgid "Rmanager"
+#~ msgstr "Релиз менеджер"
+
+#~ msgid "Database logger"
+#~ msgstr "Логгер БД"
+
+#~ msgid "Memcached status"
+#~ msgstr "Статус кэш сервера"
+
+#~ msgid "Versions"
+#~ msgstr "Версии"
+
+#~ msgid "Database Logger"
+#~ msgstr "Логгер БД"
+
+#~ msgid "component list"
+#~ msgstr "список компонентов"
+
+#~ msgid "Enabled"
+#~ msgstr "Включено"
+
+#~ msgid "Items"
+#~ msgstr "Товары"
+
+#~ msgid "Customer"
+#~ msgstr "Клиент"
+
+#~ msgid "Billings"
+#~ msgstr "Биллинги"
+
+#~ msgid "Edit term:"
+#~ msgstr "Редакторовать слово:"
+
+#~ msgid "Create regular customer"
+#~ msgstr "Создать постоянного клиента"
+
+#~ msgid "item"
+#~ msgstr "товар"
+
+#~ msgid "Create item group"
+#~ msgstr "Создать группу товара"
+
+#~ msgid "Create order"
+#~ msgstr "Создать заказ"
+
+#~ msgid "partner"
+#~ msgstr "партнер"
+
+#~ msgid "price list"
+#~ msgstr "прайс-лист"
+
+#~ msgid "shipping method"
+#~ msgstr "способ доставки"
+
+#~ msgid "Regular customers"
+#~ msgstr "Постоянные клиенты"
+
+#~ msgid "Agent"
+#~ msgstr "Агент"
+
+#~ msgid "Is company"
+#~ msgstr "Это юр. лицо"
+
+#~ msgid "No regular customers"
+#~ msgstr "Нет постянных клиентов"
+
+#~ msgid "Item type"
+#~ msgstr "Тип предмета"
+
+#~ msgid "Price list"
+#~ msgstr "Прайс-лист"
+
+#~ msgid "Edit regular customer"
+#~ msgstr "Редактировать постоянного клиента"
+
+#~ msgid "Customer's orders"
+#~ msgstr "Заказы клиента"
+
+#~ msgid "Customer settings"
+#~ msgstr "Настройки клиента"
+
+#~ msgid "Emails"
+#~ msgstr "Адреса электронной почты"
+
+#~ msgid "Job title"
+#~ msgstr "Должность"
+
+#~ msgid "Gifts"
+#~ msgstr "Подарки"
+
+#~ msgid "Gift group"
+#~ msgstr "Группа подарков"
+
+#~ msgid "Gift"
+#~ msgstr "Подарок"
+
+#~ msgid "Item settings"
+#~ msgstr "Параметры товара"
+
+#~ msgid "Order number"
+#~ msgstr "Порядковый номер"
+
+#~ msgid "Item types"
+#~ msgstr "Типы товара"
+
+#~ msgid "Is gift"
+#~ msgstr "Подарок"
+
+#~ msgid "Is electronic"
+#~ msgstr "Электронная версия"
+
+#~ msgid "Parent item type"
+#~ msgstr "Родительский тип товара"
+
+#~ msgid "Item sort by site"
+#~ msgstr "Сортировка предметов по сайту"
+
+#~ msgid "Is enabled"
+#~ msgstr "Включена"
+
+#~ msgid "Item price lists"
+#~ msgstr "Прайс-лист товара"
+
+#~ msgid "Item group"
+#~ msgstr "Группа товаров"
+
+#~ msgid "Price from"
+#~ msgstr "Цена от"
+
+#~ msgid "Period"
+#~ msgstr "Период"
+
+#~ msgid "Discount, %%"
+#~ msgstr "Скидка, %%"
+
+#~ msgid "Default price "
+#~ msgstr "Цена по умолчанию"
+
+#~ msgid "N/A"
+#~ msgstr "Н/Д"
+
+#~ msgid "Item group settings"
+#~ msgstr "Настройки группы товаров"
+
+#~ msgid "Per site settings"
+#~ msgstr "Настройки акции для сайтов"
+
+#~ msgid "Shipping"
+#~ msgstr "Доставка"
+
+#~ msgid "View order"
+#~ msgstr "Просмотреть заказ"
+
+#~ msgid "Order settings"
+#~ msgstr "Параметры заказа"
+
+#~ msgid "Awaiting synchronization, try again later"
+#~ msgstr "Ожидается синхронихация, попробуйте позже"
+
+#~ msgid "Generate pincodes"
+#~ msgstr "Генерировать коды доступа"
+
+#~ msgid "Edit order"
+#~ msgstr "Редактировать заказ"
+
+#~ msgid "Email pay link"
+#~ msgstr "Отправить ссылку на оплату"
+
+#~ msgid "Order Items"
+#~ msgstr "Заказанные товары"
+
+#~ msgid "Price List"
+#~ msgstr "Прайс-лист"
+
+#~ msgid "Item quantity"
+#~ msgstr "Количество товаров"
+
+#~ msgid "Purchasing from"
+#~ msgstr "Начало подписки"
+
+#~ msgid "Is custom order"
+#~ msgstr "Индивидуальный заказ"
+
+#~ msgid "Individual month range"
+#~ msgstr "Индивидуальный интервал в месяцах"
+
+#~ msgid "Individual price"
+#~ msgstr "Индивидуальная цена"
+
+#~ msgid "Individual discount"
+#~ msgstr "Индивидуальная скидка"
+
+#~ msgid "Synchronization"
+#~ msgstr "Синхронизация"
+
+#~ msgid "Synchronized order"
+#~ msgstr "Синхронизированный заказ"
+
+#~ msgid "1C ID"
+#~ msgstr "Номер в 1С"
+
+#~ msgid "Modified by"
+#~ msgstr "Кем изменен"
+
+#~ msgid "Modified on"
+#~ msgstr "Когда изменен"
+
+#~ msgid "Creation time"
+#~ msgstr "Время создания"
+
+#~ msgid "Is payed"
+#~ msgstr "Оплачен"
+
+#~ msgid "Is VIP"
+#~ msgstr "VIP"
+
+#~ msgid "Total price"
+#~ msgstr "Сумма заказа"
+
+#~ msgid "Fax"
+#~ msgstr "Факс"
+
+#~ msgid "Shipping area"
+#~ msgstr "Регион доставки"
+
+#~ msgid "Postcode"
+#~ msgstr "Почтовый индекс"
+
+#~ msgid "Company address"
+#~ msgstr "Адрес компании"
+
+#~ msgid "PPC (inn)"
+#~ msgstr "ИНН"
+
+#~ msgid "LNN (kpp)"
+#~ msgstr "КПП"
+
+#~ msgid "Additional description"
+#~ msgstr "Дополнительная информация"
+
+#~ msgid "Synchronized order items"
+#~ msgstr "Товары синхронизированного заказа"
+
+#~ msgid "No items"
+#~ msgstr "Нет товаров"
+
+#~ msgid "Month range"
+#~ msgstr "Количество месяцев"
+
+#~ msgid "Subscription starts from"
+#~ msgstr "Подписка начинается с"
+
+#~ msgid "Not synchronized"
+#~ msgstr "Не синхронизирован"
+
+#~ msgid "Partner"
+#~ msgstr "Партнер"
+
+#~ msgid "Shippings"
+#~ msgstr "Регионы доставки"
+
+#~ msgid "Item groups"
+#~ msgstr "Группы товара"
+
+#~ msgid "Add item group"
+#~ msgstr "Добавить группу товаров"
+
+#~ msgid "Is active"
+#~ msgstr "Активна"
+
+#~ msgid "Date to"
+#~ msgstr "Действует по"
+
+#~ msgid "Date from"
+#~ msgstr "Действует с"
+
+#~ msgid "Description (teaser)"
+#~ msgstr "Описание (тизер)"
+
+#~ msgid "Add item"
+#~ msgstr "Добавить товар"
+
+#~ msgid "Item title"
+#~ msgstr "Название товара"
+
+#~ msgid "Parent item"
+#~ msgstr "Родительский товар"
+
+#~ msgid "Create customer"
+#~ msgstr "Создать клиента"
+
+#~ msgid "List"
+#~ msgstr "Список"
+
+#~ msgid "Orders"
+#~ msgstr "Заказы"
+
+#~ msgid "Price-list"
+#~ msgstr "Прайс-лист"
+
+#~ msgid "Partners"
+#~ msgstr "Партнеры"
+
+#~ msgid "Shipping methods"
+#~ msgstr "Способы доставки"
+
+#~ msgid "Actions"
+#~ msgstr "Действия"
+
+#~ msgid "Check assist payments"
+#~ msgstr "Проверить платежи assist"
+
+#~ msgid "Print pay document"
+#~ msgstr "Распечатать документ об оплате"
+
+#~ msgid "Print sberbank pay document"
+#~ msgstr "Распечатать документ об оплате Сбербанка"
+
+#~ msgid "Order already payed!"
+#~ msgstr "Заказ уже оплачен!"
+
+#~ msgid "Total"
+#~ msgstr "Итого"
+
+#~ msgid "Number of orders"
+#~ msgstr "Количество заказов"
+
+#~ msgid "Item"
+#~ msgstr "Товар"
+
+#~ msgid "Total sum"
+#~ msgstr "Общая сумма"
+
+#~ msgid "Circulation"
+#~ msgstr "Тираж"
+
+#~ msgid "Order #"
+#~ msgstr "Заказ №"
+
+#~ msgid "Step"
+#~ msgstr "Шаг"
+
+#~ msgid "Approved order"
+#~ msgstr "Заказ подтвержден"
+
+#~ msgid "Approved"
+#~ msgstr "Подтвержден"
+
+#~ msgid "Payed order"
+#~ msgstr "Заказ оплачен"
+
+#~ msgid "Payed"
+#~ msgstr "Оплачен"
+
+#~ msgid "Returned order"
+#~ msgstr "Возвращенныы заказ"
+
+#~ msgid "Returned"
+#~ msgstr "Возвращен"
+
+#~ msgid "Callback"
+#~ msgstr "Обратный звонок"
+
+#~ msgid "Online access only"
+#~ msgstr "Только электронный доступ"
+
+#~ msgid "Send PDF"
+#~ msgstr "Отправлять PDF"
+
+#~ msgid "Send HTML"
+#~ msgstr "Отправлять HTML"
+
+#~ msgid "Send ASCII"
+#~ msgstr "Отправлять ASCII"
+
+#~ msgid "Order total"
+#~ msgstr "Сумма заказа"
+
+#~ msgid "Payment method"
+#~ msgstr "Метод оплаты"
+
+#~ msgid "Order time"
+#~ msgstr "Время заказа"
+
+#~ msgid "Payment time"
+#~ msgstr "Время оплаты"
+
+#~ msgid "Price-lists"
+#~ msgstr "Прайс-лист"
+
+#~ msgid "Add shipping method"
+#~ msgstr "Добавить способ доставки"
+
+#~ msgid "Shipping method"
+#~ msgstr "Способ доставки"
+
+#~ msgid "Area title"
+#~ msgstr "Название региона"
+
+#~ msgid "Delivery time in days/hours"
+#~ msgstr "Срок доставки в днях/часах"
+
+#~ msgid "Shipping company title"
+#~ msgstr "Компания перевозчик (название)"
+
+#~ msgid "Sort items by Site"
+#~ msgstr "Сортировать предметы по Сайту"
+
+#~ msgid "Secret key"
+#~ msgstr "Тайный ключ"
+
+#~ msgid "SMS ID"
+#~ msgstr "Код SMS"
+
+#~ msgid "SMS uid"
+#~ msgstr "UID SMS"
+
+#~ msgid "Num"
+#~ msgstr "Номер"
+
+#~ msgid "SMS MSG"
+#~ msgstr "SMS сообщение"
+
+#~ msgid "Sms code"
+#~ msgstr "SMS код"
+
+#~ msgid "User ID"
+#~ msgstr "ID пользователя"
+
+#~ msgid "Operator ID"
+#~ msgstr "ID оператора"
+
+#~ msgid "Operator name"
+#~ msgstr "Имя оператора"
+
+#~ msgid "Cost"
+#~ msgstr "Цена"
+
+#~ msgid "Cost in USD"
+#~ msgstr "Стоимость в $"
+
+#~ msgid "USD rate"
+#~ msgstr "Курс $"
+
+#~ msgid "Tariff ID"
+#~ msgstr "Идентификатор тарифа"
+
+#~ msgid "Country name"
+#~ msgstr "Название страны"
+
+#~ msgid "Prepaid content"
+#~ msgstr "Платный контент"
+
+#~ msgid "User profile"
+#~ msgstr "Профиль пользователя"
+
+#~ msgid "xTag"
+#~ msgstr "Теги"
+
+#~ msgid "Tag category tree"
+#~ msgstr "Дерево тегов"
+
+#~ msgid "Service for creating content blocks based on tags list"
+#~ msgstr "Сервис для создания контент-блоков на основе списка тегов"
+
+#~ msgid "Create content-block"
+#~ msgstr "Создать контент-блок"
+
+#~ msgid "Content block settings"
+#~ msgstr "Настройки контент-блока"
+
+#~ msgid "Code for inserting block as SSI"
+#~ msgstr "Код для вставки блока как SSI"
+
+#~ msgid "Content block title"
+#~ msgstr "Название контент-блока"
+
+#~ msgid "Create flat page"
+#~ msgstr "Создать простую страницу"
+
+#~ msgid "Flatpages"
+#~ msgstr "Простые страницы"
+
+#~ msgid "Content"
+#~ msgstr "Контент"
+
+#~ msgid "Expert Online"
+#~ msgstr "Expert Online"
+
+#~ msgid "Siteskin blocks"
+#~ msgstr "Контент-блоки"
+
+#~ msgid "Html block"
+#~ msgstr "HTML блок"
+
+#~ msgid "Doc list def. by tags"
+#~ msgstr "Список документов по тегам"
+
+#~ msgid "Magazine block"
+#~ msgstr "Блок журнала"
+
+#~ msgid "Issue list block"
+#~ msgstr "Блок списка выпусков"
+
+#~ msgid "Table block"
+#~ msgstr "Блок таблицы"
+
+#~ msgid "Chart list block"
+#~ msgstr "Блок списка графиков"
+
+#~ msgid "RSS block"
+#~ msgstr "Блок RSS"
+
+#~ msgid "Polls list block"
+#~ msgstr "Блок списка опросов"
+
+#~ msgid "Tag list"
+#~ msgstr "Список тегов"
+
+#~ msgid "List filters"
+#~ msgstr "Список фильтров"
+
+#~ msgid "All content-blocks"
+#~ msgstr "Все контент-блоки"
+
+#~ msgid "All flatpages"
+#~ msgstr "Все простые страницы"
+
+#~ msgid "Create flatpage"
+#~ msgstr "Создать простую страницу"
+
+#~ msgid "Signout"
+#~ msgstr "Выйти"
+
+#~ msgid "Blogging"
+#~ msgstr "Блоггинг"
+
+#~ msgid "Create livejournal account"
+#~ msgstr "Создать аккаунт livejournal"
+
+#~ msgid "Edit Blogger account"
+#~ msgstr "Редактировать аккаунт Blogger"
+
+#~ msgid "Posts"
+#~ msgstr "Посты"
+
+#~ msgid "Cross-post"
+#~ msgstr "Кросс-пост"
+
+#~ msgid "Export"
+#~ msgstr "Экспорт"
+
+#~ msgid "View"
+#~ msgstr "Просмотр"
+
+#~ msgid "No posts yet"
+#~ msgstr "Пока нет постов"
+
+#~ msgid "Blogger accounts"
+#~ msgstr "Аккаунты blogger.com"
+
+#~ msgid "Edit LiveJournal account"
+#~ msgstr "Редактировать аккаунт LiveJournal"
+
+#~ msgid "Livejournal accounts"
+#~ msgstr "Аккаунты LiveJournal"
+
+#~ msgid "New category"
+#~ msgstr "Новая категория"
+
+#~ msgid "Category list"
+#~ msgstr "Список категорий"
+
+#~ msgid "Previous"
+#~ msgstr "Предыдущая"
+
+#~ msgid "Next"
+#~ msgstr "Следующая"
+
+#~ msgid "New table"
+#~ msgstr "Новая таблица"
+
+#~ msgid "New table group"
+#~ msgstr "Новая группа таблиц"
+
+#~ msgid "Delete table"
+#~ msgstr "Удалить таблицу"
+
+#~ msgid "Table opened by: "
+#~ msgstr "Таблица открыта: "
+
+#~ msgid "Same page opened by:"
+#~ msgstr "Эта страница открыта:"
+
+#~ msgid "Edit table"
+#~ msgstr "Редакторовать таблицу"
+
+#~ msgid "Table settings"
+#~ msgstr "Настройки таблицы"
+
+#~ msgid "Columns"
+#~ msgstr "Колонки"
+
+#~ msgid "Export data"
+#~ msgstr "Источники"
+
+#~ msgid "Download CSV (no headers)"
+#~ msgstr "Скачать CSV (без заголовков)"
+
+#~ msgid "Download CSV (with headers)"
+#~ msgstr "Скачать CSV (с заголовками)"
+
+#~ msgid "Download source CSV"
+#~ msgstr "Скачать исходный CSV"
+
+#~ msgid "No source CSV"
+#~ msgstr "Нет исходного CSV"
+
+#~ msgid ""
+#~ "You can import data from csv file. File must contains data rows only."
+#~ msgstr ""
+#~ "Данные можно импортировать из файла в формате CSV. Файл должен содержать "
+#~ "только ряды с данными."
+
+#~ msgid "Related content"
+#~ msgstr "Связанный контент"
+
+#~ msgid "Raw HTML"
+#~ msgstr "Голый HTML"
+
+#~ msgid "Edit table group"
+#~ msgstr "Редакторовать группу таблиц"
+
+#~ msgid "Table title"
+#~ msgstr "Заголовок таблицы"
+
+#~ msgid "Table groups"
+#~ msgstr "Группы таблиц"
+
+#~ msgid "Choose table to insert"
+#~ msgstr "Выберите таблицу для вставки"
+
+#~ msgid "Table group title"
+#~ msgstr "Заголовок группы таблиц"
+
+#~ msgid "Statistics"
+#~ msgstr "Статистика"
+
+#~ msgid "Service name"
+#~ msgstr "Название сервиса"
+
+#~ msgid "Social authentication"
+#~ msgstr "Аутентификация через соц. сети"
+
+#~ msgid "Social authentication provider"
+#~ msgstr "Провайдер социальной аутентификации"
+
+#~ msgid "Number of accounts currently authenticated"
+#~ msgstr "Количество аутентифицированных учетных записей"
+
+#~ msgid "Filter"
+#~ msgstr "Фильтр"
+
+#~ msgid "Value"
+#~ msgstr "Значение"
+
+#~ msgid "Sources"
+#~ msgstr "Источники"
+
+#~ msgid "Host"
+#~ msgstr "Хост"
+
+#~ msgid "%%"
+#~ msgstr "%%"
+
+#~ msgid "Deleted Objects"
+#~ msgstr "Удаленные Обьекты"
+
+#~ msgid "Object type"
+#~ msgstr "Тип обьекта"
+
+#~ msgid "Deleted date"
+#~ msgstr "Дата удаления"
+
+#~ msgid "User deleted"
+#~ msgstr "Пользователь удален"
+
+#~ msgid "Restore"
+#~ msgstr "Восстановить"
+
+#~ msgid "Deleted objects"
+#~ msgstr "Связанные документы"
+
+#~ msgid "Add channel"
+#~ msgstr "Добавить канал"
+
+#~ msgid "Dates list"
+#~ msgstr "Список дат"
+
+#~ msgid "Info"
+#~ msgstr "Инфа"
+
+#~ msgid "Is hidden"
+#~ msgstr "Скрыто"
+
+#~ msgid "Edit tv program for date"
+#~ msgstr "Редактировать ТВ программу для даты"
+
+#~ msgid "Next day"
+#~ msgstr "Следующий день"
+
+#~ msgid "Time"
+#~ msgstr "Время доставки"
+
+#~ msgid "Live"
+#~ msgstr "Прямой эфир"
+
+#~ msgid "TV Program"
+#~ msgstr "ТВ программа"
+
+#~ msgid "TV programs"
+#~ msgstr "ТВ программы"
+
+#~ msgid "Create term"
+#~ msgstr "Создать слово"
+
+#~ msgid "Deleting tag"
+#~ msgstr "Удаление тега"
+
+#~ msgid "This tag has following related objects:"
+#~ msgstr "У этого тега есть связанные обьекты:"
+
+#~ msgid "Object link"
+#~ msgstr "Ссылка на обьект"
+
+#~ msgid "Delete tag and this relations!"
+#~ msgstr "Удалить тег и эти отношения!"
+
+#~ msgid "edit"
+#~ msgstr "редактировать"
+
+#~ msgid "Extra"
+#~ msgstr "Дополнительные поля"
+
+#~ msgid "Story"
+#~ msgstr "Сюжет"
+
+#~ msgid "Has big preview"
+#~ msgstr "Имеет большое превью"
+
+#~ msgid "Has block 10"
+#~ msgstr "Имеет блок 10"
+
+#~ msgid "Has block 20"
+#~ msgstr "Имеет блок 20"
+
+#~ msgid "Has block 30"
+#~ msgstr "Имеет блок 30"
+
+#~ msgid "Has block 40"
+#~ msgstr "Имеет блок 40"
+
+#~ msgid "Has block 50"
+#~ msgstr "Имеет блок 50"
+
+#~ msgid "Has block 60"
+#~ msgstr "Имеет блок 60"
+
+#~ msgid "Tags-childrens"
+#~ msgstr "Теги-потомки"
+
+#~ msgid "Search media"
+#~ msgstr "Искать медиа"
+
+#~ msgid "Tag vocabulary"
+#~ msgstr "Словарь тега"
+
+#~ msgid "Vocabulary"
+#~ msgstr "Словарь"
+
+#~ msgid "Term slug"
+#~ msgstr "Ссылка слова"
+
+#~ msgid "Childrens"
+#~ msgstr "Потомки"
+
+#~ msgid "Chlds"
+#~ msgstr "Потомки"
+
+#~ msgid "Rel cnt"
+#~ msgstr "кол-во связей"
+
+#~ msgid "Term name"
+#~ msgstr "Название слова"
+
+#~ msgid "Tags vocabulary tree"
+#~ msgstr "Дерево тегов"
+
+#~ msgid "All terms"
+#~ msgstr "Все слова"
+
+#~ msgid "All tags"
+#~ msgstr "Все теги"
+
+#~ msgid "Filter by category"
+#~ msgstr "Фильтровать по категории"
+
+#~ msgid "Filter by vocabularies"
+#~ msgstr "Отсортировать по словарям"
+
+#~ msgid "Term list"
+#~ msgstr "Список слов"
+
+#~ msgid "Tag and relationships have been deleted successfully"
+#~ msgstr "Теги и отношения были успешно удалены"
+
+#~ msgid "Reef"
+#~ msgstr "Рифовая"
+
+#~ msgid "Passage"
+#~ msgstr "Проходная"
+
+#~ msgid "Pelagic"
+#~ msgstr "Пелагическая"
+
+#~ msgid "Bottom"
+#~ msgstr "Дно"
+
+#~ msgid "fresh"
+#~ msgstr "Пресная"
+
+#~ msgid "salt"
+#~ msgstr "Морская"
+
+#~ msgid "Shore"
+#~ msgstr "Берег"
+
+#~ msgid "Boat"
+#~ msgstr "Лодка"
+
+#~ msgid "Light"
+#~ msgstr "Легкий"
+
+#~ msgid "Middle"
+#~ msgstr "Средний"
+
+#~ msgid "Strong"
+#~ msgstr "Сильный"
+
+#~ msgid "Poor"
+#~ msgstr "Бедная"
+
+#~ msgid "Various"
+#~ msgstr "Разнообразная"
+
+#~ msgid "Saturated"
+#~ msgstr "Насыщенная"
+
+#~ msgid "Ice"
+#~ msgstr "Подледный"
+
+#~ msgid "Naked =) stupid scuba fucking"
+#~ msgstr "Голый =) с аквалангом на причинном месте"
+
+#~ msgid "Beginner"
+#~ msgstr "Начинающий"
+
+#~ msgid "Intermediate"
+#~ msgstr "Средний"
+
+#~ msgid "Advanced"
+#~ msgstr "Продвинутый"
+
+#~ msgid "Professional athlete"
+#~ msgstr "Профессиональный атлет"
+
+#~ msgid "unknown"
+#~ msgstr "неизвестно"
+
+#~ msgid "chlorination"
+#~ msgstr "хлорирование"
+
+#~ msgid "illumination with ultraviolet"
+#~ msgstr "дезинфекция ультрафиолетом"
+
+#~ msgid "ionization"
+#~ msgstr "ионизация"
+
+#~ msgid "cleaning with oxygen"
+#~ msgstr "дезинфекция кислородом"
+
+#~ msgid "ozonization"
+#~ msgstr "озоннирование"
+
+#~ msgid "3 degree"
+#~ msgstr "3 разряд"
+
+#~ msgid "2 degree"
+#~ msgstr "2 разряд"
+
+#~ msgid "1 degree"
+#~ msgstr "1 разряд"
+
+#~ msgid "Applicant for master of sport"
+#~ msgstr "Кандидат в мастера спорта"
+
+#~ msgid "Master of sports"
+#~ msgstr "Мастер спорта"
+
+#~ msgid "Honoured master of sports"
+#~ msgstr "Заслуженный мастер спорта"
+
+#~ msgid "Honoured international master of sports"
+#~ msgstr "Заслуженный мастер спорта международного класса"
+
+#~ msgid "3 deg"
+#~ msgstr "3 р"
+
+#~ msgid "2 deg"
+#~ msgstr "2 р"
+
+#~ msgid "1 deg"
+#~ msgstr "1 р"
+
+#~ msgid "AMS"
+#~ msgstr "КМС"
+
+#~ msgid "MS"
+#~ msgstr "МС"
+
+#~ msgid "HMS"
+#~ msgstr "ЗМС"
+
+#~ msgid "HIMS"
+#~ msgstr "ЗМСМК"
+
+#~ msgid "Undefined"
+#~ msgstr "Не определено"
+
+#~ msgid "Migrate to tag"
+#~ msgstr "Мигрировать в тег"
+
+#~ msgid "Tag name"
+#~ msgstr "Имя тега"
+
+#~ msgid "Term with the same name already exist."
+#~ msgstr "Слово с таким же названием уже существует"
+
+#~ msgid "Average temp"
+#~ msgstr "Средняя температура"
+
+#~ msgid "Habitat type"
+#~ msgstr "Тип среды обитания"
+
+#~ msgid "Difficulty level"
+#~ msgstr "Уровень сложности"
+
+#~ msgid "Length"
+#~ msgstr "Длина"
+
+#~ msgid "Depth"
+#~ msgstr "Глубина"
+
+#~ msgid "Indoor pool"
+#~ msgstr "Закрытый бассейн"
+
+#~ msgid "Outdoor poool"
+#~ msgstr "Открытый бассейн"
+
+#~ msgid "*** IS GENERAL ***"
+#~ msgstr "Общий тег для всех сайтов #894"
+
+#~ msgid "Tag(term) with the same vocabulary already exist."
+#~ msgstr "Тег из такого слова уже существует в данном словаре."
+
+#~ msgid "Term"
+#~ msgstr "Слово"
+
+#~ msgid "Fishing available"
+#~ msgstr "Есть рыбалка"
+
+#~ msgid "Spearfishing available"
+#~ msgstr "Есть подводная охота"
+
+#~ msgid "Average visibility"
+#~ msgstr "Средняя видимость"
+
+#~ msgid "Access"
+#~ msgstr "Доступ"
+
+#~ msgid "Currents"
+#~ msgstr "Течения"
+
+#~ msgid "Diving type"
+#~ msgstr "Тип ныряния"
+
+#~ msgid "Average deep"
+#~ msgstr "Средняя глубина"
+
+#~ msgid "Minimum temperature"
+#~ msgstr "Минимальная температура"
+
+#~ msgid "Maximum temperature"
+#~ msgstr "Максимальная температура"
+
+#~ msgid "Is forbidden"
+#~ msgstr "Запрещено"
+
+#~ msgid "Deep min"
+#~ msgstr "Мин. глубина"
+
+#~ msgid "Deep max"
+#~ msgstr "Макс. глубина"
+
+#~ msgid "Water filtering type"
+#~ msgstr "Тип фильтрации воды "
+
+#~ msgid "Count"
+#~ msgstr "Количество"
+
+#~ msgid "Has openwater"
+#~ msgstr "Есть открытый бассейн"
+
+#~ msgid "Has 25m pool"
+#~ msgstr "Есть 25м бассейн"
+
+#~ msgid "Has 50m pool"
+#~ msgstr "Есть 50м бассейн"
+
+#~ msgid "Max len"
+#~ msgstr "Максимальная длина"
+
+#~ msgid "Allow shooting"
+#~ msgstr "Стрельба разрешена"
+
+#~ msgid "Work from"
+#~ msgstr "Начало работы"
+
+#~ msgid "Work till"
+#~ msgstr "Окончание работы"
+
+#~ msgid "Need medical approvement"
+#~ msgstr "Требует медицинскую справку"
+
+#~ msgid "Hour len in min."
+#~ msgstr "Количество минут в часе"
+
+#~ msgid "Price per hour"
+#~ msgstr "Стоимость часа"
+
+#~ msgid "Price per month"
+#~ msgstr "Стоимость месячного абонемента"
+
+#~ msgid "Is vip"
+#~ msgstr "VIP"
+
+#~ msgid "LiveJournal"
+#~ msgstr "LiveJournal"
+
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgid "Skype"
+#~ msgstr "Skype"
+
+#~ msgid "Date created"
+#~ msgstr "Дата создания"
+
+#~ msgid "Doc template"
+#~ msgstr "Шаблон документа"
+
+#~ msgid "Has block taglist"
+#~ msgstr "Имеет блок списка тегов"
+
+#~ msgid "Has block chartlist"
+#~ msgstr "Имеет блок списка графиков"
+
+#~ msgid "tag"
+#~ msgstr "тег"
+
+#~ msgid "Is contributor"
+#~ msgstr "Автор"
+
+#~ msgid "Is approved"
+#~ msgstr "Подтвержден"
+
+#~ msgid "Is instructor"
+#~ msgstr "Инструктор"
+
+#~ msgid "Is admin"
+#~ msgstr "Администратор/Модератор"
+
+#~ msgid "Is premium member"
+#~ msgstr "Почетный член клуба"
+
+#~ msgid "Tag list title"
+#~ msgstr "Название списка тегов"
+
+#~ msgid ""
+#~ "Optional title that will be displayed in template. If unset, vocabulary "
+#~ "name will be used."
+#~ msgstr ""
+#~ "Опциональный заголовок для показа в шаблоне. Если не задан, будет "
+#~ "использовано имя словаря."
+
+#~ msgid "columns number"
+#~ msgstr "количество колонок"
+
+#~ msgid "is custom list"
+#~ msgstr "указать теги вручную"
+
+#~ msgid "xTag provider service"
+#~ msgstr "Сервис предоставления тега"
+
+#~ msgid "Required field"
+#~ msgstr "Обязательное поле"
+
+#~ msgid "xTag: tag list service"
+#~ msgstr "xTag: Сервис списка тегов"
+
+#~ msgid "Content Item"
+#~ msgstr "Контент"
+
+#~ msgid "Edit content block"
+#~ msgstr "Редактировать контент-блок"
+
+#~ msgid "Edit rubrics"
+#~ msgstr "Печатная рубрика"
+
+#~ msgid "Edit tag"
+#~ msgstr "Редакторовать тег"
+
+#~ msgid "Spearfishing, shooting, freediving and diving"
+#~ msgstr "Подводная охота, стрельба, фридайвинг и дайвинг"
+
+#~ msgid "Not what you were looking for?"
+#~ msgstr "Не нашли что искали?"
+
+#~ msgid "Use search or add your own content"
+#~ msgstr "Воспользуйтесь поиском или добавьте собственный контент"
+
+#~ msgid "Underwater events calendar"
+#~ msgstr "Календарь подводных событий"
+
+#~ msgid "Encyclopedia of fish"
+#~ msgstr "Энциклопедия рыб"
+
+#~ msgid "fishes in our database"
+#~ msgstr "рыбы в нашей базе данных"
+
+#~ msgid "Data imported successfully"
+#~ msgstr "Данные импортированы успешно"
+
+#~ msgid "Chart group name"
+#~ msgstr "Имя группы графиков"
+
+#~ msgid "Chart name"
+#~ msgstr "Имя графика"
+
+#~ msgid "Short name"
+#~ msgstr "Короткое название"
+
+#~ msgid "Value name"
+#~ msgstr "Название значения"
+
+#~ msgid "Custom value"
+#~ msgstr "Специальное значение"
+
+#~ msgid "Url template"
+#~ msgstr "Шаблон URL"
+
+#~ msgid "Url link"
+#~ msgstr "Ссылка URL"
+
+#~ msgid "Has dumped json file"
+#~ msgstr "Выгрузил файл json"
+
+#~ msgid "Show chart from this date first"
+#~ msgstr "Показывать график начиная с этой даты"
+
+#~ msgid "Has data"
+#~ msgstr "Имеет данные"
+
+#~ msgid "Has data_s"
+#~ msgstr "Имеет сезонные данные"
+
+#~ msgid "Has inc_rate"
+#~ msgstr "Имеет темп роста"
+
+#~ msgid "Has trend"
+#~ msgstr "Имеет тренд"
+
+#~ msgid "Fill under data graph"
+#~ msgstr "Заливка под графиком данных"
+
+#~ msgid "Fill under data_s graph"
+#~ msgstr "Заливка под графиком сезонных данных"
+
+#~ msgid "Fill under inc rate graph"
+#~ msgstr "Заливка под графиком темпа роста"
+
+#~ msgid "Fill under trend graph"
+#~ msgstr "Заливка под графиком тренда"
+
+#~ msgid "Data graph color"
+#~ msgstr "Цвет графика данных"
+
+#~ msgid "Data_s graph color"
+#~ msgstr "Цвет графика сезонных данных"
+
+#~ msgid "Inc rate graph color"
+#~ msgstr "Цвет графика темпа роста"
+
+#~ msgid "Trend graph color"
+#~ msgstr "Цвет графика тренда"
+
+#~ msgid "Bubble date format"
+#~ msgstr "Формат всплывающей даты"
+
+#~ msgid "Legend date format"
+#~ msgstr "Формат даты легенды"
+
+#~ msgid "Step in x"
+#~ msgstr "Шаг по оси X"
+
+#~ msgid "Step in y"
+#~ msgstr "Шаг по оси Y"
+
+#~ msgid "chart"
+#~ msgstr "график"
+
+#~ msgid "Date and time for record"
+#~ msgstr "Дата и время для записи"
+
+#~ msgid "Data value"
+#~ msgstr "Значение данных"
+
+#~ msgid "Data season value"
+#~ msgstr "Сезонное значение данных"
+
+#~ msgid "Increment rate value"
+#~ msgstr "Значение темпа роста"
+
+#~ msgid "Trend value"
+#~ msgstr "Значение тренда"
+
+#~ msgid "Chart provider service"
+#~ msgstr "Сервис предоставления графиков"
+
+#~ msgid "Chart list provider service"
+#~ msgstr "Сервис предоставления списков графиков"
+
+#~ msgid "Stages list is invalid: %s"
+#~ msgstr "Ошибка в списке этапов: %s"
+
+#~ msgid "Form validation error: %s"
+#~ msgstr "Ошибка в форме: %s"
+
+#~ msgid "%i processes deleted"
+#~ msgstr "%i процессов удалено"
+
+#~ msgid "%i processes cancelled"
+#~ msgstr "%i процессов отменено"
+
+#~ msgid "Task"
+#~ msgstr "Задача"
+
+#~ msgid "Editing"
+#~ msgstr "Редактирование"
+
+#~ msgid "Dossier"
+#~ msgstr "Досье"
+
+#~ msgid "Proofreading"
+#~ msgstr "Корректура"
+
+#~ msgid "Publishing"
+#~ msgstr "Публикация"
+
+#~ msgid "Moderation"
+#~ msgstr "Модерация"
+
+#~ msgid "Editorial task"
+#~ msgstr "Редакторская задача"
+
+#~ msgid "Content creation"
+#~ msgstr "Создание контента"
+
+#~ msgid "Forum moderation"
+#~ msgstr "Модерация форума"
+
+#~ msgid "Not started"
+#~ msgstr "Не начато"
+
+#~ msgid "Available"
+#~ msgstr "Доступно"
+
+#~ msgid "Accepted"
+#~ msgstr "Принято"
+
+#~ msgid "Cancelled"
+#~ msgstr "Отменено"
+
+#~ msgid "Completed"
+#~ msgstr "Завершено"
+
+#~ msgid "Online document"
+#~ msgstr "Online документ"
+
+#~ msgid "Magazine article"
+#~ msgstr "Журнальная статья"
+
+#~ msgid "Enter a whole number."
+#~ msgstr "Введите целое число."
+
+#~ msgid "Enable ERP"
+#~ msgstr "Разрешить ERP"
+
+#~ msgid "Deadline time limit"
+#~ msgstr "Время сдачи работ"
+
+#~ msgid "Time limit for processes created from this template"
+#~ msgstr "Срок выполнения для процессов созданных из этого шаблона"
+
+#~ msgid "%(days)i days, %(time)s"
+#~ msgstr "%(days)i дней, %(time)s"
+
+#~ msgid "%(time)s"
+#~ msgstr "%(time)s"
+
+#~ msgid "Assignee"
+#~ msgstr "Назначенный пользователь"
+
+#~ msgid "%(stage)s stage of \"%(template)s\""
+#~ msgstr "Этап %(stage)s из \"%(template)s\""
+
+#~ msgid "Current stage type"
+#~ msgstr "Тип текущего этапа"
+
+#~ msgid "Publication template"
+#~ msgstr "Шаблон публикации"
+
+#~ msgid "Publication process service"
+#~ msgstr "Сервис процессов публикации"
+
+#~ msgid "1 day before"
+#~ msgstr "1 день до"
+
+#~ msgid "2 day before"
+#~ msgstr "2 дня до"
+
+#~ msgid "Week before"
+#~ msgstr "Неделя до"
+
+#~ msgid "Week after"
+#~ msgstr "Неделя после"
+
+#~ msgid "Reminder"
+#~ msgstr "Напоминание"
+
+#~ msgid "I will go to this event!"
+#~ msgstr "Я пойду на это событие!"
+
+#~ msgid "Create Datetime"
+#~ msgstr "Дата создания"
+
+#~ msgid "Start datetime"
+#~ msgstr "Время начала"
+
+#~ msgid "End datetime"
+#~ msgstr "Время окончания"
+
+#~ msgid "Total subscribers"
+#~ msgstr "Всего подписчиков"
+
+#~ msgid "Is editors choice"
+#~ msgstr "Выбор редакции"
+
+#~ msgid "Event provider service"
+#~ msgstr "Сервис предоставления событий"
+
+#~ msgid "Festivals"
+#~ msgstr "Фестивали"
+
+#~ msgid "Internal"
+#~ msgstr "Внутренний"
+
+#~ msgid "External"
+#~ msgstr "Внешний"
+
+#~ msgid "New invite"
+#~ msgstr "Новое приглашение"
+
+#~ msgid "Pending invite"
+#~ msgstr "Приглашение ожидает отправки"
+
+#~ msgid "Sent invite"
+#~ msgstr "Приглашение отправлено"
+
+#~ msgid "Accepted invite"
+#~ msgstr "Приглашение принято"
+
+#~ msgid "Rejected invite"
+#~ msgstr "Приглашение отклонено"
+
+#~ msgid "This email belongs to a user that is already registered"
+#~ msgstr ""
+#~ "Этот адрес электронной почты уже используется другим зарегистрированным "
+#~ "пользователем"
+
+#~ msgid "You've already sent invite to this address"
+#~ msgstr "Вы уже отправляли приглашение на этот адрес"
+
+#~ msgid "This username is already occupied"
+#~ msgstr "Это имя пользователя уже занято"
+
+#~ msgid "Date sent"
+#~ msgstr "Дата отправки"
+
+#~ msgid "Sent by"
+#~ msgstr "Кем отправлено"
+
+#~ msgid "Send to email"
+#~ msgstr "Отправить на адрес"
+
+#~ msgid "Send to user"
+#~ msgstr "Отправить пользователь"
+
+#~ msgid "From user"
+#~ msgstr "От пользователя"
+
+#~ msgid "To user"
+#~ msgstr "К пользователю"
+
+#~ msgid "From invite"
+#~ msgstr "От приглашения"
+
+#~ msgid "Is mutual"
+#~ msgstr "Взаимная"
+
+#~ msgid "Friend since"
+#~ msgstr "Дружат от"
+
+#~ msgid "You've run out of invites"
+#~ msgstr "У Вас кончились приглашения"
+
+#~ msgid "You're already registered"
+#~ msgstr "Вы уже зарегестрированы"
+
+#~ msgid "You became friends with %s"
+#~ msgstr "%s у вас в друзьях"
+
+#~ msgid "%s accepted your invite and became your friend"
+#~ msgstr "%s принял ваше приглашение и был добавлен в ваши друзья"
+
+#~ msgid "You've accepted invite from %s and became friends"
+#~ msgstr "Вы приняли приглашение от %s и стали друзьями"
+
+#~ msgid "You became friend of %s"
+#~ msgstr "Вы стали другом %s"
+
+#~ msgid "%s accepted your friend request"
+#~ msgstr "%s принял ваше предложение дружбы"
+
+#~ msgid "%s is already your friend"
+#~ msgstr "%s уже у вас в друзьях"
+
+#~ msgid "You can't have more than %i friends"
+#~ msgstr "Нельзя иметь более %i друзей"
+
+#~ msgid "You're mutual friends with %s now"
+#~ msgstr "Вы стали взаимными друзьями с %s"
+
+#~ msgid "You can add %s to your friends list on his profile page"
+#~ msgstr "Вы можете добавить %s со страницы его профайла"
+
+#~ msgid "You became a friend of %s"
+#~ msgstr "Вы стали другом %s"
+
+#~ msgid "Subscription"
+#~ msgstr "Подписка"
+
+#~ msgid "Ready to send"
+#~ msgstr "Готово к отправке"
+
+#~ msgid "Sending"
+#~ msgstr "Отправляется"
+
+#~ msgid "Sent"
+#~ msgstr "Отправлено"
+
+#~ msgid "Custom template"
+#~ msgstr "Собственный шаблон"
+
+#~ msgid "Custom email list"
+#~ msgstr "Собственный список рассылки"
+
+#~ msgid "Staff users"
+#~ msgstr "Сотрудники"
+
+#~ msgid "digest"
+#~ msgstr "дайджест"
+
+#~ msgid "Letter type"
+#~ msgstr "Тип письма"
+
+#~ msgid "Rendered letter"
+#~ msgstr "Видимое письмо"
+
+#~ msgid "Big fish game"
+#~ msgstr "Рыбное место"
+
+#~ msgid "Dive place"
+#~ msgstr "Место нырялки"
+
+#~ msgid "Favourite"
+#~ msgstr "Любимое"
+
+#~ msgid "Competition"
+#~ msgstr "Соревнование"
+
+#~ msgid "Default point"
+#~ msgstr "Точка по умолчанию"
+
+#~ msgid "Single points"
+#~ msgstr "Отдельные точки"
+
+#~ msgid "Polygon"
+#~ msgstr "Многоугольник"
+
+#~ msgid "Lat"
+#~ msgstr "Шир"
+
+#~ msgid "Lng"
+#~ msgstr "Долг"
+
+#~ msgid "Longitude"
+#~ msgstr "Долгота"
+
+#~ msgid "Invalid geography data"
+#~ msgstr "Неверные географические данные"
+
+#~ msgid "Geo level"
+#~ msgstr "Гео уровень"
+
+#~ msgid "center lat"
+#~ msgstr "центр шир"
+
+#~ msgid "center lng"
+#~ msgstr "центр длг"
+
+#~ msgid "Zoom"
+#~ msgstr "Зум"
+
+#~ msgid "Viewport South West lat"
+#~ msgstr "Обзор ЮЗ шир"
+
+#~ msgid "Viewport South West lng"
+#~ msgstr "Обзор ЮЗ длг"
+
+#~ msgid "Viewport North East lat"
+#~ msgstr "Обзор СВ шир"
+
+#~ msgid "Viewport North East lng"
+#~ msgstr "Обзор СВ длг"
+
+#~ msgid "Provider has been created successfully"
+#~ msgstr "Провайдер был создан успешно"
+
+#~ msgid "Form validation error, while creating media provider.%s"
+#~ msgstr "Ошибка в форме при создании медиа провайдера: %s"
+
+#~ msgid "Map provider service"
+#~ msgstr "Сервис провайдера карт"
+
+#~ msgid "creationtime"
+#~ msgstr "время создания"
+
+#~ msgid "json"
+#~ msgstr "json"
+
+#~ msgid "path"
+#~ msgstr "путь"
+
+#~ msgid "old_id"
+#~ msgstr "old_id"
+
+#~ msgid "Djem path"
+#~ msgstr "путь в Djem"
+
+#~ msgid "import_error"
+#~ msgstr "import_error"
+
+#~ msgid "Question"
+#~ msgstr "Вопрос"
+
+#~ msgid "Text on button"
+#~ msgstr "Текст на кнопке"
+
+#~ msgid "user"
+#~ msgstr "пользователь"
+
+#~ msgid "Poll list provider service"
+#~ msgstr "Сервис предоставления опросов"
+
+#~ msgid "Your vote has been accepted"
+#~ msgstr "Ваш голос принят"
+
+#~ msgid "Already voted"
+#~ msgstr "Уже голосовали"
+
+#~ msgid "Error sending to FTP: %s"
+#~ msgstr "Ошибка при отправке по FTP: %s"
+
+#~ msgid "youtube, vimeo or vkontakte link"
+#~ msgstr "Ссылка на youtube, vimeo или вконтактег"
+
+#~ msgid "Export format"
+#~ msgstr "Формат для экспорта"
+
+#~ msgid "ASCII text"
+#~ msgstr "ASCII текст"
+
+#~ msgid "HTML documents"
+#~ msgstr "HTML документы"
+
+#~ msgid "HTML upload to FTP"
+#~ msgstr "HTML с загрузкой по FTP"
+
+#~ msgid "Score"
+#~ msgstr "Счет"
+
+#~ msgid "Total positive votes"
+#~ msgstr "Всего голосов за"
+
+#~ msgid "Total negative votes"
+#~ msgstr "Всего голосов против"
+
+#~ msgid "vote"
+#~ msgstr "голосовать"
+
+#~ msgid "You have to log in before voting"
+#~ msgstr "Перед голосованием необходимо залогиниться"
+
+#~ msgid "Internal server error"
+#~ msgstr "Внутренняя ошибка сервера"
+
+#~ msgid "Rating provider service"
+#~ msgstr "Сервис предоставления рейтинга"
+
+#~ msgid "You have to accept deleting"
+#~ msgstr "Необходимо принять удаление"
+
+#~ msgid "Email sent"
+#~ msgstr "Email отправлен"
+
+#~ msgid "The was an error while sending email"
+#~ msgstr "При отправке email произошла ошибка"
+
+#~ msgid "Invalid number of gifts"
+#~ msgstr "Неверное количество подарков"
+
+#~ msgid "Print"
+#~ msgstr "Печатать"
+
+#~ msgid "Last step"
+#~ msgstr "Последний шаг"
+
+#~ msgid "Internal order"
+#~ msgstr "Внутренний заказ"
+
+#~ msgid "Internet shop"
+#~ msgstr "Интернет магазин"
+
+#~ msgid "Receipt"
+#~ msgstr "Квитанция"
+
+#~ msgid "Phone order"
+#~ msgstr "Заказ по телефону"
+
+#~ msgid "Sarbalinova Database"
+#~ msgstr "База Сарбалиновой"
+
+#~ msgid "Buyer"
+#~ msgstr "Покупатель"
+
+#~ msgid "Distributor (Digital + Print)"
+#~ msgstr "Распростронитель (электронная и печатная версия)"
+
+#~ msgid "Digital distributor"
+#~ msgstr "Распространитель электронной версии"
+
+#~ msgid "Print distributor"
+#~ msgstr "Распространитель печатной версии"
+
+#~ msgid "Analytics"
+#~ msgstr "Аналитики"
+
+#~ msgid "New order"
+#~ msgstr "Новый заказ"
+
+#~ msgid "Edited order"
+#~ msgstr "Редактированный заказ"
+
+#~ msgid "Processed order"
+#~ msgstr "Обработанный заказ"
+
+#~ msgid "Complete order"
+#~ msgstr "Завершенный заказ"
+
+#~ msgid "No modifications"
+#~ msgstr "Нет изменений"
+
+#~ msgid "1C"
+#~ msgstr "1С"
+
+#~ msgid "Has parent"
+#~ msgstr "Имеет родителя"
+
+#~ msgid "Hide on site"
+#~ msgstr "Не показывать на сайте"
+
+#~ msgid "is default"
+#~ msgstr "По умолчанию"
+
+#~ msgid "Active only"
+#~ msgstr "Только активные"
+
+#~ msgid "Archived only"
+#~ msgstr "Только архивные"
+
+#~ msgid "Activity"
+#~ msgstr "Активность"
+
+#~ msgid "No action"
+#~ msgstr "Без акции"
+
+#~ msgid "Any action"
+#~ msgstr "Любая акция"
+
+#~ msgid "Customer type"
+#~ msgstr "Тип клиента"
+
+#~ msgid "Intermediate steps"
+#~ msgstr "Промежуточные шаги"
+
+#~ msgid "Invalid steps"
+#~ msgstr "Неверные шаги"
+
+#~ msgid "Completed orders"
+#~ msgstr "Завершенные заказы"
+
+#~ msgid "Approved orders"
+#~ msgstr "Подтвержденные заказы"
+
+#~ msgid "Payed orders"
+#~ msgstr "Оплаченные заказы"
+
+#~ msgid "Returned orders"
+#~ msgstr "Возвращенные заказы"
+
+#~ msgid "Wanna callback"
+#~ msgstr "Необходимо связаться"
+
+#~ msgid "All orders"
+#~ msgstr "Все заказы"
+
+#~ msgid "Order source"
+#~ msgstr "Источник заказа"
+
+#~ msgid "Ordered from date"
+#~ msgstr "Заказано от"
+
+#~ msgid "Ordered to date"
+#~ msgstr "Заказано до"
+
+#~ msgid "Payed from date"
+#~ msgstr "Оплачено от"
+
+#~ msgid "Payed to date"
+#~ msgstr "Оплачено до"
+
+#~ msgid "Filter by date only"
+#~ msgstr "Фильтровать только по дате"
+
+#~ msgid "Not periodic"
+#~ msgstr "Непериодическое издание"
+
+#~ msgid "No PIN code"
+#~ msgstr "Без ПИН кода"
+
+#~ msgid "Billing type"
+#~ msgstr "Способ оплаты"
+
+#~ msgid "No billing"
+#~ msgstr "Нет оплаты"
+
+#~ msgid "Orderer"
+#~ msgstr "Заказчик"
+
+#~ msgid "Private person"
+#~ msgstr "Физическое лицо"
+
+#~ msgid "Company"
+#~ msgstr "Юридическое лицо"
+
+#~ msgid "Only total amounts"
+#~ msgstr "Только тиражи"
+
+#~ msgid "Select all orders"
+#~ msgstr "Выбрать все заказы"
+
+#~ msgid "Billing"
+#~ msgstr "Биллинг"
+
+#~ msgid "Regular customer"
+#~ msgstr "Постоянный клиент"
+
+#~ msgid "No items selected"
+#~ msgstr "Не выбран ни один предмет"
+
+#~ msgid "You're subscribing as"
+#~ msgstr "Вы подписываетесь как"
+
+#~ msgid "Organization"
+#~ msgstr "Организация"
+
+#~ msgid "Invalid format (i.e. +74951234567)"
+#~ msgstr "Неверный формат (например, +74951234567)"
+
+#~ msgid "INN"
+#~ msgstr "ИНН"
+
+#~ msgid "Invalid format: INN must contain 10 or 12 digits."
+#~ msgstr "Неверный формат: ИНН должен состоять из 10 или 12 цифр."
+
+#~ msgid "KPP"
+#~ msgstr "КПП"
+
+#~ msgid "Invalid format: KPP must contain 9 digits."
+#~ msgstr "Неверный формат: КПП должен состоять из 9 цифр."
+
+#~ msgid "Please provide all necessary extra shipping details here"
+#~ msgstr ""
+#~ "Укажите наиболее полную информацию, обеспечивающую доступ курьера или "
+#~ "почтальона в подъезд (код домофона, наличие консьержа, есть ли "
+#~ "возможность оставлять журнал в почтовом ящике и т.д.)"
+
+#~ msgid "I accept terms of <a href=\"/user_agreement/\">User Agreement</a>"
+#~ msgstr ""
+#~ "Я согласен с правилами <a href=\"/user_agreement/\">пользовательского "
+#~ "соглашения</a>"
+
+#~ msgid "You must accept user agreement for making an order"
+#~ msgstr ""
+#~ "Для оформления заказа необходимо согласиться с пользовательским "
+#~ "соглашением"
+
+#~ msgid "Enter a valid value."
+#~ msgstr "Введите верное значение."
+
+#~ msgid "Add extra information here if necessary"
+#~ msgstr "Добавьте дополнительную информацию о заказе при необходимости"
+
+#~ msgid "Shipping method is not available for this area"
+#~ msgstr "Способ доставки недоступен для этого региона"
+
+#~ msgid "Is available"
+#~ msgstr "Есть в наличии"
+
+#~ msgid "Issues per month"
+#~ msgstr "Выпусков в месяц"
+
+#~ msgid "Full description"
+#~ msgstr "Полное описание"
+
+#~ msgid "Is periodic"
+#~ msgstr "Периодическое издание"
+
+#~ msgid "is_public"
+#~ msgstr "публичный"
+
+#~ msgid "Advertising handler"
+#~ msgstr "Обработчик рекламной акции"
+
+#~ msgid "Is selectable by users"
+#~ msgstr "Может быть выбран пользователем"
+
+#~ msgid "Order_lv"
+#~ msgstr "№"
+
+#~ msgid "is enabled"
+#~ msgstr "Включена"
+
+#~ msgid "Partner id"
+#~ msgstr "ID партнера"
+
+#~ msgid "Orders counter"
+#~ msgstr "Счетчик заказов"
+
+#~ msgid "Referals counter"
+#~ msgstr "Колличество переходов"
+
+#~ msgid "Area or city name"
+#~ msgstr "Название города или области"
+
+#~ msgid "Shipping areas"
+#~ msgstr "Регионы доставки"
+
+#~ msgid "If selected, shipping is only available in these areas."
+#~ msgstr ""
+#~ "Если задано какое-либо значение, способ доставки будет доступент только в "
+#~ "указанных регионах."
+
+#~ msgid "Shipping is active"
+#~ msgstr "Доставка активна"
+
+#~ msgid "Items group"
+#~ msgstr "Группа товаров"
+
+#~ msgid "Price valid from datetime"
+#~ msgstr "Цена действует с"
+
+#~ msgid "Discount %"
+#~ msgstr "Скидка"
+
+#~ msgid "Pricelist"
+#~ msgstr "Прайс-лист"
+
+#~ msgid "Discount"
+#~ msgstr "Скидка"
+
+#~ msgid "Sarbalinova ID"
+#~ msgstr "Идентификатор в базе Сарбалиновой"
+
+#~ msgid "Sberbank payment ID"
+#~ msgstr "Номер платежного поручения СберБанка"
+
+#~ msgid "1C number"
+#~ msgstr "Номер 1С"
+
+#~ msgid "Order step"
+#~ msgstr "Шаг заказа"
+
+#~ msgid "Is returned"
+#~ msgstr "Возвращен"
+
+#~ msgid "Order has no email to send to"
+#~ msgstr "Не указан электронный адрес для заказа"
+
+#~ msgid "Select payment method first"
+#~ msgstr "Выберите сперва способ оплаты"
+
+#~ msgid "Code name"
+#~ msgstr "Код"
+
+#~ msgid "Billing title"
+#~ msgstr "Название"
+
+#~ msgid "Logo path"
+#~ msgstr "Адрес до логотипа"
+
+#~ msgid "Errors counter"
+#~ msgstr "Количество ошибок"
+
+#~ msgid "status"
+#~ msgstr "статус"
+
+#~ msgid "text"
+#~ msgstr "текст"
+
+#~ msgid "Date time"
+#~ msgstr "Дата и время"
+
+#~ msgid "Cost group"
+#~ msgstr "Группа цены"
+
+#~ msgid "Country ID"
+#~ msgstr "Код страны"
+
+#~ msgid "Check "
+#~ msgstr "Чек"
+
+#~ msgid "OKPO code"
+#~ msgstr "Код ОКПО"
+
+#~ msgid "OKONH code"
+#~ msgstr "Код ОКОНХ"
+
+#~ msgid "Transactional account"
+#~ msgstr "Рассчетный счет"
+
+#~ msgid "Correspondent account"
+#~ msgstr "Корреспондентский счет"
+
+#~ msgid "BIC"
+#~ msgstr "БИК"
+
+#~ msgid "Bank name"
+#~ msgstr "Наименование банка"
+
+#~ msgid "Bank address"
+#~ msgstr "Местонахождение банка"
+
+#~ msgid "Order ID number"
+#~ msgstr "Номер идентификатора заказа"
+
+#~ msgid "Order 1C ID number"
+#~ msgstr "Номер заказа в 1С"
+
+#~ msgid "Number of orders by new users"
+#~ msgstr "Количество заказов от новых пользователей"
+
+#~ msgid "Total order sum"
+#~ msgstr "Сумма всех заказов"
+
+#~ msgid "Total order sum by new users"
+#~ msgstr "Сумма всех заказов от новых пользователей"
+
+#~ msgid "Online only"
+#~ msgstr "Только электронный доступ"
+
+#~ msgid "Orders with activated pins"
+#~ msgstr "Заказы с активированными ПИНами"
+
+#~ msgid "Orders with not activated pins"
+#~ msgstr "Заказы с неактивированными ПИНами"
+
+#~ msgid ""
+#~ "To select items with different shipping methods, create another order"
+#~ msgstr ""
+#~ "Для выбора товаров с разными способами доставки необходимо создать новый "
+#~ "заказ"
+
+#~ msgid "You can't access this order"
+#~ msgstr "У вас нет доступа к этому заказу"
+
+#~ msgid "Your order is already confirmed."
+#~ msgstr "Заказ уже подтвержден."
+
+#~ msgid "Thank you for confirming your order."
+#~ msgstr "Спасибо, что подтвердили заказ."
+
+#~ msgid "Invalid confirmation code."
+#~ msgstr "Неверный код подтверждения."
+
+#~ msgid "CSV file"
+#~ msgstr "CSV файл"
+
+#~ msgid "Replace existing data"
+#~ msgstr "Заменять существующие данные"
+
+#~ msgid "Table group handler"
+#~ msgstr "Обработчик группы таблиц"
+
+#~ msgid "Table is raw HTML"
+#~ msgstr "Таблица с голым HTML"
+
+#~ msgid "HTML source"
+#~ msgstr "HTML код"
+
+#~ msgid "Table group"
+#~ msgstr "Группа таблиц"
+
+#~ msgid "Short reference"
+#~ msgstr "Краткая справка"
+
+#~ msgid "Reference"
+#~ msgstr "Справка"
+
+#~ msgid "Static columns"
+#~ msgstr "Статические колонки"
+
+#~ msgid "Source CSV"
+#~ msgstr "Исходный CSV"
+
+#~ msgid "There are %(cols)d columns, but in row data %(data)d"
+#~ msgstr "Вместо %(cols)d колонов было загружено только %(data)d"
+
+#~ msgid "Table column title"
+#~ msgstr "Заголовок колонки таблицы"
+
+#~ msgid "Cell value"
+#~ msgstr "Значение ячейки"
+
+#~ msgid "Maximum number of rows"
+#~ msgstr "Максимальное число рядов"
+
+#~ msgid "Table provider service"
+#~ msgstr "Сервис предоставления таблиц"
+
+#~ msgid "Internal subscription"
+#~ msgstr "Внутренняя подписка"
+
+#~ msgid "Add content page"
+#~ msgstr "Добавить страницу контента"
+
+#~ msgid "Edit picture"
+#~ msgstr "Редактировать изображение"
+
+#~ msgid "Subscribe updates"
+#~ msgstr "Подписка на обновления"
+
+#~ msgid "Add subscription to my site"
+#~ msgstr "Установить попдписку на мой сайт"
+
+#~ msgid "All spearfishing videos"
+#~ msgstr "Все видео о подводной охоте"
+
+#~ msgid "Select document preview"
+#~ msgstr "Выбор превью документа"
+
+#~ msgid "Order project for club"
+#~ msgstr "Заказать проект для клуба"
+
+#~ msgid "Charts and Tables relations"
+#~ msgstr "Связные таблицы и графики"
+
+#~ msgid "Kind of sport"
+#~ msgstr "Вид спорта"
+
+#~ msgid "Practice from"
+#~ msgstr "Практика от"
+
+#~ msgid "Practice till"
+#~ msgstr "до"
+
+#~ msgid "Number of days"
+#~ msgstr "Количество дней"
+
+#~ msgid "Invalid CAPTCHA"
+#~ msgstr "Неверная CAPTCHA"
+
+#~ msgid "MH Expert"
+#~ msgstr "МХ Эксперт"
+
+#~ msgid "MH Expert (all@expert.ru)"
+#~ msgstr "МХ Эксперт (all@expert.ru)"
+
+#~ msgid "Expert PDF"
+#~ msgstr "PDF Эксперт"
+
+#~ msgid "%s email letter"
+#~ msgstr "Почтовая рассылка %s"
+
+#~ msgid "Clubs, resorts, dive centers"
+#~ msgstr "Клубы, базы отдыха и дайв центры"
+
+#~ msgid "Full article version is only visible to"
+#~ msgstr "Полная версия статьи видна только"
+
+#~ msgid "registered"
+#~ msgstr "зарегестрированным"
+
+#~ msgid "community members"
+#~ msgstr "члены сообщества"
+
+#~ msgid "Upload a file"
+#~ msgstr "Загрузить файл"
+
+#~ msgid "Sportsmen"
+#~ msgstr "Спортсмены"
+
+#~ msgid "In order to become an author, press the"
+#~ msgstr "Чтобы стать автором, нажмите ссылку"
+
+#~ msgid "Write an article"
+#~ msgstr "Написать статью"
+
+#~ msgid "link - this is your personal blog."
+#~ msgstr "- это ваш персональный блог."
+
+#~ msgid ""
+#~ "To become site moderator and edit WIKI articles, calendars, add shops, "
+#~ "brands, clubs and maps"
+#~ msgstr ""
+#~ "Чтобы стать модераторо сайта и редактировать статьи, календари, добавлять "
+#~ "магазины, брэнды, клуби и карты"
+
+#~ msgid "send a request to site administrator"
+#~ msgstr "отправьте запрос администратору сайта"
+
+#~ msgid "Poll"
+#~ msgstr "Опрос"
+
+#~ msgid "All events"
+#~ msgstr "Все события"
+
+#~ msgid "This section has no posts yet, you could"
+#~ msgstr "В этом разделе пока нет сообщений, вы можете"
+
+#~ msgid "become first author!"
+#~ msgstr "стать первым автором!"
+
+#~ msgid "Add map"
+#~ msgstr "Добавить карту"
+
+#~ msgid "To become author, click on"
+#~ msgstr "Чтобы стать автором, нажмите на"
+
+#~ msgid "- this is your personal blog."
+#~ msgstr "- это ваш персональный блог."
+
+#~ msgid ""
+#~ "To become site moderator and edit wiki articles, calendars, add shops, "
+#~ "brands and clubs"
+#~ msgstr ""
+#~ "Чтобы стать модераторо сайта и редактировать статьи, календари, добавлять "
+#~ "магазины, брэнды, клубы и карты"
+
+#~ msgid "Send a request to site administrator"
+#~ msgstr "отправьте запрос администратору сайта"
+
+#~ msgid "User <b>is banned</b> for breakint terms of <a href="
+#~ msgstr "Пользователь <b>заблокирован</b> за нарушение"
+
+#~ msgid ""
+#~ "Extra links and notices. This is needed for site authors and edtiors in "
+#~ "order to specify sources, links, etc."
+#~ msgstr ""
+#~ "Дополнительные ссылки и замечания. Это нужно авторам сайта и редакции для "
+#~ "указания источников, ссылок и т.п."
+
+#~ msgid "3p."
+#~ msgstr "3 разряд"
+
+#~ msgid "2p."
+#~ msgstr "2 разряд"
+
+#~ msgid "1p."
+#~ msgstr "1 разряд"
+
+#~ msgid "3p"
+#~ msgstr "3 разряд"
+
+#~ msgid "2p"
+#~ msgstr "2 разряд"
+
+#~ msgid "1p"
+#~ msgstr "1 разряд"
+
+#~ msgid "e-mail"
+#~ msgstr "Адрес электронной почты"
+
+#~ msgid "Add email subscription:"
+#~ msgstr "Подписаться на email рассылку:"
+
+#~ msgid "e-mail to invite"
+#~ msgstr "отправить приглашение на адрес"
+
+#~ msgid "LAT"
+#~ msgstr "ШИР"
+
+#~ msgid "LNG"
+#~ msgstr "ДЛГ"
+
+#~ msgid "Lat."
+#~ msgstr "Шир."
+
+#~ msgid "Lng."
+#~ msgstr "Долг."
+
+#~ msgid "Comment preview mode. Staff access."
+#~ msgstr "Режим предпросмотра комментария. Доступ сотрудника."
+
+#~ msgid "English"
+#~ msgstr "Английский"
+
+#~ msgid "Your mutual friend"
+#~ msgstr "Ваш взаимный друг"
+
+#~ msgid "Denied invite"
+#~ msgstr "Приглашение отвергнуто"
+
+#~ msgid "Spam"
+#~ msgstr "Спам"
+
+#~ msgid "Misc"
+#~ msgstr "Прочее"
+
+#~ msgid "Complaint type"
+#~ msgstr "Тип жалобы"
+
+#~ msgid "Explain your complaint if necessary"
+#~ msgstr "Объясните суть вашей жалобы при необходимости"
+
+#~ msgid "Is read"
+#~ msgstr "Прочитана"
+
+#~ msgid "Mark not read"
+#~ msgstr "Пометить как непрочитанное"
+
+#~ msgid "Mark read"
+#~ msgstr "Пометить как прочитанное"
+
+#~ msgid "Classic file loader"
+#~ msgstr "Классический загрузчик файлов"
+
+#~ msgid "Author trusted"
+#~ msgstr "Доверие автору"
+
+#~ msgid "Datetime"
+#~ msgstr "Дата и время"
+
+#~ msgid "Athlete rank"
+#~ msgstr "Звание/Разряд"
+
+#~ msgid "is removed"
+#~ msgstr "удален"
+
+#~ msgid "user agreement accepted"
+#~ msgstr "пользовательское соглашение принято"
+
+#~ msgid "Youtube"
+#~ msgstr "Youtube"
+
+#~ msgid "Yandex, Twitter, RSS title"
+#~ msgstr "Заголовок для Yandex, Twitter, RSS"
+
+#~ msgid "X coordinate"
+#~ msgstr "Координата X"
+
+#~ msgid "Y coordinate"
+#~ msgstr "Координата Y"
+
+#~ msgid "Position priority"
+#~ msgstr "Приоритет позиции"
+
+#~ msgid "HTML block"
+#~ msgstr "HTML блок"
+
+#~ msgid "Telecast medias"
+#~ msgstr "Видео сюжеты"
+
+#~ msgid "Show only docs with previews"
+#~ msgstr "Показывать только документы с превью"
+
+#~ msgid "All sections"
+#~ msgstr "Все разделы"
+
+#~ msgid "Word filters"
+#~ msgstr "Фильтры сообщений"
+
+#~ msgid "Create word filter"
+#~ msgstr "Создать фильтр сообщений"
+
+#~ msgid "Add word filter"
+#~ msgstr "Добавить фильтр сообщений"
+
+#~ msgid "Edit word filter"
+#~ msgstr "Редактировать фильтр сообщений"
+
+#~ msgid "Comment filtering"
+#~ msgstr "Фильтры сообщений"
+
+#~ msgid "Topics"
+#~ msgstr "Темы"
+
+#~ msgid "Edit chart"
+#~ msgstr "Редактровать график"
+
+#~ msgid "Username:"
+#~ msgstr "Псевдоним:"
+
+#~ msgid "Log in"
+#~ msgstr "Войти"
+
+#~ msgid "Materials"
+#~ msgstr "Материалы"
+
+#~ msgid "Article source:"
+#~ msgstr "Источник статьи:"
+
+#~ msgid "all issues for %(year)s"
+#~ msgstr "все выпуски за %(year)s"
+
+#~ msgid "Also in issue"
+#~ msgstr "Также в выпуске"
+
+#~ msgid "Indicators"
+#~ msgstr "Индикаторы"
+
+#~ msgid "Private settings"
+#~ msgstr "Приватные настройки"
+
+#~ msgid "My pincodes"
+#~ msgstr "Мои пин коды"
+
+#~ msgid "Authozitation"
+#~ msgstr "Авторизация"
+
+#~ msgid ""
+#~ "\n"
+#~ "<h1>Activation</h1>\n"
+#~ "<p>Your account is now activated. Go <a href=\"/\">here</a> to "
+#~ "continue.</p>\n"
+#~ "\n"
+#~ msgstr ""
+#~ "\n"
+#~ "<h1>Активация</h1>\n"
+#~ "<p>Ваша учетная запист активирована. Перейдите <a href=\"/\">сюда</a> "
+#~ "чтобы продолжить.</p>\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "<h1>Thank you</h1>\n"
+#~ "<p>An email has been sent to you. You need to click link in it to "
+#~ "activate your account.</p>\n"
+#~ msgstr ""
+#~ "\n"
+#~ "<h1>Спасибо</h1>\n"
+#~ "<p>Вам было отправлено электронное письмо. Чтобы активировать вашу "
+#~ "учетную запись, необходимо перейти по ссылке из него.</p>\n"
+
+#~ msgid "main"
+#~ msgstr "главная"
+
+#~ msgid "people"
+#~ msgstr "люди"
+
+#~ msgid "companies"
+#~ msgstr "компании"
+
+#~ msgid "industries"
+#~ msgstr "отрасли"
+
+#~ msgid "territories"
+#~ msgstr "регионы"
+
+#~ msgid "countries"
+#~ msgstr "страны"
+
+#~ msgid "list"
+#~ msgstr "списком"
+
+#~ msgid "full"
+#~ msgstr "подробно"
+
+#~ msgid "brief"
+#~ msgstr "кратко"
+
+#~ msgid "Show all"
+#~ msgstr "Показать все"
+
+#~ msgid "Admin 2 html"
+#~ msgstr "Админ 2 html"
+
+#~ msgid "Filters"
+#~ msgstr "Фильтры"
+
+#~ msgid "User pics"
+#~ msgstr "Пользовательские фото"
+
+#~ msgid "Unique users:"
+#~ msgstr "Уникальные пользователи:"
+
+#~ msgid "Permission denied"
+#~ msgstr "Доступ запрещен"
+
+#~ msgid "Sign up"
+#~ msgstr "Регистрация"
+
+#~ msgid "Please correct errors below:"
+#~ msgstr "Исправьте следующие ошибки:"
+
+#~ msgid "My Profile"
+#~ msgstr "Личный кабинет"
+
+#~ msgid "Activation"
+#~ msgstr "Активация"
+
+#~ msgid ""
+#~ "Your account is now activated. Go <a href=\"/\">here</a> to continue."
+#~ msgstr ""
+#~ "Ваша учетная запись была активирована. Перейдите <a href=\"/\">по "
+#~ "ссылке</a> чтобы продолжить."
+
+#~ msgid "Thank you"
+#~ msgstr "Спасибо"
+
+#~ msgid ""
+#~ "An email has been sent to you. You need to click link in it to activate "
+#~ "your account."
+#~ msgstr ""
+#~ "Вам было отправлено электронное письмо. Нажмите на ссылку чтобы "
+#~ "активировать вашу учетную запись."
+
+#~ msgid "Custom tag sequence"
+#~ msgstr "Создать полследовательность тегов вручную"
+
+#~ msgid "Check payments"
+#~ msgstr "Проверить платежи"
+
+#~ msgid "Unknown size"
+#~ msgstr "Неизвестный размер"
+
+#~ msgid "TEST"
+#~ msgstr "ТЕСТ"
+
+#~ msgid "Amount ordered"
+#~ msgstr "Количество заказаного"
+
+#~ msgid "Create and send"
+#~ msgstr "Создать и отправить"
+
+#~ msgid "Mailing lists"
+#~ msgstr "Списки рассылки"
+
+#~ msgid "Toggle hide/show"
+#~ msgstr "Показать/спрятать"
+
+#~ msgid "has no topic:"
+#~ msgstr "нет темы:"
+
+#~ msgid "Field"
+#~ msgstr "Поле"
+
+#~ msgid "Reciever"
+#~ msgstr "Получатель"
+
+#~ msgid "Number of subscribers"
+#~ msgstr "Количество подписчиков"
+
+#~ msgid "Subscriber"
+#~ msgstr "Подписчик"
+
+#~ msgid "Publication"
+#~ msgstr "Публикация"
+
+#~ msgid "Is contributor or anchorman"
+#~ msgstr "Автор/Ведущий"
+
+#~ msgid "Add related doc"
+#~ msgstr "Добавить связанный документ"
+
+#~ msgid "Autocompleting issue filter"
+#~ msgstr "Фильтр по изданию с автодополнением"
+
+#~ msgid "Are you sure, really, delete this relation?"
+#~ msgstr "Вы действительно хотите удалить это отношение?"
+
+#~ msgid "Billing information"
+#~ msgstr "Биллинг информация"
+
+#~ msgid "Order was not payed!"
+#~ msgstr "Заказ не был оплачен!"
+
+#~ msgid "PIN codes"
+#~ msgstr "ПИН коды"
+
+#~ msgid "PIN activated"
+#~ msgstr "ПИН активирован"
+
+#~ msgid "PIN sent"
+#~ msgstr "ПИН отправлен"
+
+#~ msgid "Sign In Using Your Account ID"
+#~ msgstr "Войти Используя Идентификатор Пользователя"
+
+#~ msgid "Rts"
+#~ msgstr "РТС"
+
+#~ msgid "Total payed orders"
+#~ msgstr "Сумма оплаченных заказазов"
+
+#~ msgid "Total payed orders by new users"
+#~ msgstr "Сумма оплаченных заказов от новых пользователей"
+
+#~ msgid "You are not allowed to create more accounts"
+#~ msgstr "Вам не разрешено создавать новые учетные записи"
+
+#~ msgid "Is deleted"
+#~ msgstr "Удалено"
+
+#~ msgid "This tag is story"
+#~ msgstr "Этот тег является сюжетом"
+
+#~ msgid "Mail list title"
+#~ msgstr "Название списка рассылки"
+
+#~ msgid "The month, then magazine is available for ordering"
+#~ msgstr "Месяц с которого журнал можно заказать"
+
+#~ msgid "Html code"
+#~ msgstr "HTML код"
+
+#~ msgid "JavaScript code"
+#~ msgstr "Код JavaScript"
+
+#~ msgid "Minimal month range purchasing available"
+#~ msgstr "Минимальное количество месяцев"
+
+#~ msgid "Mnogo.ru"
+#~ msgstr "балы mnogo.ru"
+
+#~ msgid "Mnogo.ru sum"
+#~ msgstr "Сумма балов mnogo.ru"
+
+#~ msgid "Period divisor"
+#~ msgstr "Делитель периода"
+
+#~ msgid "mnogo.ru"
+#~ msgstr "mnogo.ru"
+
+#~ msgid "PriceLists"
+#~ msgstr "Прайс-листы"
+
+#~ msgid "Adv"
+#~ msgstr "Рекламная акция"
+
+#~ msgid "adv"
+#~ msgstr "рекламную акцию"
+
+#~ msgid "Advert. list"
+#~ msgstr "Рекламные кампании"
+
+#~ msgid "Spin count timer"
+#~ msgstr "Счетчик"
+
+#~ msgid "Push count datetime"
+#~ msgstr "Увеличить счетчик даты"
+
+#~ msgid "Edit day"
+#~ msgstr "Редакторовать день"
+
+#~ msgid "Is generic"
+#~ msgstr "По умолчанию"
+
+#~ msgid "Desc"
+#~ msgstr "Описание"
+
+#~ msgid ""
+#~ "We apologize, but your form has expired. Please continue filling out the "
+#~ "form from this page."
+#~ msgstr ""
+#~ "Мы приносим извинения, но ваша форма устарела. Пожалуйста, начните "
+#~ "заполнять форму с этой страницы."
+
+#~ msgid "Gift settings"
+#~ msgstr "Настройки подарков"
+
+#~ msgid "through"
+#~ msgstr "через"
+
+#~ msgid "Unknown source"
+#~ msgstr "Источник неизвестен"
+
+#~ msgid "Name id for JS and HTML sync"
+#~ msgstr "Имя директории на доп. файлов"
+
+#~ msgid "Advertising steps"
+#~ msgstr "Шаги рекламной акции"
+
+#~ msgid "HTML"
+#~ msgstr "HTML"
+
+#~ msgid "JavaScript"
+#~ msgstr "JavaScript"
+
+#~ msgid "Reset"
+#~ msgstr "Сбросить изменения"
+
+#~ msgid "Add regular customer"
+#~ msgstr "Добавить постоянного клиента"
+
+#~ msgid "Order id"
+#~ msgstr "Идентификатор заказа в базе Сарболиновой"
+
+#~ msgid "Billing number"
+#~ msgstr "Номер платежного поручения"
+
+#~ msgid "Account number"
+#~ msgstr "Номер счета"
+
+#~ msgid "Active"
+#~ msgstr "Активный"
+
+#~ msgid "Activated"
+#~ msgstr "Активирован"
+
+#~ msgid "Filter from"
+#~ msgstr "Фильтровать от"
+
+#~ msgid "Unable to reactivate profile"
+#~ msgstr "Невозможно перенаправить на главную страницу"
+
+#~ msgid "Access granted"
+#~ msgstr "Доступ разрешен"
+
+#~ msgid "Unknown pin-code, try again."
+#~ msgstr "Неизвестный пин код, попробуйте снова"
+
+#~ msgid "on site Expert Online allows you to:"
+#~ msgstr "на сайте Эксперт Online позволит вам:"
+
+#~ msgid "Participate in articles discussions"
+#~ msgstr "Участвовать в обсуждении статей"
+
+#~ msgid "Manage announcements subscriptions"
+#~ msgstr "Управлять подпиской на анонсы"
+
+#~ msgid "Use Expert's free archive"
+#~ msgstr "Бесплатно пользоваться архивом Эксперта"
+
+#~ msgid "cloud"
+#~ msgstr "облако"
+
+#~ msgid "Has steps in interface"
+#~ msgstr "Есть шаги в интерфейсе"
+
+#~ msgid "Addr"
+#~ msgstr "Адрес"
+
+#~ msgid "Media list is invalid: %s"
+#~ msgstr "Ошибка в списке медиа: %s"
+
+#~ msgid "Good"
+#~ msgstr "Хороший"
+
+#~ msgid "My basket"
+#~ msgstr "Моя корзина"
+
+#~ msgid "Payment ID"
+#~ msgstr "Идентификатор оплаты"
+
+#~ msgid "Are you sure, really, delete this group?"
+#~ msgstr "Вы действительно хотите удалить эту группу?"
+
+#~ msgid "Topic of the week"
+#~ msgstr "Тема недели"
+
+#~ msgid "Is special rubric"
+#~ msgstr "Спец. рубрика"
+
+#~ msgid "Regalia"
+#~ msgstr "Регалия"
+
+#~ msgid "Characters count"
+#~ msgstr "Количество символов"
+
+#~ msgid "All publications"
+#~ msgstr "Все публикации"
+
+#~ msgid "popular"
+#~ msgstr "популярные"
+
+#~ msgid "Dublicate content block slug, unique constraint!"
+#~ msgstr "Повторение ссылки для контент-блока, ссылка должна быть уникальной!"
+
+#~ msgid "Are you sure, really, delete this chart?"
+#~ msgstr "Вы действительно хотите удалить этот график?"
+
+#~ msgid "You may order files using drag&drop"
+#~ msgstr "Вы можете сортировать файлы перемещая иконки"
+
+#~ msgid ""
+#~ "Double clicking on the picture thumbnail opens window for the media file "
+#~ "editing dialog"
+#~ msgstr "Для редактирования свойств файла, нажмите дважды на его иконку"
+
+#~ msgid "Are you sure you want to delete this person from authors list?"
+#~ msgstr "Вы действительно хотите удалить этого человека из списка авторов?"
+
+#~ msgid "Forgot yous password?"
+#~ msgstr "Забыли пароль?"
+
+#~ msgid "Form validation Error: %s"
+#~ msgstr "Ошибка в форме: %s"
+
+#~ msgid "Related documents"
+#~ msgstr "Связные документы"
+
+#~ msgid "Drag document from the yellow place and drop here!"
+#~ msgstr "Переместите документ из желтой закладки сюда!"
+
+#~ msgid "Thumbnail type"
+#~ msgstr "Тип превью"
+
+#~ msgid "Publish"
+#~ msgstr "Публиковать"
+
+#~ msgid "Galleries"
+#~ msgstr "Фотогалерея"
+
+#~ msgid "all words"
+#~ msgstr "Все слова"
+
+#~ msgid "any words"
+#~ msgstr "Все слова"
+
+#~ msgid "Media file or library includes"
+#~ msgstr "Медиа-библиотеки"
+
+#~ msgid "Publicate"
+#~ msgstr "Опубликовать"
+
+#~ msgid "Magazine editor"
+#~ msgstr "Редактор журнала"
+
+#~ msgid "Documents lists"
+#~ msgstr "Списки документов"
+
+#~ msgid "Pub. point filters"
+#~ msgstr "Фильтры точек публикации"
+
+#~ msgid "Magazine filters"
+#~ msgstr "Фильтры журнала"
+
+#~ msgid "Filter article list using magazine"
+#~ msgstr "Фильтровать статьи по журналу"
+
+#~ msgid "(edit)"
+#~ msgstr "(редактировать)"
+
+#~ msgid "Items sort by Site"
+#~ msgstr "Сортировка предметов по Сайту"
+
+#~ msgid "Media & preview settings"
+#~ msgstr "Медиа настройки"
+
+#~ msgid "Book's tags"
+#~ msgstr "Книжные теги"
+
+#~ msgid ""
+#~ "Attached media settings. Video, Gallery, Attached files (pdf, audio, "
+#~ "files) Choose media template for the doc view, and basic attachment, "
+#~ "preview etc..."
+#~ msgstr ""
+#~ "Настройки прикрепленного медиа. Видео, Галерея, Прикрепленные файлы (PDF, "
+#~ "аудио, файлы) Выберите медиа шаблон для просмотра документов и базовые "
+#~ "прикрепленные файлы, превью и т.д. ..."
+
+#~ msgid "All list"
+#~ msgstr "Полный список"
+
+#~ msgid "All magazines articles"
+#~ msgstr "Все журнальные статьи"
+
+#~ msgid "Genres"
+#~ msgstr "Жанры"
+
+#~ msgid "Magazines"
+#~ msgstr "Журналы"
+
+#~ msgid "Time spent"
+#~ msgstr "Затрачено времени"
+
+#~ msgid "Job percent"
+#~ msgstr "Процент работы"
+
+#~ msgid "Metadata"
+#~ msgstr "Медиа"
+
+#~ msgid "Flag selected comments"
+#~ msgstr "Связные документы"
+
+#~ msgid "Remove selected comments"
+#~ msgstr "Связные документы"
+
+#~ msgid "Параметры подарка"
+#~ msgstr "Медиа настройки"
+
+#~ msgid "Doc. list"
+#~ msgstr "Список документов"
+
+#~ msgid "Publish document"
+#~ msgstr "Online документ"
+
+#~ msgid "No active stages"
+#~ msgstr "Нет активных этапов"
+
+#~ msgid ""
+#~ "You have no permissions to have participation in the document editing "
+#~ "process."
+#~ msgstr "У вас нет прав доступа для редактирование данного документа."
+
+#~ msgid "Hidden"
+#~ msgstr "Скрыто"
+
+#~ msgid "Executive editor"
+#~ msgstr "Ответственный редактор"
+
+#~ msgid "Dossier editor"
+#~ msgstr "Редактор досье"
+
+#~ msgid "Proofreader"
+#~ msgstr "Корректор"
+
+#~ msgid "Copy editor"
+#~ msgstr "Выпускающий редактор"
+
+#~ msgid "Executive editors"
+#~ msgstr "Ответственные редакторы"
+
+#~ msgid "Picture editors"
+#~ msgstr "Редакторы журнала"
+
+#~ msgid "Dossier editors"
+#~ msgstr "Редакторы досье"
+
+#~ msgid "Proofreaders"
+#~ msgstr "Корректоры"
+
+#~ msgid "Copy editors"
+#~ msgstr "Выпускающие редакторы"
+
+#~ msgid "Publication planning"
+#~ msgstr "Редакционные планы"
+
+#~ msgid "Role"
+#~ msgstr "Роль"
+
+#~ msgid "Create gift"
+#~ msgstr "Создать товар"
+
+#~ msgid "Create shiping"
+#~ msgstr "Создать тег"
+
+#~ msgid "All partners"
+#~ msgstr "Все слова"
+
+#~ msgid "All advs"
+#~ msgstr "Все теги"
+
+#~ msgid "Signin"
+#~ msgstr "Войти"
+
+#~ msgid "Superuser"
+#~ msgstr "Супермен"
+
+#~ msgid "Source uri"
+#~ msgstr "Источники"
+
+#~ msgid "Definition"
+#~ msgstr "Описание"
+
+#~ msgid "All (unsorted)"
+#~ msgstr "Все теги"
+
+#~ msgid "Short reference/BIO"
+#~ msgstr "Краткая справка"
