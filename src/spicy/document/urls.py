@@ -35,6 +35,7 @@ admin_urls = patterns(
     #url(r'^edit/(?P<doc_id>\d+)/comments/$', 'edit_comments',
     #    name='edit-comments'),
     url(r'^(?P<doc_id>\d+)/delete/$', 'delete', name='delete'),
+    #url(r'^edit/(?P<doc_id>\d+)/history/$', 'edit_doc_history', name='edit-doc-history'),
 )
 
 
