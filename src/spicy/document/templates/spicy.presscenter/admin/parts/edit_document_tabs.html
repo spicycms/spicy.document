@@ -1,6 +1,0 @@
-{% load url from future %}
-<ul class="nav nav-tabs nav-tabs-right">
-  <li{% if tab == 'doc' %} class="active"{% endif%}><a href="{% url 'presscenter:admin:edit' instance.pk %}"><i class="icon-file-alt"></i> <span>{% trans "Edit" %}</span></a></li>
-  <li{% if tab == 'media' %} class="active"{% endif%}><a href="{% url 'presscenter:admin:edit-media' instance.pk %}" ><i class="icon-camera"></i> <span>{% trans "Media files" %}</span></a></li>	   
-</ul>
-	  		  
