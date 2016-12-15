@@ -9,7 +9,6 @@ from spicy.core.siteskin.fields import SanitizingCharField
 from spicy.core.siteskin.widgets import AutoCompleteChooser
 from spicy.utils.models import get_custom_model_class
 
-
 Document = get_custom_model_class(defaults.CUSTOM_DOCUMENT_MODEL)
 DocumentProviderModel = get_custom_model_class(
     defaults.CUSTOM_DOCUMENT_PROVIDER_MODEL)

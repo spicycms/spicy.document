@@ -1,18 +1,14 @@
 from django.conf import settings
-
 from django.test import TestCase
-
 from django.core.urlresolvers import reverse
-
 #from django.contrib.auth.models import User
 from django.contrib.sites.models import Site
-
 from django.contrib.webdesign.lorem_ipsum import paragraphs, words
-
-from presscenter.models import Document, Hyperlink
-
+from spicy.utils.models import get_custom_model_class
 from datetime import datetime
+from . import defaults
 
+Document = get_custom_model_class(defaults.CUSTOM_DOCUMENT_MODEL)
 
 class PresscenterViewsTestCase(TestCase):
     fixtures = ['profile_testdata.json']

@@ -1,4 +1,4 @@
-{% extends current_base %}{% load sk thumbnails %}
+{% extends current_base %}{% load thumbnail sk %}
 
 {% comment %}
 
@@ -35,13 +35,15 @@ TODO bootstrap theme !!!!!
 <div class="article">    
 
   {{ doc.render_body|removetags:"div span a img"|safe|truncatewords:120 }} <a rel="nofollow" href="{% url profile:public:signup %}?{{ REDIRECT_FIELD_NAME }}={% if next_url %}{{ next_url }}{% else %}{{ current_path }}{% endif %}">Показать полную версию статьи!</a>
-
+asdasdasd
   {% if doc.has_photos %}
   <div class="photo_gallery">
     <div  id="photo_gallery"> 
       {% for photo in doc.gallery %}
-      <a href="{{ photo.get_absolute_url }}" class="fgal" title="{{ photo.get_desc|default:doc.title }}" rel="gallery"><img src="{% thumb photo.media 170 110 "gallery" %}" width="170" height="110" alt="{{ photo.get_desc|default:doc.title }}"/></a>
-      {% endfor %}     
+      {% thumbnail photo.media '170x110' as ph %}
+      <a href="{{ ph.url }}" class="fgal" title="{{ photo.get_desc|default:doc.title }}" rel="gallery"><img src="" width="170" height="110" alt="{{ photo.get_desc|default:doc.title }}"/></a>
+      {% endthumbnail %}
+      {% endfor %}
     </div>
     <div class="clr"></div>	
   </div>
@@ -49,7 +51,7 @@ TODO bootstrap theme !!!!!
 
   {#{ doc.render_body|safe|urlizetrunc:15 }#}
 
-  
+  qweqweqweqwe
 </div>
 
 
