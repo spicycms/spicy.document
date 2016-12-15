@@ -19,7 +19,7 @@
           <td><strong>{{ doc.pk }}</strong></td>
                   <td style="width: 100%;">
             <h4>
-            <a href="{% url 'presscenter:admin:edit' doc.id %}">{{ doc.title }}</a>
+            <a href="{% url 'document:admin:edit' doc.id %}">{{ doc.title }}</a>
             </h4>
             <div class="pull-right">
               {% if doc.get_absolute_url %}<a href="{{ doc.get_absolute_url }}" title="{% trans "view" %}" target="_blank"><i class="icon-eye-open"></i></a>{% else %}&nbsp;{% endif %}

@@ -32,15 +32,15 @@ admin_urls = patterns(
 
     url(r'^create/$', 'create', name='create'),
     url(r'^edit/(?P<doc_id>\d+)/$', 'edit', name='edit'),
-    url(r'^edit/(?P<doc_id>\d+)/comments/$', 'edit_comments',
-        name='edit-comments'),
+    #url(r'^edit/(?P<doc_id>\d+)/comments/$', 'edit_comments',
+    #    name='edit-comments'),
     url(r'^(?P<doc_id>\d+)/delete/$', 'delete', name='delete'),
 )
 
 
 urlpatterns = patterns(
     '',
-    url(r'^ckeditor/', include('ckeditor_uploader.urls')),
+    #url(r'^ckeditor/', include('ckeditor_uploader.urls')),
     url(r'^admin/document/', include(admin_urls, namespace='admin')),
     url(r'^', include(public_urls, namespace='public'))
 )

@@ -37,8 +37,6 @@ def document(request, doc_id):
 
         #api.register['statistic'].inc_visits(request, doc)
         #api.register['referrer'].inc_refs(request, doc)
-        if doc.category:
-            return dict(doc=doc, page_slug=doc.category.slug)
         return dict(doc=doc, page_slug='')
 
     raise Http404
