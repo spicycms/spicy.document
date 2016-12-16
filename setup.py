@@ -35,10 +35,11 @@ setup(
     zip_safe=False,
     long_description=long_description(),
     namespace_packages=['spicy', ],
-    install_requires=[
-    ],
     dependency_links=[
         'git+https://github.com/django-ckeditor/django-ckeditor#egg=ckeditor',
+    ],
+    install_requires=[
+        'ckeditor',
     ],
 
     classifiers=[
