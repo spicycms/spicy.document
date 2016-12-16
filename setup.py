@@ -38,7 +38,7 @@ setup(
     install_requires=[
     ],
     dependency_links=[
-        'https://github.com/django-ckeditor/django-ckeditor#egg=ckeditor',
+        'git+https://github.com/django-ckeditor/django-ckeditor#egg=ckeditor',
     ],
 
     classifiers=[
