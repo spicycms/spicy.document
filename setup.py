@@ -36,9 +36,9 @@ setup(
     long_description=long_description(),
     namespace_packages=['spicy', ],
     install_requires=[
-        'django-ckeditor==4.5.1',
     ],
     dependency_links=[
+        'https://github.com/django-ckeditor/django-ckeditor#egg=ckeditor',
     ],
 
     classifiers=[

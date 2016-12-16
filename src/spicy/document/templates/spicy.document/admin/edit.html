@@ -25,10 +25,11 @@
           <form class="form-horizontal fill-up validatable" method="post"
                 action="." autocomplete="off">{% csrf_token %}
 
+
             {% include "spicy.document/admin/parts/edit_document_form.html" %}
 	    
 	    <div class="form-actions">
-	      <a class="btn btn-red" href="{% url "document:admin:delete" form.instance.pk %}">{% trans "Delete" %}</a>
+	      <a class="btn btn-red" href="{% url 'document:admin:delete' form.instance.pk %}">{% trans "Delete" %}</a>
 
 	      <div class="pull-right">
 		<button type="submit" class="btn btn-blue">{% trans "Save changes" %}</button>
