@@ -35,12 +35,13 @@ setup(
     zip_safe=False,
     long_description=long_description(),
     namespace_packages=['spicy', ],
-    dependency_links=[
-        'git+https://github.com/django-ckeditor/django-ckeditor#egg=ckeditor',
-    ],
     install_requires=[
-        'ckeditor',
+        'ckeditor==1.0',
     ],
+    dependency_links=[
+        'git+https://github.com/django-ckeditor/django-ckeditor#egg=ckeditor-1.0',
+    ],
+
 
     classifiers=[
         'Framework :: Django',
