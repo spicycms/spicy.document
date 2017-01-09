@@ -41,7 +41,7 @@ admin_urls = patterns(
 
 urlpatterns = patterns(
     '',
-    url(r'^ckeditor/', include('ckeditor_uploader.urls')),
+    #url(r'^ckeditor/', include('ckeditor_uploader.urls')),
     url(r'^admin/document/', include(admin_urls, namespace='admin')),
     url(r'^', include(public_urls, namespace='public'))
 )
