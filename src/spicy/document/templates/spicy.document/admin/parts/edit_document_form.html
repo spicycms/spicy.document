@@ -4,6 +4,7 @@
 {% block extra_head %}
 <script type="text/javascript" src="{% static "ckeditor/ckeditor/ckeditor.js" %}"></script>
 <script type="text/javascript" src="{% static "ckeditor/ckeditor-init.js" %}"></script>
+
 {% endblock %}
 
 	    <div class="row-fluid">
@@ -20,6 +21,8 @@
         {% formfield "" form "enable_comments" "li-checkbox" %}
         {% formfield "" form "is_sitemap" "li-checkbox" %}
         {% formfield "" form "registration_required" "li-checkbox" %}
+        {% formfield "" form "preview" "li-file" %}
+        {% formfield "" form "preview2" "li-file" %}
 		</ul>
 	      </div>	      
 	    </div>

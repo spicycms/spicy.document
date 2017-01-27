@@ -2,6 +2,7 @@ import datetime
 import re
 import os
 import time
+from PIL import Image
 from django.db import models
 from django.conf import settings
 from django.contrib.contenttypes.models import ContentType
@@ -18,6 +19,7 @@ from spicy.utils import strip_invalid_chars, cached_property, make_slug
 #from spicy.redactor.utils import render_plugins
 from urllib2 import urlparse
 from . import defaults, parsers
+from django.db.models import ImageField
 
 
 class PubManager(NonTrashManager, CurrentSiteManager):
@@ -58,6 +60,8 @@ class AbstractDocument(
         Site, related_name='%(app_label)s_%(class)ss_origin',
         default=settings.SITE_ID)
     preview_shown = models.BooleanField(default=True)
+    preview = ImageField(upload_to='uploads/', blank=True)
+    preview2 = ImageField(upload_to='uploads/', blank=True)
 
     # mediacenter app
     photos_has_been_attached = models.BooleanField(
@@ -258,6 +262,20 @@ class AbstractDocument(
                 pk__lt=self.pk).order_by('-id')[0]
         except IndexError:
             return None
+
+    def _set_img_quality(self, img, quality_val):
+        im = Image.open(img.path)
+        new_im = im.resize((img.width, img.height), Image.ANTIALIAS)
+        new_im.save(img.path, quality=quality_val)
+
+    def set_preview_quality(self, quality_val = 90):
+        self._set_img_quality(self.preview, quality_val)
+
+    def set_preview2_quality(self, quality_val = 90):
+        self._set_img_quality(self.preview2, quality_val)
+
+    #def preview2_quality(self, quality_val = 90):
+    #    self.preview2.save(filename, quality=quality_val)
 
     class Meta:
         db_table = 'pc_doc'

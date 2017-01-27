@@ -1,4 +1,5 @@
 # _*_ coding: utf-8 _*_
+import os
 from django.conf import settings
 from django.core.cache import cache
 from django.http import Http404

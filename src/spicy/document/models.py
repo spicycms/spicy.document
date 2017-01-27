@@ -1,6 +1,7 @@
 from . import abs, defaults
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
+from django.db.models import ImageField
 
 
 if defaults.USE_DEFAULT_DOCUMENT_MODEL:

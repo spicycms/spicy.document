@@ -1,4 +1,6 @@
 # coding=utf-8
+import os
+import json
 import datetime as dt
 from django.conf import settings
 from django.contrib.contenttypes.models import ContentType
@@ -69,7 +71,7 @@ def create(request):
     Form = load_module(defaults.CREATE_DOCUMENT_FORM)
 
     if request.method == 'POST':
-        form = Form(request.POST)
+        form = Form(request.POST, request.FILES)
         if form.is_valid():
             doc = form.save()
             doc.site.add(Site.objects.get_current())
@@ -98,9 +100,11 @@ def edit(request, doc_id):
 
     Form = load_module(defaults.EDIT_DOCUMENT_FORM)
     if request.method == 'POST':
-        form = Form(request.POST, instance=doc)
+        form = Form(request.POST, request.FILES, instance=doc)
         if form.is_valid():
             doc = form.save()
+            doc.set_preview_quality()
+            doc.set_preview2_quality()
             form = Form(instance=doc)
     else:
         form = Form(instance=doc)
