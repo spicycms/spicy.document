@@ -60,8 +60,8 @@ class AbstractDocument(
         Site, related_name='%(app_label)s_%(class)ss_origin',
         default=settings.SITE_ID)
     preview_shown = models.BooleanField(default=True)
-    preview = ImageField(upload_to='uploads/', blank=True)
-    preview2 = ImageField(upload_to='uploads/', blank=True)
+    preview = ImageField(upload_to='uploads/', blank=True, null=True)
+    preview2 = ImageField(upload_to='uploads/', blank=True, null=True)
 
     # mediacenter app
     photos_has_been_attached = models.BooleanField(
@@ -264,9 +264,10 @@ class AbstractDocument(
             return None
 
     def _set_img_quality(self, img, quality_val):
-        im = Image.open(img.path)
-        new_im = im.resize((img.width, img.height), Image.ANTIALIAS)
-        new_im.save(img.path, quality=quality_val)
+        if img:
+            im = Image.open(img.path)
+            new_im = im.resize((img.width, img.height), Image.ANTIALIAS)
+            new_im.save(img.path, quality=quality_val)
 
     def set_preview_quality(self, quality_val = 90):
         self._set_img_quality(self.preview, quality_val)
