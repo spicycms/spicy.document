@@ -8,7 +8,7 @@ from spicy.core.service import forms as service_forms
 from spicy.core.siteskin.fields import SanitizingCharField
 from spicy.core.siteskin.widgets import AutoCompleteChooser
 from spicy.utils.models import get_custom_model_class
-
+from ckeditor.widgets import CKEditorWidget
 
 Document = get_custom_model_class(defaults.CUSTOM_DOCUMENT_MODEL)
 DocumentProviderModel = get_custom_model_class(
@@ -27,7 +27,7 @@ class DocumentForm(forms.ModelForm):
             'enable_comments', 'is_sitemap', 'registration_required',
             'preview', 'preview2')
         widgets = {
-            'body': forms.Textarea(attrs=dict(rows=20)),
+            'body': CKEditorWidget(),#forms.Textarea(attrs=dict(rows=20)),
             'pub_date': forms.DateTimeInput(format='%Y-%m-%d %H:%i')}
 
 
@@ -39,7 +39,7 @@ class CreateDocumentForm(DocumentForm):
             'enable_comments', 'is_sitemap', 'registration_required',
             'preview', 'preview2')
         widgets = {
-            'body': forms.Textarea(attrs=dict(rows=20)),
+            'body': CKEditorWidget(),#forms.Textarea(attrs=dict(rows=20)),
             'pub_date': forms.DateTimeInput(format='%Y-%m-%d %H:%i')}
 
     def save(self, *args, **kwargs):
