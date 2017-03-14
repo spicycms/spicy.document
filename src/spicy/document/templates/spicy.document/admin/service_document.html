@@ -55,7 +55,7 @@
 	{% if rdform.instance.doc %}
 	<div class="pull-right" >
           {% if rdform.instance.doc.get_absolute_url %}<a href="{{ rdform.instance.doc.get_absolute_url }}" target="_blank" title="{% trans "preview" %}"> <i class="icon-eye-open"></i></a>
-          {% else %}<a href="{% url 'presscenter:admin:edit' rdform.instance.doc.id  %}" target="blank" title="{% trans "Has no public url" %}"><i class="icon-ban-circle"></i></a>{% endif %}
+          {% else %}<a href="{% url 'document:admin:edit' rdform.instance.doc.id  %}" target="blank" title="{% trans "Has no public url" %}"><i class="icon-ban-circle"></i></a>{% endif %}
 	  {% if not rdform.instance.doc.is_public %}<i class="icon-minus-sign"></i> {% trans "Is not public" %}{% else %}<i class="icon-ok-sign"></i> {% trans "Is public" %}{% endif %}
 	</div>
 	{% endif %}

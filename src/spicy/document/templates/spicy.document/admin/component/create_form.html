@@ -1,0 +1,24 @@
+{% load spicy_admin %}
+<div class="row-fluid">
+  <div class="span6">
+    <ul class="padded separate-sections">
+      {% formfield "" form "title" "li-text" %}
+      {% formfield "" form "draft" "li-chat-editor" %}
+      {% formfield "" form "url" "li-text" %}
+      <hr/>
+    </ul>
+  </div>
+  <div class="span6">
+    <ul class="padded separate-sections">
+      {% formfield "" form "pub_date" "li-date" %}
+      {% formfield "" form "is_public" "li-checkbox" %}
+      <hr/>
+      {% formfield "" form "category" "li-select" %}
+    </ul>
+  </div>	      
+</div>
+<div class="row-fluid">
+  <ul class="padded separate-sections">
+    {% formfield "" form "body" "li-editor" %}
+  </ul>
+</div>

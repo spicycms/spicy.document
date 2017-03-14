@@ -1,10 +1,10 @@
-% extends current_admin_base %}{% load navigator pagination i18n staticfiles %}{% load url from future %}
+{% extends current_admin_base %}{% load navigator pagination i18n staticfiles %}{% load url from future %}
 
 {% block title %}{% trans "All documents" %}{% endblock %}
 {% block status_title %}<i class="icon-file-alt"></i> {% trans "All documents" %}{% endblock status_title %}
 
 {% block extra_css %}
-<link media="print" rel="stylesheet" href="{% static 'spicy.presscenter/css/print.css' %}">
+<link media="print" rel="stylesheet" href="{% static 'spicy.document/css/print.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -15,17 +15,17 @@
     <div class="row-fluid">
         <div class="span12">
             <div class="box">
-            {% comment %}
+	        {% comment %}
             <div class="box-header">
             <span class="title">
-            {% if nav.last_login == 'month' %}
-            {% trans "Month last login" %} | <a href="{% url 'presscenter:admin:index' %}">{% trans "All documents" %}</a>
+	        {% if nav.last_login == 'month' %}
+            {% trans "Month last login" %} | <a href="{% url 'document:admin:index' %}">{% trans "All documents" %}</a>
             {% else %}
             {% trans "All documents" %} | {% nav_filter_url nav "last_login" "month" _("Month last documents") %}
             {% endif %}
             </span>
-            </div>
-    {% endcomment %}
+        	</div>
+	{% endcomment %}
             <div class="b-table-filter box-content">
                   <div class="row-fluid">
                     
@@ -65,21 +65,21 @@
               </div>
             </div>
 {% endcomment %}
-        <form class="form form-inline" name="list_form" method="post">{% csrf_token %}
-            {% include "spicy.presscenter/admin/parts/documents_list.html" %}
-        </form>
-        <div class="table-footer">
-          <div class="hpadded" style="margin-top: 5px;">
-        <div class="pagination pagination-small" style="margin-top: 0">
-          {% pagination %}
-        </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-    
-    {% endif %}
+	    <form class="form form-inline" name="list_form" method="post">{% csrf_token %}
+            {% include "spicy.document/admin/parts/documents_list.html" %}
+	    </form>
+	    <div class="table-footer">
+	      <div class="hpadded" style="margin-top: 5px;">
+		<div class="pagination pagination-small" style="margin-top: 0">
+		  {% pagination %}
+		</div>
+	      </div>
+	    </div>
+	    
+	  </div>
+	</div>
+	
+	{% endif %}
       </div>
     </div>
   </div>

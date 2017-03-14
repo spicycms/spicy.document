@@ -1,5 +1,6 @@
 {% load url from future %}
 <ul class="nav nav-tabs nav-tabs-right">
   <li{% if tab == 'doc' %} class="active"{% endif%}><a href="{% url 'document:admin:edit' instance.pk %}"><i class="icon-file-alt"></i> <span>{% trans "Edit" %}</span></a></li>
+{# {% if perms.history.view_history %}  <li{% if tab == 'history' %} class="active"{% endif %}><a href="{% url 'document:admin:edit-doc-history' instance.pk %}"><i class="icon-book"></i> <span>{% trans "History" %}</span></a></li>{% endif %} #}
 </ul>
 	  		  

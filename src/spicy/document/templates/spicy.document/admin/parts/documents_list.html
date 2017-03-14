@@ -1,37 +1,41 @@
 {% load navigator pagination i18n %}{% load url from future %}
-<table class="table table-normal" style="border-top: 1px solid #CDCDCD;">
-  <thead>
-    <tr role="row">
-      <td>{% nav_order_url nav 'id' _('ID') "icon-sort" "icon-sort-down" "icon-sort-up" %}</td>
-      <td>{% nav_order_url nav 'title' _('Title') "icon-sort" "icon-sort-down"      "icon-sort-up" %}</td>
-      <td>{% nav_order_url nav 'pub_date' _('Publication date') "icon-sort" "icon-  sort-down" "icon-sort-up" %}</td>
-      <td>{% nav_order_url nav 'comments_cnt' _('Comments count') "icon-sort" "icon-sort-down" "icon-sort-up" %}</td>
-      <td>{% nav_order_url nav 'has_video' _('Has video') "icon-sort" "icon-sort-   down" "icon-sort-up" %}</td>
-      <td>{% nav_order_url nav 'has_photos' _('Has photos') "icon-sort" "icon-sort-down"    "icon-sort-up" %}</td>
-      <td>{% nav_order_url nav 'is_proofread' _('Is proofread') "icon-sort" "icon-sort-     down" "icon-sort-up" %}</td>
-      <td>{% nav_order_url nav 'is_public' _('Is public') "icon-sort" "icon-sort-   down" "icon-sort-up" %}</td>
-    </tr>
-  </thead>
-  
-  <tbody>
-    {% for doc in objects_list %}
-    <tr class="{% cycle 'odd' 'even' %}">
-      <td><strong>{{ doc.pk }}</strong></td>
-      <td style="width: 100%;">
-        <h4>
-          <a href="{% url 'document:admin:edit' doc.id %}">{{ doc.title }}</a>
-        </h4>
-        <div class="pull-right">
-          {% if doc.get_absolute_url %}<a href="{{ doc.get_absolute_url }}" title="{% trans "view" %}" target="_blank"><i class="icon-eye-open"></i></a>{% else %}&nbsp;{% endif %}
-        </div>
-      </td>
-      <td>{{ doc.pub_date|date:"j M" }}</td>
-      <td>{{ doc.comments_cnt }}</td>
-      <td class="icon"><i class="{{ doc.is_has_video|yesno:"icon-film,icon-minus" }}"></i></td>
-      <td class="icon"><i class="{{ doc.is_has_photos|yesno:"icon-picture,icon-minus" }}"></i></td>
-      <td class="icon"><i class="{{ doc.is_proofread|yesno:"green icon-ok,icon-remove red"  }}"></i></td>
-      <td class="icon"><i class="{{ doc.is_public|yesno:"green icon-ok,icon-remove  red" }}"></i></td>
-      {% endfor %}
-  </tbody>
-</table>
+            <table class="table table-normal" style="border-top: 1px solid #CDCDCD;">
+              <thead>
+                <tr role="row">
+          <td>{% nav_order_url nav 'id' _('ID') "icon-sort" "icon-sort-down" "icon-sort-up" %}</td>
+                  <td>{% nav_order_url nav 'title' _('Title') "icon-sort" "icon-sort-down"      "icon-sort-up" %}</td>
+                  <td>{% nav_order_url nav 'category' _('Category') "icon-sort" "icon-sort-down"      "icon-sort-up" %}</td>
+                 <td>{% trans 'Labels' %}</td>
+                  <td>{% nav_order_url nav 'pub_date' _('Publication date') "icon-sort" "icon-  sort-down" "icon-sort-up" %}</td>
+                  <td>{% nav_order_url nav 'comments_cnt' _('Comments count') "icon-sort" "icon-sort-down" "icon-sort-up" %}</td>
+                  <td style="width: 95px">{% nav_order_url nav 'seo_consistency' _('SEO consistency') "icon-sort" "icon-sort-down" "icon-sort-up" %}</td>
+              <td>{% nav_order_url nav 'is_public' _('Is public') "icon-sort" "icon-sort-   down" "icon-sort-up" %}</td>
+                </tr>
+              </thead>
+
+              <tbody>
+                {% for doc in objects_list %}
+                <tr class="{% cycle 'odd' 'even' %}">
+          <td><strong>{{ doc.pk }}</strong></td>
+                  <td style="width: 100%;">
+            <h4>
+            <a href="{% url 'document:admin:edit' doc.id %}">{{ doc.title }}</a>
+            </h4>
+            <div class="pull-right">
+              {% if doc.get_absolute_url %}<a href="{{ doc.get_absolute_url }}" title="{% trans "view" %}" target="_blank"><i class="icon-eye-open"></i></a>{% else %}&nbsp;{% endif %}
+            </div>
+                  </td>
+                  <td>{{ doc.category }}</td>
+                  <td>{% for label in doc.labels %}{{label}}{% if not forloop.last %}, {% endif %}{% endfor %}</td>
+                  <td>{{ doc.pub_date|date:"j M" }}</td>
+                  <td>{{ doc.comments_cnt }}</td>
+		   <td>
+		    {% for star in doc.get_consistency_stars %}
+		    <i class="icon-star{% if star == 1 %}-half{% endif %}"></i>
+		    {% endfor %}
+		  </td>
+                  <td class="icon"><i class="{{ doc.is_public|yesno:"green icon-ok,icon-remove  red" }}"></i></td>
+          {% endfor %}
+          </tbody>
+        </table>
 
