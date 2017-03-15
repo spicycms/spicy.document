@@ -125,6 +125,7 @@ CUSTOM_DOCUMENT_MODEL = (
 CREATE_DOCUMENT_FORM = getattr(
     settings, 'CREATE_DOCUMENT_FORM',
     'spicy.document.forms.CreateDocumentForm')
+
 EDIT_DOCUMENT_FORM = getattr(
     settings, 'EDIT_DOCUMENT_FORM', 'spicy.document.forms.DocumentForm')
 

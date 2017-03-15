@@ -103,6 +103,8 @@ def edit(request, doc_id):
         form = Form(request.POST, request.FILES, instance=doc)
         if form.is_valid():
             doc = form.save()
+
+            # TODO: where we use it?
             doc.set_preview_quality()
             doc.set_preview2_quality()
             form = Form(instance=doc)
