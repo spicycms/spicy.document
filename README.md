@@ -64,7 +64,7 @@
     
 ### Настройка истории изменений
 
-Для использования истории изменений подключить сервисы ``[TrashService]``(https://github.com/spicycms/spicy.core) и ``[HistoryService]``(https://github.com/spicycms/spicy.history) в settings.py и добавить модули в INSTALLED_APPS:
+Для использования истории изменений подключить сервисы (``TrashService``)[https://github.com/spicycms/spicy.core] и (``HistoryService``)[https://github.com/spicycms/spicy.history] в settings.py и добавить модули в INSTALLED_APPS:
 
     SERVICES = (
         'spicy.core.trash.services.TrashService',
@@ -72,10 +72,10 @@
     )
     
     INSTALLED_APPS = (
-      #...
-      'spicy.core.trash',
-      'spicy.history',
-      #...
+        #...
+        'spicy.core.trash',
+        'spicy.history',
+        #...
     )
     
 
