@@ -35,7 +35,7 @@
         # here you could add FK to category
         
         class Meta:
-        abstract = False
+            abstract = False
     
 По умолчанию для создания и редактирования документа в админке используются формы ``spicy.document.forms.CreateDocumentForm`` и ``spicy.document.forms.DocumentForm``. Вам необходимо создать свои формы, чтобы новые поля ``CustomDocument`` можно было редактировать в интерфейсе администратора, для этого укажите в settings.py:
 
@@ -48,18 +48,15 @@
     from spicy.utils.models import get_custom_model_class
     from spicy.document.forms import CreateDocumentForm, DocumentForm
     from spicy.document import defaults as dc_defaults
-
     CustomDocumentModel = get_custom_model_class(dc_defaults.CUSTOM_DOCUMENT_MODEL)
 
     class CreateCustomDocumentForm(CreateDocumentForm):
         # your additional fields
-    
         class Meta(CreateDocumentForm.Meta):
             model = CustomDocumentModel
             
     class CustomDocumentForm(DocumentForm):
         # your additional fields
-        
         class Meta(DocumentForm.Meta):
             model = CustomDocumentModel
     
