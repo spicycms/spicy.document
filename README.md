@@ -68,7 +68,7 @@
     {% formfield "" form "new_field2" "li-text" %}
     ...
     
-Шаблон для редактирования документа, который предоставляет spicy.document по умолчанию, можно найти в директории templates моделя spicy.document. Подробности о теге ``{% formfield%}`` смотрите в [spicy.core.admin](https://github.com/spicycms/spicy.core).
+Шаблон для редактирования документа, который предоставляет spicy.document по умолчанию, можно найти в директории templates моделя spicy.document. Подробности о теге ``{% formfield %}`` смотрите в [spicy.core.admin](https://github.com/spicycms/spicy.core).
     
 ### Настройка истории изменений
 
@@ -86,6 +86,18 @@
         #...
     )
     
+Если вы используете собственную модель для документа и хотите отслеживать изменения за новыми полями, то нужно добавить их с помощью настройки OBSERVED_FIELD в settings.py. По умолчанию SpicyCMS следит за изменениями body, slug, title, pub_date и is_public.
+       
+    OBSERVED_FIELDS = {
+        'yourapp.models.CustomDocument': (
+            'body', 'slug', 'title', 'pub_date', 'is_public',
+            # your additional fields as comma separated strings
+        ),
+    }
+    
+
+    
+
 
 
     
