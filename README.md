@@ -60,7 +60,15 @@
         class Meta(DocumentForm.Meta):
             model = CustomDocumentModel
     
-{TODO}     фрагмент для добавления новых полей в админку ({% formfield %})
+Чтобы новые поля форм ``CreateCustomDocumentForm`` и ``CustomDocumentForm`` стали доступны в админке, нужно создать шаблон yourapp/templates/spicy.document/admin/parts/edit_document_form.html и добавить их:
+
+    {# yourapp/templates/spicy.document/admin/parts/edit_document_form.html #}
+    ...
+    {% formfield "" form "new_field1" "li-text" %}
+    {% formfield "" form "new_field2" "li-text" %}
+    ...
+    
+Шаблон для редактирования документа, который предоставляет spicy.document по умолчанию, можно найти в директории templates моделя spicy.document. Подробности о теге ``{% formfield%}`` смотрите в [spicy.core.admin](https://github.com/spicycms/spicy.core).
     
 ### Настройка истории изменений
 
