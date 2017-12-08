@@ -26,15 +26,16 @@ TODO bootstrap theme !!!!!
 
 
 {% if request.user.is_staff or request.user == doc.owner %}
-<div class="infopanel">		    
-	<p>{% trans "You're site author or a member of editorial staff. You're seeing this article in preview mode" %}{% if not doc.is_public %}{% trans ", it's <b>not published</b>. To publish the article, go to" %} <a href="{% if request.user == doc.owner %}{% url document:public:edit doc.pk %}{% else %}/help/create/{% endif %}">{% trans "editing mode" %}</a> {% trans 'and enable the "Publish" checkbox' %}{% endif %}.</p>
+<div class="infopanel">	
+   
+	<p>{% trans "You're site author or a member of editorial staff. You're seeing this article in preview mode" %}{% if not doc.is_public %}{% trans ", it's <b>not published</b>. To publish the article, go to" %} <a href="{% if request.user == doc.owner %}{% url 'document:public:edit' doc.pk %}{% else %}/help/create/{% endif %}">{% trans "editing mode" %}</a> {% trans 'and enable the "Publish" checkbox' %}{% endif %}.</p>
 </div>     
 {% endif %}
 
 
 <div class="article">    
 
-  {{ doc.render_body|removetags:"div span a img"|safe|truncatewords:120 }} <a rel="nofollow" href="{% url profile:public:signup %}?{{ REDIRECT_FIELD_NAME }}={% if next_url %}{{ next_url }}{% else %}{{ current_path }}{% endif %}">Показать полную версию статьи!</a>
+  {{ doc.render_body|removetags:"div span a img"|safe|truncatewords:120 }} <a rel="nofollow" href="{% url 'profile:public:signup' %}?{{ REDIRECT_FIELD_NAME }}={% if next_url %}{{ next_url }}{% else %}{{ current_path }}{% endif %}">Показать полную версию статьи!</a>
 asdasdasd
   {% if doc.has_photos %}
   <div class="photo_gallery">
