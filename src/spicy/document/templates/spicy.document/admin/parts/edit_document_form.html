@@ -14,7 +14,7 @@
       {% formfield "" form "enable_comments" "li-checkbox" %}
       {% formfield "" form "is_sitemap" "li-checkbox" %}
       {% formfield "" form "registration_required" "li-checkbox" %}        
-      {# {% formfield "" form "category" "li-select" %} #}
+      {% formfield "" form "category" "li-select" %}
       {% url "labels:admin:autocomplete" as autocomplete_url %}
       {% url "labels:admin:get-data" as data_url %}
       {# {% formfield "" form "labels" "li-select2" ajax_url=autocomplete_url data_url=data_url %} #}

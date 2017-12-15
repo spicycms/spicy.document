@@ -25,7 +25,7 @@ class DocumentForm(forms.ModelForm):
         model = Document
         fields = ('title', 'pub_date', 'body', 'draft', 'is_public',
             'enable_comments', 'is_sitemap', 'registration_required',
-            'preview', 'preview2')
+            'preview', 'preview2','category',)
         widgets = {
             'body': forms.Textarea(attrs=dict(rows=20)),
             'pub_date': forms.DateTimeInput(format='%Y-%m-%d %H:%i')}
@@ -37,7 +37,7 @@ class CreateDocumentForm(DocumentForm):
         model = Document
         fields = ('title', 'pub_date', 'body', 'draft', 'is_public',
             'enable_comments', 'is_sitemap', 'registration_required',
-            'preview', 'preview2')
+            'preview', 'preview2','category',)
         widgets = {
             'body': forms.Textarea(attrs=dict(rows=20)),
             'pub_date': forms.DateTimeInput(format='%Y-%m-%d %H:%i')}
